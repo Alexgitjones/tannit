@@ -1,8 +1,9 @@
-
+import Header from "../../component/header";
 
 function home() {
     return (
       <div className="App">
+        <Header />
         <div>
 <div className="wrapper">
       <div className="container-fluid main-home-sec d-flex m-0">

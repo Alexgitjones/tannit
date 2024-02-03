@@ -32,22 +32,35 @@ import Autanticationheader from './component/authanticationheader';
 import DashHeader from './component/dashheader';
 import Footer from './component/footer';
 import Donecard from './component/donecard';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
+      {/* <Header /> */}
+      <Router>
+        <Routes>
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/" element={<Home />} />
         {/* <Header /> */}
         {/* <Autanticationheader />  */}
-        <DashHeader /> 
-        <Temp /> 
+        {/* <DashHeader />  */}
+        {/* <Temp />  */}
         {/* <Donecard />  */}
         {/* <Author /> */}
         {/* <Dashboard /> */}
         {/* < Home /> */}
         {/* <Services /> */}
         {/* <Blog /> */}
-        <Faq />
+        {/* <Faq /> */}
         {/* <Singup />  */}
         {/* <Profile />  */}
         {/* <Verify />   */}
@@ -67,7 +80,8 @@ function App() {
         {/* <Marketplace/> */}
         {/* <Marketplacetwo/> */}
         {/* <Footer /> */}
-        
+        </Routes>
+      </Router>
     </div>
   );
 }
