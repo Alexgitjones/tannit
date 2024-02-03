@@ -50,9 +50,9 @@ function App() {
         {/* < Home /> */}
         {/* <Services /> */}
         {/* <Blog /> */}
-        {/* <Faq /> */}
+        <Faq />
         {/* <Singup />  */}
-        <Profile /> 
+        {/* <Profile />  */}
         {/* <Verify />   */}
         {/* <Claim />  */}
         {/* <Claimed />   */}
