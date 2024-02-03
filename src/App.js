@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <h1>git pull</h1>
-        <Header />l 
+        <Header /> 
         {/* <Autanticationheader />  */}
         <DashHeader /> 
         {/* <Donecard />  */}
