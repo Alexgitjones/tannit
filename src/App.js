@@ -36,8 +36,8 @@ import Donecard from './component/donecard';
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
-        <Header /> 
+      <h1>git pull</h1>
+        <Header />l 
         {/* <Autanticationheader />  */}
         <DashHeader /> 
         {/* <Donecard />  */}
