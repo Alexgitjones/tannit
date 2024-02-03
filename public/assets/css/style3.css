@@ -1,0 +1,683 @@
+#navbarcontainer{
+    max-width: 1920px !important ;
+    margin: auto;
+    background-color: white;
+    border-bottom: 2px solid #D5D7DE;
+    margin-bottom: 24px;
+}
+.container-fluid{
+    max-width: 1220px;
+}
+.gradiant img{
+    border-radius: 12px 12px 0px 0px ;
+    height: 139px;
+    width: 1220px;
+}
+.men{
+    border: solid #EAECF0;
+    border: 0px 1px 0px 1px;
+    border-bottom: 0px;
+    border-top: 0px;
+    margin: auto;
+}
+.men img{
+    margin-left: 48px;
+    z-index: 7;
+    margin-top: -80px;
+}
+.men h2{
+    padding: 10px 0px 0px 0;
+    color:#242D46;
+    font-family: "Hanken Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    padding-left: 20px;
+
+}
+/* .container.tabs {
+    padding-top: 62px;
+    border: solid #EAECF0;
+    border: 1px 1px 1px;
+    border-top: 0px;
+    border-radius: 0px 0px 12px 12px;
+}
+.container.tabs.d-flex a{
+    margin-left: 32px;
+    text-decoration: none;
+    gap:32px;
+    color: #6C748A;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.container.tabs.d-flex a.active {
+    color: #2F69FE !important;
+    border-bottom: 2px solid #2F69FE ;
+    font-family: "Hanken Grotesk";
+    font-weight: 700; 
+}  */
+.tabs-section{
+    padding: 62px 0px 0px 32px;
+}
+.tabs-section.d-flex.justify-content-start {
+    margin: auto;
+    border: 2px solid #EAECF0;
+    border-top: 0px !important;
+    border-radius: 0px 0px 12px 12px;
+}
+.nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active {
+    color: #2F69FE;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+}
+.nav-link {
+    color: #6C748A;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    transition: none;
+}
+.d-flex {
+    display: flex!important;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.col-4 h2{
+    color:#1B2235;
+    font-family: "Hanken Grotesk";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.col-4 p{
+    color:#6C748A;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.row{
+    padding-top: 24px;  
+}
+.head-main.row.d-flex {
+    padding: 0 24px;
+    margin-bottom: 56px;   
+}
+.col-8.my-detail{
+    border-radius: 12px 12px 12px 12px ;
+    padding: 24px 0;
+    border: 1px solid #CDD5DF;
+    background-color: #fcfcfc;
+}
+.col-8{
+    border-radius: 12px 12px 12px 12px ;
+    padding: 24px 0;
+    border: 1px solid #CDD5DF;
+    background-color: #fcfcfc;
+}
+.col-8 form .mb-3 {
+    padding: 0 24px;
+}
+.col-8 form hr.divider {
+    border-top: 1px solid #CDD5DF;
+    opacity: 1;
+    margin: 0;
+}
+.button-section{
+    padding: 20px;
+}
+.form-check{
+    border: 1px solid #EAEBEE;
+    border-radius: 12px;
+    padding: 24px 16px 20px 16px;
+}
+.head-main h4{
+    
+    color: #1B2235;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0px;
+}
+.head-main p{
+     
+    color:#969CAC;
+    font-family: "Hanken Grotesk";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0px;
+}
+.col-8 h2{
+    color:#1B2235;
+    font-family: "Hanken Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+}
+input#flexRadioDefault2 {
+    position: absolute;
+    right: 10px !important;
+    top: 10px;
+}
+input#flexRadioDefault {
+    position: absolute;
+    right: 10px !important;
+    top: 10px;
+}
+input#flexRadioDefault3 {
+    position: absolute;
+    right: 10px !important;
+    top: 10px;
+}
+.form-check.col-6 {
+    position: relative;
+    width: 47% !important;
+    margin: 10px 10px;
+    height: 128px !important;
+} 
+.form-check1.col-6 {
+    position: relative;
+    width: 47% !important;
+    margin: 10px 10px;
+    height: 72px !important;
+}
+.form-check1{
+    border: 1px solid #EAEBEE;
+    border-radius: 12px;
+    padding: 24px 16px 20px 16px;
+}
+.form-check1 h4{
+    color:#1B2235;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.form-check6 h4{
+    color:#1B2235;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.form-check6.col-6 {
+    position: relative;
+    width: 96.6% !important;
+    margin: 10px 10px;
+    height: 80px !important;
+}
+.form-check6{
+    border: 1px solid #EAEBEE;
+    border-radius: 12px;
+    padding: 24px 16px 20px 16px;
+}
+.head-main2{
+    margin-bottom: 56px;
+}
+.head-main3 label {
+    color:#1B2235;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.head-main3 input.form-control{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #121926;
+    white-space: nowrap;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.row.\32 {
+    row-gap: 16px !important;
+}
+.col-12 h4{
+    color:#4B5565;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 0px 16px 0px;
+}
+button.btn.btn-primary {
+    float: right;
+}
+.col-12.Saving {
+    padding-top: 56px;
+}
+.col-12.objective {
+    padding-top: 56px;
+}
+.form-check-radio{
+    border: 1px solid #EAEBEE;
+    border-radius: 12px;
+    /* padding: 0px 10px 0px 10px; */
+    position: relative;
+    /* margin: 10px 10px; */
+    
+}
+.form-check-radio.col h4{
+    color: #1B2235;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0px;
+    height: 0px;
+    padding: 24px 12px;
+    
+}
+.form-check-radio.col input#flexRadioDefault {
+    position: absolute;
+    right: 25px !important;
+    top: 25px;
+}
+.form-check-radio.col{
+    margin-bottom: 8px;
+}
+.head-main3.row.d-flex {
+    padding: 20px 0 0 24px;
+}
+.col.texas h2{
+    color:#1B2235;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700; 
+    line-height: 24px;
+    padding-top: 15px;
+}
+.col.texas h4{
+    color: #1B2235;
+    font-size: 24px;
+    font-family: "Hanken Grotesk";
+    font-weight: 800;
+    line-height: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+.option label.form-check-label{
+    padding-right: 16px;
+}
+/* .options {
+    padding-bottom: 24px;
+} */
+.col.investment h4{
+    color: #1B2235;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Hanken Grotesk";
+}
+.options h2{
+    color:#121926;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    font-family: "Hanken Grotesk";
+    padding: 0;
+}
+.options h4{
+    color:#121926;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Hanken Grotesk";
+    padding-top: 20px;
+}
+.col-8.options.select#disabledSelect{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    font-family: "Hanken Grotesk";
+}
+.head-main2.row.d-flex {
+    padding: 0 24px;
+}
+.col.texas {
+    padding: 10px 24px;
+}
+.col-12.estimated{
+    padding: 0 24px;
+}
+.col-8.option{
+    padding: 24px 0px;
+}
+.col.expenses h3{
+    padding: 0 24px;
+    color:#1B2235;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700; 
+    line-height: 24px;
+    padding-top: 15px;
+}
+.col-8.owner h3{
+    padding: 24px 0 0 24px;
+    color:#1B2235;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700; 
+    line-height: 24px;
+    padding-top: 15px;
+}
+.col-8.gros h3{
+    padding: 24px 0 0 24px;
+    color:#1B2235;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700; 
+    line-height: 24px;
+    padding-top: 15px;
+}
+.col-12.estimated{
+    padding: 0 24px;
+}
+.options{
+    padding: 0 24px;
+}
+.options h3 {
+    color:#121926;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px
+}
+.col-8 h2{
+    /* padding: 0 24px; */
+    color:#121926;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px   
+}
+.drag-section h3{
+    color:#4B5565;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 24px;
+}
+.input_form{
+    text-align: center;
+    border: 1px dashed rgba(138, 138, 138, 0.4);;
+    border-radius: 12px;    
+    margin: 20px 20px;
+    height: 200px;
+}
+.input_form img{
+    padding: 50px 0 20px 0;
+}
+.input_form h4 span{
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color:#0C5AEB;
+    line-height: 24px
+}
+.input_form h4 {
+    color:#364A69;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.card-inner {
+    padding: 15px 0px;
+}
+.progress {
+    margin-top: 15px !important;
+}
+.refferals-sec h2{
+    color:#1B2235;
+    font-family: "Hanken Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 16px;
+}
+.refferals-sec{
+    padding: 0px;
+    margin: 24px 0 0 0 ;
+    border-radius: 12px;
+    border: 1px solid #EAECF0;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+.refferal{
+    padding: 24px;
+}
+.refferal h3{
+    color:#1B2235;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.refferal h3 span{
+    font-family: "Hanken Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #424C69;
+}
+.refferal h3 span img{
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    justify-content: center;
+}
+.claim h2{
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1B2235;
+    margin: 0;
+    padding: 0;
+}
+.claim h3{
+    color: #424C69;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+.claim h3 span.four {
+    color:#424C69;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+.claim h3 span.fiftyseven{
+    color:#12B76A;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.claim button{
+    color: #ffff;
+    padding: 12px 16px;
+    align-self: stretch;
+    display: flex;
+    border-radius: 8px;
+    background: var(--Success-500, #12B76A);
+    margin-left: 20px;
+    border: 0;
+}
+.claim{
+    gap: 16px;
+    padding-top: 10px;
+}
+.min-sec{
+    text-decoration: underline;
+    height: 40px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-Main-40, #ABAFBC);
+    background: #FFF;
+    display: flex;
+}
+span.men-sec{
+    color: #1B2235;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.refferal p{
+    color:#667085;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 16px;
+}
+.table-sec-pro{
+    
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid#EAECF0;
+    background:#FFF;
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+tr {
+    border-bottom: 1px solid #F2F2F2;
+}
+.table-sec-pro .col {
+    padding: 20px 0px 0 0;
+    margin: 0px;
+}
+.table-con{
+    margin-top: 24px;
+}
+.tsp-body tbody, td, tfoot, th, thead, tr{
+    padding: 10px 24px !important;
+}
+hr.divider {
+    margin-top: 8px !important;
+    border-top: 1px solid #CDD5DF;
+    opacity: 1;
+    margin: 0;
+}
+.option-c-h2{
+    padding: 0 24px;
+}
+.carousel-indicators button {
+    height: 6px !important;
+    width: 6px !important;
+    border: none !important;
+    border-radius: 40px;
+}
+
+.carousel-indicators button.active {
+    height: 4px !important;
+    width: 4px !important;
+    transform: translateY(0px);
+    margin: 0px 10px;
+}
+.carousel-indicators button.active:after {
+    content: '';
+    width: 17px;
+    border: 2px solid white;
+    position: absolute;
+    bottom: -7px;
+    left: -6px;
+    height: 17px;
+    border-radius: 40px;
+}
+.col-12.not-sec {
+    padding: 0px;
+}
+.row.main-card-row {
+    border: none !important;
+}
+.row.justify-content-center.mb-5.referral-lbtn {
+    max-width: 1220px;
+    margin: auto;
+}
+.btn.btn-primary {
+    float: right;
+    background: #1B2235;
+    border-radius: 8px;
+    padding: 12px 45px;
+}
+img.quote {
+    position: absolute;
+    top: 42px !important;
+    left: -50px;
+    height: 56px !important;
+    width: 56px !important;
+}
+.container-fluid{
+    position: relative;
+}
+img.quote2{
+    position: absolute;
+    top: 42px !important;
+    left: -50px;
+    height: 56px !important;
+    width: 70px !important;
+}
+.inline-svg-icons.d-flex {
+    gap: 12px;
+}
+
+button.inline-svg-icons-btn1 {
+    border: none;
+    border-radius: 40px;
+    height: 36px;
+    width: 36px;
+}
