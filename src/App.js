@@ -25,6 +25,7 @@ import Properties from './pages/dashboardpages/properties';
 import Emailpage from './pages/dashboardpages/emailpage';
 import Sellingshare from './pages/dashboardpages/sellingshare';
 import Profile from './pages/dashboardpages/profile';
+import Temp from './pages/dashboardpages/temp';
 import Home from './pages/landingpages/home';
 import Header from './component/header';
 import Autanticationheader from './component/authanticationheader';
@@ -39,15 +40,16 @@ function App() {
         {/* <Header /> */}
         {/* <Autanticationheader />  */}
         <DashHeader /> 
+        <Temp /> 
         {/* <Donecard />  */}
         {/* <Author /> */}
         {/* <Dashboard /> */}
         {/* < Home /> */}
         {/* <Services /> */}
         {/* <Blog /> */}
-        {/* <Faq /> */}
+        <Faq />
         {/* <Singup />  */}
-        <Profile /> 
+        {/* <Profile />  */}
         {/* <Verify />   */}
         {/* <Claim />  */}
         {/* <Claimed />   */}
