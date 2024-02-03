@@ -40,6 +40,7 @@ function App() {
       <h2>world</h2>
       <h4>bike</h4>
         <Header /> 
+        <h2>changes</h2>
         {/* <Autanticationheader />  */}
         <DashHeader /> 
         {/* <Donecard />  */}
