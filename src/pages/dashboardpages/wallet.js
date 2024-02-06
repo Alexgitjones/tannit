@@ -1,6 +1,8 @@
+import Header from "../../component/dashheader";
 function wallet() {
     return (
       <div className="App">
+        <Header /> 
         <section className="wallet tabs">
         <div className="container wal-cont8">
             <div className="row">

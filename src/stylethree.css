@@ -3,7 +3,9 @@
     margin: auto;
     background-color: white;
     border-bottom: 2px solid #D5D7DE;
-    margin-bottom: 24px;
+}
+.container.d-flex.justify-content-center.profile-head {
+    margin-top: 24px !important;
 }
 .container-fluid{
     max-width: 1220px;
@@ -650,9 +652,9 @@ hr.divider {
 }
 .btn.btn-primary.amj {
     float: right;
-    background: #1B2235;
+    background: #1B2235 !important;
     border-radius: 8px;
-    padding: 12px 45px;
+   
 }
 img.quote {
     position: absolute;

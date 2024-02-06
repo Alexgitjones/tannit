@@ -1,10 +1,12 @@
+import Header from "../../component/authanticationheader";
 function claim() {
     return (
       <div className="App">
+                 <Header />
       <div>
     <nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbarcontainer">
         <div className="container-fluid ">
-            <a className="navbar-brand nav2" href="#"><img src="assets/images/image_2023_12_15T09_13_37_552Z.png"
+            <a className="navbar-brand nav2" href="google.com"><img src="assets/images/image_2023_12_15T09_13_37_552Z.png"
                     alt="" /></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

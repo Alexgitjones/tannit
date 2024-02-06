@@ -1,6 +1,8 @@
+import Header from "../../component/dashheader";
 function Profile() {
     return (
     <div className="App">
+       <Header /> 
     <section>
     <div className="container d-flex justify-content-center profile-head" style={{'maxWidth': '1220px'}}>
       <div className="gradiant">

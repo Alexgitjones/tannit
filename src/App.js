@@ -25,7 +25,6 @@ import Properties from './pages/dashboardpages/properties';
 import Emailpage from './pages/dashboardpages/emailpage';
 import Sellingshare from './pages/dashboardpages/sellingshare';
 import Profile from './pages/dashboardpages/profile';
-import Temp from './pages/dashboardpages/temp';
 import Home from './pages/landingpages/home';
 import Header from './component/header';
 import Autanticationheader from './component/authanticationheader';
@@ -51,38 +50,33 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/author" element={<Author />} />
+          <Route path="/claim" element={<Claim />} />
+          <Route path="/claimed" element={<Claimed />} />
+          <Route path="/signup" element={<Singup />} />
+          <Route path="/success" element={<Success />} />
+          <Route path="/verify" element={<Verify />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/propertydetail" element={<Propertydetail />} />
+          <Route path="/propertycompare" element={<Propertycompare />} />
+          <Route path="/properties" element={<Properties />} />
+          <Route path="/emailpage" element={<Emailpage />} />
+          <Route path="/marketplace" element={<Marketplace />} />
+          <Route path="/marketplacetwo" element={<Marketplacetwo />} />
+          <Route path="/wallet" element={<Wallet />} />
+          <Route path="/wallettwo" element={<Wallettwo />} />
+          <Route path="/purchaseconfirm" element={<Purchaseconfirm />} />
+          <Route path="/myinvestment" element={<Myinvestment />} />
         {/* <Header /> */}
         {/* <Autanticationheader />  */}
         {/* <DashHeader />  */}
-        {/* <Temp />  */}
         {/* <Donecard />  */}
-        {/* <Author /> */}
-        {/* <Dashboard /> */}
-        {/* < Home /> */}
-        {/* <Services /> */}
-        {/* <Faq /> */}
-        {/* <Singup />  */}
-        {/* <Profile />  */}
-        {/* <Verify />   */}
-        {/* <Claim />  */}
-        {/* <Claimed />   */}
-        {/* <Success />   */}
-        {/* <Propertydetail/> */}
-        {/* <Purchaseconfirm/> */}
-        {/* <Propertycompare/> */}
-        {/* <Properties/> */}
         {/* <Sellingshare/> */}
-        {/* <Emailpage/> */}
         {/* <Addmoney/> */}
-        {/* <Wallet/> */}
-        {/* <Wallettwo/> */}
-        {/* <Myinvestment/> */}
-        {/* <Marketplace/> */}
-        {/* <Marketplacetwo/> */}
-         
+        {/* <Footer /> */}
         </Routes>
       </Router>
-      <Footer /> 
     </div>
   );
 }

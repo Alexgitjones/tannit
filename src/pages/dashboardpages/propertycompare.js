@@ -1,6 +1,8 @@
+import Header from "../../component/dashheader";
 function Propertycompare() {
     return (
       <div className="App">
+        <Header /> 
     <section>
 
 

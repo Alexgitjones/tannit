@@ -1,6 +1,8 @@
+import Header from "../../component/authanticationheader";
 function claimed() {
     return (
       <div className="App">
+            <Header />  
       <div>
     
     <section className="main-grid2 d-flex">

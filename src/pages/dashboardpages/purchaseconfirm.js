@@ -1,6 +1,8 @@
+import Header from "../../component/dashheader";
 function purchaseconfirm() {
     return (
       <div className="App">
+        <Header />
     <section className="below-main">
         <div className="container-fluid artical-cont " style={{'maxWidth': '1440px'}}>
             <div className="row artical2 d-flex ">

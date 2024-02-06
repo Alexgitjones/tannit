@@ -2,7 +2,7 @@ function emailpage() {
     return (
       <div className="App">
     <body>
-    <div className="container p-0 main-wraper-mail d-flex " style="max-width: 620px;">
+    <div className="container p-0 main-wraper-mail d-flex " style={{'maxWidth': '620px'}}>
         <img src="assets/images/email-Logo.png" alt="" />
         <div className="row mail-row1">
             

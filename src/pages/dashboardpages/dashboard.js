@@ -1,6 +1,8 @@
+import Header from "../../component/dashheader";
 function dashboard() {
     return (
       <div className="App">
+         <Header /> 
       <section className="fsec-dash">
         <div className="container total-multi-tab-sec d-flex">
         <div className="col-4 1st-tab">

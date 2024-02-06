@@ -1,6 +1,8 @@
+import Header from "../../component/authanticationheader";
 function verify() {
     return (
       <div className="App">
+        <Header /> 
       <section className="main-grid">
         <div className="container">
             <div className="row">

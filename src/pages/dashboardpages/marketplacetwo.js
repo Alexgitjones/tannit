@@ -1,6 +1,8 @@
+import Header from "../../component/dashheader";
 function marketplacetwo() {
     return (
       <div className="App">
+        <Header /> 
         <section>
 
 

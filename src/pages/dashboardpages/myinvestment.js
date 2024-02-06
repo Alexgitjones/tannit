@@ -1,8 +1,9 @@
+import Header from "../../component/dashheader";
 function myinvestment() {
     return (
       <div className="App">
          <section>
-
+         <Header />
 
 <div className="container-fluid artical-cont " style={{'maxWidth': '1440px'}}>
     <div className="row artical1">

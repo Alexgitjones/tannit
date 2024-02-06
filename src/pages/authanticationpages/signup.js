@@ -1,6 +1,8 @@
+import Header from "../../component/authanticationheader";
 function signup() {
     return (
       <div className="App">
+            <Header />          
       <section className="main-grid">
         <div className="container">
             <div className="row">
