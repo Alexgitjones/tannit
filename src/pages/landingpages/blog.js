@@ -1,8 +1,10 @@
-
+import Header from "../../component/header";
 
 function blog() {
     return (
       <div className="App">
+         <Header />
+        
         <div className="main-container fluid-container">
         <div className="top-banner d-flex justify-content-center flex-wrap align-content-center">
           <h1 className="banner-hd">Welcome to our blog</h1>

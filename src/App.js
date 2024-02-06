@@ -50,6 +50,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
         {/* <Header /> */}
         {/* <Autanticationheader />  */}
         {/* <DashHeader />  */}
@@ -59,7 +60,6 @@ function App() {
         {/* <Dashboard /> */}
         {/* < Home /> */}
         {/* <Services /> */}
-        {/* <Blog /> */}
         {/* <Faq /> */}
         {/* <Singup />  */}
         {/* <Profile />  */}
@@ -79,9 +79,10 @@ function App() {
         {/* <Myinvestment/> */}
         {/* <Marketplace/> */}
         {/* <Marketplacetwo/> */}
-        {/* <Footer /> */}
+         
         </Routes>
       </Router>
+      <Footer /> 
     </div>
   );
 }
