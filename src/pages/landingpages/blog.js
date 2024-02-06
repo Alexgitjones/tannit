@@ -1,4 +1,5 @@
 import Header from "../../component/header";
+import Footer from "../../component/footer";
 
 function blog() {
     return (
@@ -82,6 +83,7 @@ function blog() {
         </div>
       </div>
       </div>
+      <Footer />
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import Header from "../../component/header";
+import Footer from "../../component/footer";
 
 function faq() {
     return (
@@ -151,6 +152,7 @@ function faq() {
         </div>
       </div>
       </div>
+      <Footer />
       </div>
     );
   }

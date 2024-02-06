@@ -683,3 +683,6 @@ button.inline-svg-icons-btn1 {
     height: 36px;
     width: 36px;
 }
+.row.footer-lt.text-center {
+    padding: 0px !important;
+}

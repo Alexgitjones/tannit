@@ -29,7 +29,6 @@ import Home from './pages/landingpages/home';
 import Header from './component/header';
 import Autanticationheader from './component/authanticationheader';
 import DashHeader from './component/dashheader';
-import Footer from './component/footer';
 import Donecard from './component/donecard';
 import {
   BrowserRouter as Router,

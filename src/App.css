@@ -3698,4 +3698,6 @@ button.inline-svg-icons-btn1 {
 .dash-head{
   display: block !important;
 }
-
+.row.header-m-main.m-0 {
+  padding: 0px !important;
+}

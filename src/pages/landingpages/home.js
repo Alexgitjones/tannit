@@ -1,4 +1,6 @@
 import Header from "../../component/header";
+import Footer from "../../component/footer";
+
 
 function home() {
     return (
@@ -276,11 +278,11 @@ function home() {
                           Orange street, United Kingdom 5012
                       </p>
                       <div className="inline-svg-icons d-flex">
-                        <button className="inline-svg-icons-btn1"><img src="images/Tag1.svg" alt="img" /></button>
-                        <button className="inline-svg-icons-btn1"><img src="images/Tag2.svg" alt="img" /></button>
-                        <button className="inline-svg-icons-btn1"><img src="images/Tag3.svg" alt="img" /></button>
-                        <button className="inline-svg-icons-btn1"><img src="images/Tag4.svg" alt="img" /></button>
-                        <button className="inline-svg-icons-btn1"><img src="images/Tag5.svg" alt="img" /></button>
+                      <button className="inline-svg-icons-btn1"><img src="assets/icons-2/Tag1.svg" alt="img" /></button>
+                        <button className="inline-svg-icons-btn1"><img src="assets/icons-2/Tag2.svg" alt="img" /></button>
+                        <button className="inline-svg-icons-btn1"><img src="assets/icons-2/Tag3.svg" alt="img" /></button>
+                        <button className="inline-svg-icons-btn1"><img src="assets/icons-2/Tag4.svg" alt="img" /></button>
+                        <button className="inline-svg-icons-btn1"><img src="assets/icons-2/Tag5.svg" alt="img" /></button>
                       </div>
                       <div>
                           <div className="card-inner">
@@ -361,11 +363,11 @@ function home() {
                           Orange street, United Kingdom 5012
                       </p>
                       <div className="inline-svg-icons d-flex">
-                        <button className="inline-svg-icons-btn1"><img src="images/Tag1.svg" alt="img" /></button>
-                        <button className="inline-svg-icons-btn1"><img src="images/Tag2.svg" alt="img" /></button>
-                        <button className="inline-svg-icons-btn1"><img src="images/Tag3.svg" alt="img" /></button>
-                        <button className="inline-svg-icons-btn1"><img src="images/Tag4.svg" alt="img" /></button>
-                        <button className="inline-svg-icons-btn1"><img src="images/Tag5.svg" alt="img" /></button>
+                      <button className="inline-svg-icons-btn1"><img src="assets/icons-2/Tag1.svg" alt="img" /></button>
+                        <button className="inline-svg-icons-btn1"><img src="assets/icons-2/Tag2.svg" alt="img" /></button>
+                        <button className="inline-svg-icons-btn1"><img src="assets/icons-2/Tag3.svg" alt="img" /></button>
+                        <button className="inline-svg-icons-btn1"><img src="assets/icons-2/Tag4.svg" alt="img" /></button>
+                        <button className="inline-svg-icons-btn1"><img src="assets/icons-2/Tag5.svg" alt="img" /></button>
                       </div>
                       <div>
                           <div className="card-inner">
@@ -527,6 +529,7 @@ function home() {
 </div>      
 </div>
 </div>
+<Footer />
       </div>
     );
   }
