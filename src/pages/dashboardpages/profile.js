@@ -84,7 +84,7 @@ function Profile() {
 
                 <hr className="divider" />
                 <div className="button-section">
-                  <button type="submit" className="btn btn-primary">Save Changes</button>
+                  <button type="submit" className="btn btn-primary amj">Save Changes</button>
                 </div>
               </form>
             </div>
@@ -128,7 +128,7 @@ function Profile() {
                 </div>
                 <hr className="divider" />
                 <div className="button-section">
-                  <button type="submit" className="btn btn-primary">Save Changes</button>
+                  <button type="submit" className="btn btn-primary amj">Save Changes</button>
                 </div>
               </form>
             </div>
@@ -260,7 +260,7 @@ function Profile() {
               </div>
               <hr className="divider" />
                       <div className="button-section">
-                        <button type="submit" className="btn btn-primary">Save Changes</button>
+                        <button type="submit" className="btn btn-primary amj">Save Changes</button>
                       </div>
             </div>
           </div>
@@ -407,7 +407,7 @@ function Profile() {
 
               <hr className="divider" />
               <div className="button-section">
-                <button type="submit" className="btn btn-primary">Save Changes</button>
+                <button type="submit" className="btn btn-primary amj">Save Changes</button>
               </div>
 
             </div>
@@ -486,7 +486,7 @@ function Profile() {
               </div>
               <hr className="divider" />
               <div className="button-section">
-                <button type="submit" className="btn btn-primary">Save Changes</button>
+                <button type="submit" className="btn btn-primary amj">Save Changes</button>
               </div>
             </div>
           </div>
@@ -509,7 +509,7 @@ function Profile() {
                </div>
                <hr className="divider" />
               <div className="button-section">
-                <button type="submit" className="btn btn-primary">Save Changes</button>
+                <button type="submit" className="btn btn-primary amj">Save Changes</button>
               </div>
             </div>
            </div>

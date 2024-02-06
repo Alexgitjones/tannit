@@ -648,7 +648,7 @@ hr.divider {
     max-width: 1220px;
     margin: auto;
 }
-.btn.btn-primary {
+.btn.btn-primary.amj {
     float: right;
     background: #1B2235;
     border-radius: 8px;
