@@ -3701,3 +3701,33 @@ button.inline-svg-icons-btn1 {
 .row.header-m-main.m-0 {
   padding: 0px !important;
 }
+
+section.main-grid2.d-flex.comp-profile {
+  max-width: 550px !important;
+  padding: 40px;
+}
+
+
+.row.comp-profile-main-row {
+  margin: 0px;
+  padding: 0px;
+}
+.middle-sec2.p-c-s h2 {
+  margin: 0px;
+}
+
+.middle-sec2.p-c-s p {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.middle-sec2.p-c-s {
+  padding: 0px 0px 16px 0px;
+  border-bottom: 1px solid #D5D7DE;
+}
+.custom-checkbox.component-sec label.container {
+  flex-direction: column;
+  line-height: 20px;
+  height: 108px !important;
+}

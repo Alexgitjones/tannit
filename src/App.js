@@ -29,6 +29,7 @@ import Home from './pages/landingpages/home';
 import Header from './component/header';
 import Autanticationheader from './component/authanticationheader';
 import DashHeader from './component/dashheader';
+import Completeprofile from './component/complete-profile';
 import Donecard from './component/donecard';
 import {
   BrowserRouter as Router,
@@ -67,6 +68,7 @@ function App() {
           <Route path="/wallet-two" element={<Wallettwo />} />
           <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
           <Route path="/my-investment" element={<Myinvestment />} />
+          <Route path="/complete-profile" element={<Completeprofile />} />
         {/* <Header /> */}
         {/* <Autanticationheader />  */}
         {/* <DashHeader />  */}
