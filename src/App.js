@@ -58,16 +58,16 @@ function App() {
           <Route path="/verify" element={<Verify />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/propertydetail" element={<Propertydetail />} />
-          <Route path="/propertycompare" element={<Propertycompare />} />
+          <Route path="/property-detail" element={<Propertydetail />} />
+          <Route path="/property-compare" element={<Propertycompare />} />
           <Route path="/properties" element={<Properties />} />
-          <Route path="/emailpage" element={<Emailpage />} />
+          <Route path="/email-page" element={<Emailpage />} />
           <Route path="/marketplace" element={<Marketplace />} />
-          <Route path="/marketplacetwo" element={<Marketplacetwo />} />
+          <Route path="/marketplace-two" element={<Marketplacetwo />} />
           <Route path="/wallet" element={<Wallet />} />
-          <Route path="/wallettwo" element={<Wallettwo />} />
-          <Route path="/purchaseconfirm" element={<Purchaseconfirm />} />
-          <Route path="/myinvestment" element={<Myinvestment />} />
+          <Route path="/wallet-two" element={<Wallettwo />} />
+          <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
+          <Route path="/my-investment" element={<Myinvestment />} />
         {/* <Header /> */}
         {/* <Autanticationheader />  */}
         {/* <DashHeader />  */}
