@@ -27,6 +27,7 @@ import Sellingshare from './pages/dashboardpages/sellingshare';
 import Profile from './pages/dashboardpages/profile';
 import Home from './pages/landingpages/home';
 import Header from './component/header';
+import Investmentcard from './component/investment-card';
 import Autanticationheader from './component/authanticationheader';
 import DashHeader from './component/dashheader';
 import Completeprofile from './component/complete-profile';
@@ -69,6 +70,7 @@ function App() {
           <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
           <Route path="/my-investment" element={<Myinvestment />} />
           <Route path="/complete-profile" element={<Completeprofile />} />
+          <Route path="/investment-card" element={<Investmentcard />} />
         {/* <Header /> */}
         {/* <Autanticationheader />  */}
         {/* <DashHeader />  */}

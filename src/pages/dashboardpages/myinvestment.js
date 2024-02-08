@@ -249,12 +249,12 @@ function myinvestment() {
                             <div className="progress-bar" role="progressbar" style={{'width': '75%'}} aria-valuenow="75"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <div className="card-inner3 invi my-4 ">
+                        <div className="card-inner3 invi my-4 yellow ">
                             <div className="profit d-flex pf2">Invested 
                                 <p>40 Tannit</p>
                             </div>
                             <div className="returned d-flex rf2 ">Income received 
-                                <p className="g-text">1.45£</p>
+                                <p className="g-text"></p>
                             </div>
 
 

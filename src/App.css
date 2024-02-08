@@ -3744,3 +3744,9 @@ section.main-grid2.d-flex.comp-profile {
   line-height: 20px;
   height: 108px !important;
 }
+.card-inner3.invi.my-4.yellow {
+  border: 1px solid #f8aa43 !important;
+}
+.col.invest-card-comp {
+  max-width: 390px !important;
+}
