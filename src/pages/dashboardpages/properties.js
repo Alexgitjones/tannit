@@ -36,9 +36,13 @@ function Properties() {
 
         </div>
         <div>
-            <div className="result-text d-flex">
+        <div>
+            <div className="result-text d-flex spb-btn">
                 <p>Showing<strong>115 property</strong> that match your search criteria</p>
+                <button className="mp-btn">Sort by (Date)<span><img src="assets/icons/updown.svg" alt="" /></span></button>
+
             </div>
+        </div>
         </div>
     </div>
     <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
@@ -83,7 +87,10 @@ function Properties() {
 
 
                 <div className="card-body">
-                    <p className="global-ct">Without credit</p>
+                     <div className="2btn-grp">
+                    <button className="global-ct">Without credit</button>
+                    <button className="global-ct-sec"><span> <img src="assets/icons/grn-tick.svg" alt="" /> </span> Contributed</button>
+                </div>
                     <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                     <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="" /></span>
                         Orange street, United Kingdom 5012
@@ -168,7 +175,10 @@ function Properties() {
 
 
                 <div className="card-body">
-                    <p className="global-ct">Without credit</p>
+                     <div className="2btn-grp">
+                    <button className="global-ct">Without credit</button>
+                    <button className="global-ct-sec"><span> <img src="assets/icons/grn-tick.svg" alt="" /> </span> Contributed</button>
+                </div>
                     <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                     <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="" /></span>
                         Orange street, United Kingdom 5012
@@ -253,7 +263,10 @@ function Properties() {
 
 
                 <div className="card-body">
-                    <p className="global-ct">Without credit</p>
+                     <div className="2btn-grp">
+                    <button className="global-ct">Without credit</button>
+                    <button className="global-ct-sec"><span> <img src="assets/icons/grn-tick.svg" alt="" /> </span> Contributed</button>
+                </div>
                     <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                     <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="" /></span>
                         Orange street, United Kingdom 5012
@@ -338,7 +351,10 @@ function Properties() {
 
 
                 <div className="card-body">
-                    <p className="global-ct">Without credit</p>
+                     <div className="2btn-grp">
+                    <button className="global-ct">Without credit</button>
+                    <button className="global-ct-sec"><span> <img src="assets/icons/grn-tick.svg" alt="" /> </span> Contributed</button>
+                </div>
                     <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                     <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="" /></span>
                         Orange street, United Kingdom 5012
@@ -423,7 +439,10 @@ function Properties() {
 
 
                 <div className="card-body">
-                    <p className="global-ct">Without credit</p>
+                     <div className="2btn-grp">
+                    <button className="global-ct">Without credit</button>
+                    <button className="global-ct-sec"><span> <img src="assets/icons/grn-tick.svg" alt="" /> </span> Contributed</button>
+                </div>
                     <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                     <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="" /></span>
                         Orange street, United Kingdom 5012
@@ -508,7 +527,10 @@ function Properties() {
 
 
                 <div className="card-body">
-                    <p className="global-ct">Without credit</p>
+                     <div className="2btn-grp">
+                    <button className="global-ct">Without credit</button>
+                    <button className="global-ct-sec"><span> <img src="assets/icons/grn-tick.svg" alt="" /> </span> Contributed</button>
+                </div>
                     <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                     <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="" /></span>
                         Orange street, United Kingdom 5012

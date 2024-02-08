@@ -349,7 +349,7 @@ button.btn-5.p-tab {
   padding: 12px 20px;
   font-family: var(--heading-font);
   color: white;
-  background: black;
+  background: #1B2235;
   border: 0px;
   border-radius: 8px;
 }
@@ -585,7 +585,7 @@ button.image-btn img {
 button.image-btn-2 {
   position: absolute;
   z-index: 4;
-  top: 16px;
+  top: 116px;
   left: 16px;
   padding: 8px 16px;
   border: 1px solid #FDB022;
@@ -604,7 +604,7 @@ button.image-btn-2 img {
 button.image-btn-3 {
   position: absolute;
   z-index: 4;
-  top: 16px;
+  top: 166px;
   left: 16px;
   padding: 8px 16px;
   border: 1px solid #000000;
@@ -701,6 +701,7 @@ ul.list-group.list-group-horizontal-xl {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .date-btn {
@@ -732,6 +733,16 @@ ul.list-group.list-group-horizontal-xl {
   border: 1px solid #969CAC;
   margin-bottom: 8px;
   color: #12B76A;
+  width: fit-content;
+}
+.global-ct4 {
+  font-size: 12px !important;
+  line-height: 16px !important;
+  padding: 4px 8px !important;
+  border-radius: 32px;
+  border: 1px solid #F79009;
+  margin-bottom: 8px;
+  color: #F79009;
   width: fit-content;
 }
 
@@ -1423,7 +1434,9 @@ h3.map-head {
   color: #1B2235;
   padding: 40px 0px 20px 10px;
 }
-
+.row.row-cols-1.row-cols-md-3.g-4.mb-5 {
+  padding: 0px !important;
+}
 .tab-inner-calculator h5 {
   font-size: 20px;
   font-weight: 600;

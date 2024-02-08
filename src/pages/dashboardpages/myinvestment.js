@@ -35,6 +35,10 @@ function myinvestment() {
                             <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
                             <button className="image-btn"><img src="assets/icons/leaf.svg" alt="" />Eco
                                 Friendly</button>
+                                <button className="image-btn-2"><img src="assets/icons/clock.svg"
+                                    alt="" />Greenification</button>
+                                    <button className="image-btn-3"><img src="assets/icons/stars.svg"
+                            alt="" />Featured</button>
                             <button className="image-btn-4"><img src="assets/icons/hleaf.svg" alt="" />125 <img
                                     src="assets/icons/up.svg " alt="" />0.2% </button>
 
@@ -222,7 +226,7 @@ function myinvestment() {
                 <div className="card-body">
                     <div className="p2s d-flex">
                     <p className="global-ct">Without credit</p>
-                    <p className="global-ct2"> <img src="assets/icons/tick.svg" alt="" />Contributed</p>
+                    <p className="global-ct4"> <img src="assets/icons/new-clock.svg" alt="" />24/02/2023 (3 days ago)</p>
                 </div>
                     <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                     <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="" /></span>
