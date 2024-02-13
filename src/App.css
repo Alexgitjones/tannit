@@ -576,6 +576,7 @@ button.image-btn {
   font-family: 'Hanken Grotesk';
   border-radius: 40px;
   margin: 0px;
+  display: flex;
 }
 
 button.image-btn img {
@@ -585,7 +586,7 @@ button.image-btn img {
 button.image-btn-2 {
   position: absolute;
   z-index: 4;
-  top: 116px;
+  top: 16px;
   left: 16px;
   padding: 8px 16px;
   border: 1px solid #FDB022;
@@ -595,6 +596,7 @@ button.image-btn-2 {
   font-family: 'Hanken Grotesk';
   border-radius: 40px;
   margin: 0px;
+  display: flex;
 }
 
 button.image-btn-2 img {
@@ -604,7 +606,7 @@ button.image-btn-2 img {
 button.image-btn-3 {
   position: absolute;
   z-index: 4;
-  top: 166px;
+  top: 16px;
   left: 16px;
   padding: 8px 16px;
   border: 1px solid #000000;
@@ -614,6 +616,7 @@ button.image-btn-3 {
   font-family: 'Hanken Grotesk';
   border-radius: 40px;
   margin: 0px;
+  display: flex;
 }
 
 button.image-btn-3 img {
@@ -623,7 +626,7 @@ button.image-btn-3 img {
 button.image-btn-4 {
   position: absolute;
   z-index: 4;
-  top: 66px;
+  top: 60px;
   left: 16px;
   padding: 8px 16px;
   border: 1px solid #2F69FE;
@@ -633,6 +636,7 @@ button.image-btn-4 {
   font-family: 'Hanken Grotesk';
   border-radius: 40px;
   margin: 0px;
+  display: flex;
 }
 
 button.image-btn-4 img {
@@ -3749,4 +3753,44 @@ section.main-grid2.d-flex.comp-profile {
 }
 .col.invest-card-comp {
   max-width: 390px !important;
+}
+li.slick-active{
+  content: '';
+width: 17px;
+border: 2px solid white;
+height: 17px;
+border-radius: 40px;
+}
+.slick-dots{
+  bottom: 10px !important;
+  color: #fff;
+}
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 16px;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: #fff !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
 }

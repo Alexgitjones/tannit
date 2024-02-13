@@ -16,7 +16,7 @@ export default function Investmentcard() {
     <div className="card">
     
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-indicators">
+                    <div className="carousel-indicars">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                             className="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
@@ -30,10 +30,7 @@ export default function Investmentcard() {
                             <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
                             <button className="image-btn"><img src="assets/icons/leaf.svg" alt="" />Eco
                                 Friendly</button>
-                                <button className="image-btn-2"><img src="assets/icons/clock.svg"
-                                    alt="" />Greenification</button>
-                                    <button className="image-btn-3"><img src="assets/icons/stars.svg"
-                            alt="" />Featured</button>
+                               
                             <button className="image-btn-4"><img src="assets/icons/hleaf.svg" alt="" />125 <img
                                     src="assets/icons/up.svg " alt="" />0.2% </button>
 
