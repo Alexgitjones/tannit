@@ -28,6 +28,9 @@ import Profile from './pages/dashboardpages/profile';
 import Home from './pages/landingpages/home';
 import Header from './component/header';
 import Investmentcard from './component/investment-card';
+import Investmentcard2 from './component/investment-card2';
+import Propertycard from './component/property-card';
+import Marketplacecard from './component/marketplace-card';
 import Autanticationheader from './component/authanticationheader';
 import DashHeader from './component/dashheader';
 import Completeprofile from './component/complete-profile';
@@ -71,6 +74,9 @@ function App() {
           <Route path="/my-investment" element={<Myinvestment />} />
           <Route path="/complete-profile" element={<Completeprofile />} />
           <Route path="/investment-card" element={<Investmentcard />} />
+          <Route path="/investment-card2" element={<Investmentcard2 />} />
+          <Route path="/Property-card" element={<Propertycard />} />
+          <Route path="/Marketplace-card" element={<Marketplacecard />} />
         {/* <Header /> */}
         {/* <Autanticationheader />  */}
         {/* <DashHeader />  */}

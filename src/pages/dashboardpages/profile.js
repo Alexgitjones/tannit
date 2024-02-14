@@ -505,9 +505,10 @@ function Profile() {
             </div>
             <div className="col-8 drag-section">
               <h3>Document name *</h3>
-               <div className="input_form" />
+               <div className="input_form" >
                 <img src="assets/icons-2/Button.png" alt="..." />
                 <h4><span>Click to upload </span>or Drag and Drop <br /> PDF, PNG, ou JPG</h4>
+               </div>
                </div>
                <hr className="divider" />
               <div className="button-section">

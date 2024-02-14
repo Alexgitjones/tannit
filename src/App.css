@@ -561,6 +561,7 @@ svg.svg-inline--fa.fa-magnifying-glass {
   padding: 16px;
   border: 2px dotted #EAEBEE;
   border-radius: 16px;
+  background: #EAEBEE40;
 }
 
 button.image-btn {
@@ -3410,6 +3411,7 @@ p.card-text.w-img {
   font-size: 14px;
   color: #1B2235;
   font-weight: 400;
+  margin: 0px;
 }
 
 p.card-text.w-img span {
@@ -3770,8 +3772,8 @@ border-radius: 40px;
   font-size: 6px;
   line-height: 16px;
   position: absolute;
-  top: -2px;
-  left: -2px;
+  top: -2px !important;
+  left: -2px !important;
   width: 20px;
   height: 20px;
   content: '•';
@@ -3793,4 +3795,20 @@ border-radius: 40px;
   border: 0;
   outline: none;
   background: transparent;
+}
+.carousel-indicars {
+  display: none;
+}
+.card-inner3.invi.my-4.yellow {
+  border: 1px solid #f8aa43 !important;
+}
+.global-ct4 {
+  font-size: 12px !important;
+  line-height: 16px !important;
+  padding: 4px 8px !important;
+  border-radius: 32px;
+  border: 1px solid #F79009;
+  margin-bottom: 8px;
+  color: #F79009;
+  width: fit-content;
 }
