@@ -1,5 +1,16 @@
 import Header from "../../component/dashheader";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function propertydetail() {
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+      };
     return (
       <div className="App">
         <Header /> 
@@ -18,6 +29,7 @@ function propertydetail() {
     <section>
         <div className="container fullw-li">
             <ul className="list-group list-group-horizontal-xl">
+           
                 <li className="list-group-item"><span>£921</span>  Rental income</li>
                 <li className="list-group-item"><span>6.5%</span>  Gross yield</li>
                 <li className="list-group-item"><span>£42.500</span>   Minimun deposit</li>
@@ -28,7 +40,7 @@ function propertydetail() {
                 <li className="list-group-item"><span>£42.500</span>   Minimun deposit</li>
                 <li className="list-group-item"><span>8.5%</span>   Rental growth</li>
                 <li className="list-group-item"><span>3.0%</span>   Cap growth</li>
-                
+            
             </ul>
         </div>
     </section>
@@ -412,7 +424,7 @@ function propertydetail() {
                                         <h3>Monthly income per TANNIT</h3>
                                         <h1>0.05 £</h1>
                                         <p>Cible (Soit 5.53% annuel)</p>
-                                        <img src="assets/images/chart2.png" alt="" />
+                                        <img src="assets/images/chart3.png" alt="" />
                                     </div>
                                 </div>
                                 </div>
