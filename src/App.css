@@ -403,6 +403,7 @@ input.icon-input__text-field {
 .icon-input.d-flex.justify-content-center {
   border: 1px solid #D5D7DE;
   border-radius: 8px;
+  align-items: center;
 }
 
 svg.svg-inline--fa.fa-magnifying-glass {
