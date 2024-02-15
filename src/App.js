@@ -34,7 +34,9 @@ import Marketplacecard from './component/marketplace-card';
 import Autanticationheader from './component/authanticationheader';
 import DashHeader from './component/dashheader';
 import Completeprofile from './component/complete-profile';
+import Pricerange from './component/price-range';
 import Donecard from './component/donecard';
+import Filters from './component/filters';
 import {
   BrowserRouter as Router,
   Routes,
@@ -73,6 +75,8 @@ function App() {
           <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
           <Route path="/my-investment" element={<Myinvestment />} />
           <Route path="/complete-profile" element={<Completeprofile />} />
+          <Route path="/price-range" element={<Pricerange />} />
+          <Route path="/filters" element={<Filters />} />
           <Route path="/investment-card" element={<Investmentcard />} />
           <Route path="/investment-card2" element={<Investmentcard2 />} />
           <Route path="/Property-card" element={<Propertycard />} />

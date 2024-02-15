@@ -15,9 +15,36 @@ function marketplace() {
         <div className="tf-sec d-flex flex-direction-column">
             <div className="tab d-flex flex-direction-column ">
                 <button className="tablinks tab">Price range<span><img src="assets/icons/1.svg" alt="" /></span></button>
-                <button className="tablinks tab">Type<span><img src="assets/icons/2.svg" alt="" /></span></button>
-                <button className="tablinks tab">Region<span><img src="assets/icons/2.svg" alt="" /></span></button>
-                <button className="tablinks tab">Energy<span><img src="assets/icons/2.svg" alt="" /></span></button>
+                <div className="btn-group new-dropdown-btn">
+                          <button className="btn btn-secondary ndb1 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Type
+                          </button>
+                          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a className="dropdown-item" href="/">Menu item</a></li>
+                            <li><a className="dropdown-item" href="/">Menu item</a></li>
+                            <li><a className="dropdown-item" href="/">Menu item</a></li>
+                          </ul>
+                        </div>
+                        <div className="btn-group new-dropdown-btn">
+                          <button className="btn btn-secondary ndb1 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Region
+                          </button>
+                          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a className="dropdown-item" href="/">Menu item</a></li>
+                            <li><a className="dropdown-item" href="/">Menu item</a></li>
+                            <li><a className="dropdown-item" href="/">Menu item</a></li>
+                          </ul>
+                        </div>
+                         <div className="btn-group new-dropdown-btn">
+                          <button className="btn btn-secondary ndb1 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Energy
+                          </button>
+                          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a className="dropdown-item" href="/">Menu item</a></li>
+                            <li><a className="dropdown-item" href="/">Menu item</a></li>
+                            <li><a className="dropdown-item" href="/">Menu item</a></li>
+                          </ul>
+                        </div>
                 <button className="tablinks tab">Advanced filter<span><img src="assets/icons/5.svg" alt="" /></span></button>
             </div>
             <div className="icon-input d-flex justify-content-center">

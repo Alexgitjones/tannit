@@ -187,7 +187,7 @@ function home() {
 
 
                   <div className="card-body">
-                      <p className="global-ct">Without credit</p>
+                  
                       <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                       <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="img" /></span>
                           Orange street, United Kingdom 5012
@@ -211,10 +211,7 @@ function home() {
                               <div className="investor"> <img src="assets/icons/Icon2.svg" alt="img" />72 Investors</div>
 
                           </div>
-                          <div className="progress">
-                              <div className="progress-bar" role="progressbar" style={{maxWidth: '75%'}} aria-valuenow="75"
-                                  aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
+                          
                           <div className="card-inner3 my-4 d-flex flex-direction-column">
                               <div className="profit d-flex flex-direction-column">Profitability <img
                                       src="assets/icons/Instance tooltip.png" alt="img" />
@@ -272,7 +269,7 @@ function home() {
 
 
                   <div className="card-body">
-                      <p className="global-ct">Without credit</p>
+                      
                       <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                       <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="img" /></span>
                           Orange street, United Kingdom 5012
@@ -296,10 +293,7 @@ function home() {
                               <div className="investor"> <img src="assets/icons/Icon2.svg" alt="img" />72 Investors</div>
 
                           </div>
-                          <div className="progress">
-                              <div className="progress-bar" role="progressbar" style={{maxWidth:'75%'}} aria-valuenow="75"
-                                  aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
+                          
                           <div className="card-inner3 my-4 d-flex flex-direction-column">
                               <div className="profit d-flex flex-direction-column">Profitability <img
                                       src="assets/icons/Instance tooltip.png" alt="img" />
@@ -357,7 +351,6 @@ function home() {
 
 
                   <div className="card-body">
-                      <p className="global-ct">Without credit</p>
                       <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                       <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="img" /></span>
                           Orange street, United Kingdom 5012
@@ -381,10 +374,7 @@ function home() {
                               <div className="investor"> <img src="assets/icons/Icon2.svg" alt="img" />72 Investors</div>
 
                           </div>
-                          <div className="progress">
-                              <div className="progress-bar" role="progressbar" style={{maxWidth: '75%'}} aria-valuenow="75"
-                                  aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
+                          
                           <div className="card-inner3 my-4 d-flex flex-direction-column">
                               <div className="profit d-flex flex-direction-column">Profitability <img
                                       src="assets/icons/Instance tooltip.png" alt="img" />
