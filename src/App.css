@@ -3098,8 +3098,8 @@ button.done-card-btn2 {
   gap: 32px;
 }
 .container-fluid.main-home-sec2.d-flex {
-  padding: 0px;
-  margin: 62px auto;
+  padding:64px 0px;
+  margin: 0px auto;
 }
 
 .content-2ndbanner h5 {
@@ -3175,9 +3175,10 @@ button.done-card-btn2 {
   margin: 0px !important;
   padding: 32px 10px;
   gap: 16px;
- 
+ background-repeat: no-repeat;
   align-items: center;
- 
+  background-image: url(../public/assets/images/motif.png);
+ background-position: bottom;
   border-radius: 16px;
   box-shadow:  0px 4px 18px 0px rgba(0, 0, 0, 0.16);
 }
@@ -3309,7 +3310,7 @@ ul.list-group2{
 .col.six-col-img-box2.d-flex h3 {
   color: white;
   font-size: 44px;
-  font-family: inter;
+  font-family: var(--heading-font);
   font-weight: 700;
   line-height: 55px;
   margin: 0px;
@@ -3966,4 +3967,9 @@ h3.filter-list-heading {
 
 }
 
+.bg-new {
+  background-image: url(../public/assets/images/homebg.png);
+  background-size: 720px 671px !important;
+  background-repeat: no-repeat;
+  background-position: bottom right;}
 /* last:slick */
