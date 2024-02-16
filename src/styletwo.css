@@ -172,7 +172,7 @@
     border: 1px solid #C0C3CD !important;
   }
   .custom-section-ind{
-    margin-bottom: 100px !important;
+    margin-bottom: 60px !important;
   }
   .post-section img{
     width: 100% !important;
@@ -235,13 +235,17 @@
     margin-top: -22px;
   }
   .second-row{
-    height: 350px;
+    height: 440px;
     background: linear-gradient(180deg, #FFF 0%, rgb(242 248 255) 100%);
   }
   .top-banner{
     background: linear-gradient(103deg, #000 -1.43%, #2D3858 91.94%);
     height: 140px;
     color: white;
+    background-image: url(../public/assets/images/Frame\ 34070.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
   .first-left-hd{
   font-family: Hanken Grotesk;

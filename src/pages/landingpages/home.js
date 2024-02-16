@@ -22,6 +22,7 @@ function home() {
           <img src="assets/images/Mask group-home.png" alt="img" />
         </div>
       </div>
+      <div className="bg-new">
       <div className="container-fluid main-home-sec2 d-flex ">
         <div className="col-lg-6 left-1 " >
           
@@ -60,6 +61,7 @@ function home() {
             </div>
           </div>
         </div>
+      </div>
       </div>
       <div className="fourth-row mt-5 mb-lg-5 mb-sm-1 custom-section-ind">
         <div className="container">
