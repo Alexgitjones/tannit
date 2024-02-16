@@ -20,8 +20,8 @@ function blog() {
                 <a href="#Real estate">Real estate</a>
                 <a href="#Non-profits">Technology</a>
               </div>
-              <div className="s-f2 d-flex">
-                <i className="fa-solid fa-magnifying-glass"></i>
+              <div className="s-f2 d-flex align-items-center">
+                <i className="fa-solid fa-magnifying-glass pe-3"></i>
            <input type="text"  placeholder= "Try &quot;Investment rate&quot;" />
           </div>
         </div>

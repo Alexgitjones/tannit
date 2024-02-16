@@ -52,10 +52,11 @@ function App() {
       <Router>
         <Routes>
           <Route path="/faq" element={<Faq />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
+          {/* <Route path="/" element={<Home />} /> */}
+          {/* <Route path="/services" element={<Services />} /> */}
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
+          {/* <Route path="/blog" element={<Blog />} />
           <Route path="/author" element={<Author />} />
           <Route path="/claim" element={<Claim />} />
           <Route path="/claimed" element={<Claimed />} />
@@ -80,7 +81,7 @@ function App() {
           <Route path="/investment-card" element={<Investmentcard />} />
           <Route path="/investment-card2" element={<Investmentcard2 />} />
           <Route path="/Property-card" element={<Propertycard />} />
-          <Route path="/Marketplace-card" element={<Marketplacecard />} />
+          <Route path="/Marketplace-card" element={<Marketplacecard />} /> */}
         {/* <Header /> */}
         {/* <Autanticationheader />  */}
         {/* <DashHeader />  */}

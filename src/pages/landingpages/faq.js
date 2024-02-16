@@ -13,8 +13,8 @@ function faq() {
           <div className="row  mt-5 mb-5">
             <h2 className="custom-main-hd-2">Tell us what you need</h2>
             <h5 className="custom-top-para-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less.</h5>
-            <div className="s-f1 d-flex">
-                <i className="fa-solid fa-magnifying-glass"></i>
+            <div className="s-f1 d-flex align-items-center">
+                <i className="fa-solid fa-magnifying-glass pe-3"></i>
            <input type="text"  placeholder= "Search.." />
           </div>
             
