@@ -1,7 +1,9 @@
 import Header from "../../component/header";
 import Footer from "../../component/footer";
+import Data from '../../data/news.json';
 
 function blog() {
+  // console.log(Data)
     return (
       <div className="App">
          <Header />
@@ -53,29 +55,42 @@ function blog() {
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         
         <div className="container">
-        
-          <div className="d-flex post-section">
-            <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
+         
+          <div className="d-flex flex-wrap post-section justify-content-between">
+            {
+              Data.map((index,key) => {
+                return(
+                  <div key={key} className="col-lg-3 col-sm-12 rounded-4 shadow-lg">
+                    <img className='rounded-top-4' src={index.img} alt="img" />
+                    <div className="post-detail p-4">
+                      <h3>{index.title}</h3>
+                      <p>{index.desc}</p>
+                    </div>
+                  </div>
+                )
+              })
+            }
+            {/* <div className="col-lg-3 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/icons-2/post one.png" alt="img" />
               <div className="post-detail p-4">
                 <h3>It’s live now</h3>
                 <p>Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment.</p>
               </div>
-            </div>
-            <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
+            </div> */}
+            {/* <div className="col-lg-3 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/icons-2/post two.png" alt="img" />
               <div className="post-detail p-4">
                 <h3>It’s live now</h3>
                 <p>Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment.</p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
+            <div className="col-lg-3 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/icons-2/post three.png" alt="img" />
               <div className="post-detail p-4">
                 <h3>It’s live now</h3>
                 <p>Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment.</p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="d-flex post-section spacer">
             <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
@@ -251,7 +266,7 @@ function blog() {
       </div>
       </div>
       <Footer />
-      
+
       </div>
     );
   }
