@@ -803,10 +803,12 @@ h5.custom-top-para-2 {
   max-width: 50% !important;
   font-size: 16px;
   font-family: 'Hanken Grotesk';
-  padding: 8px;
+  padding: 8px 12px;
   border: 1px solid #E3E8EF;
   border-radius: 8px;
   color: #9AA4B2;
+  align-items: center;
+  gap: 16px;
 }
 
 .s-f1 input[type="text"] {
@@ -907,10 +909,12 @@ h2.custom-main-hd-2 {
   max-width: 30% !important;
   font-size: 16px;
   font-family: 'Hanken Grotesk';
-  padding: 8px;
+  padding: 8px 12px;
   border: 1px solid #E3E8EF;
   border-radius: 8px;
   color: #9AA4B2;
+  align-items: center;
+  gap: 8px;
 }
 
 .s-f2 input[type="text"] {
@@ -4061,4 +4065,14 @@ input#range-km {
 
 .row.artical2.d-flex {
   padding: 0px !important;
+}
+.nfaq-tab .nav-link.active,
+.nfaq-tab .nav-link.active:focus,
+.nfaq-tab .nav-link.active:hover {
+  background-color:transparent;
+  color: #2F69FE; /* Change the text color to white for better visibility */
+  border-bottom:2px solid #2F69FE; /* Optional: Change the border color */
+  width: fit-content  !important;
+ padding:8px 0px !important;
+  border-radius: 0px;
 }

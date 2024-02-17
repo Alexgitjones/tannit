@@ -92,7 +92,7 @@ function propertydetail() {
                           </ul>
                         </div>
                         <div className="tab-content" id="myTabContent">
-                        <div className="tab-pane fade show active" id="General-tab" role="tabpanel" aria-labelledby="General-tab">
+                        <div className="tab-pane fade active show " id="General" role="tabpanel" aria-labelledby="General-tab">
                         <div className="tab-inner">
                             <h1>General</h1>
                             <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="/" /></span>
@@ -547,6 +547,7 @@ function propertydetail() {
             </div>
         </div>
     </div>
+
 
  </div>
     );

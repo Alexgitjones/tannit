@@ -89,11 +89,28 @@ function faq() {
               <div className="row">
                 <h1 className="banner-hd-2">Top articles</h1>
                 <div className="mid-tabs d-flex flex-direction-column">
-                    <a className="active" href="#General">General</a>
-                    <a href="#Finance">Finance</a>
-                    <a href="#Eco Friendly">Eco Friendly</a>
-                    <a href="#Non-profits">Non-profits</a>
+                  
+                    <ul class="nav nav-pills mb-3 nfaq-tab" id="pills-tab2" role="tablist">
+                    <li class="nav-item nfaq-tab-item" role="presentation">
+                      <button class="nav-link active nfaq-tab-item-btn" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">General</button>
+                    </li>
+                    
+                    <li class="nav-item  nfaq-tab-item" role="presentation">
+                      <button class="nav-link nfaq-tab-item-btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Finance</button>
+                    </li>
+
+                    <li class="nav-item nfaq-tab-item" role="presentation">
+                    <button class="nav-link nfaq-tab-item-btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Eco Friendly</button>
+                  </li>
+
+                    <li class="nav-item nfaq-tab-item"  role="presentation">
+                    <button class="nav-link nfaq-tab-item-btn" id="pills-Non-profits-tab" data-bs-toggle="pill" data-bs-target="#pills-Non-profits" type="button" role="tab" aria-controls="pills-Non-profits" aria-selected="false">Non-profits</button>
+                  </li>  
+
+                  </ul>
                   </div>
+                 <div class="tab-content" id="pills-tabContent">
+                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                   <div className="card-group">
                     <div className="card">
                           <div className="card-body">
@@ -138,7 +155,88 @@ function faq() {
                         <p className="card-text">Fees vary by investment but are transparent. We charge a percentage-based or management fee.</p>
                       </div>
                     </div>
-                    
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                  <div className="card-group">
+                    <div className="card">
+                          <div className="card-body">
+                        <h5 className="card-title">How to ensure security and transparency of investment? </h5>
+                        <p className="card-text">We prioritize security and transparency. We conduct due diligence and provide comprehensive details about each opportunity.</p>
+                      </div>
+                      </div>
+                    <div className="card">
+                      
+                      <div className="card-body">
+                        <h5 className="card-title">Can I track the performance of my investments?</h5>
+                        <p className="card-text">Track your investments and receive regular updates on our platform's dashboard.</p>
+                      </div>
+                      
+                    </div>
+                    <div className="card">
+                          <div className="card-body">
+                        <h5 className="card-title">What fees or charges are associated with using the platform?</h5>
+                        <p className="card-text">Fees vary by investment but are transparent. We charge a percentage-based or management fee.</p>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+                  <div className="card-group">
+                    <div className="card">
+                          <div className="card-body">
+                        <h5 className="card-title">How to ensure security and transparency of investment? </h5>
+                        <p className="card-text">We prioritize security and transparency. We conduct due diligence and provide comprehensive details about each opportunity.</p>
+                      </div>
+                      </div>
+                    <div className="card">
+                      
+                      <div className="card-body">
+                        <h5 className="card-title">Can I track the performance of my investments?</h5>
+                        <p className="card-text">Track your investments and receive regular updates on our platform's dashboard.</p>
+                      </div>
+                      
+                    </div>
+                    <div className="card">
+                          <div className="card-body">
+                        <h5 className="card-title">What fees or charges are associated with using the platform?</h5>
+                        <p className="card-text">Fees vary by investment but are transparent. We charge a percentage-based or management fee.</p>
+                      </div>
+                    </div>
+                    </div>
+
+                  </div>
+                  <div class="tab-pane fade" id="pills-Non-profits" role="tabpanel" aria-labelledby="pills-Non-profits-tab">
+
+                  <div className="card-group">
+                    <div className="card">
+                          <div className="card-body">
+                        <h5 className="card-title">How to ensure security and transparency of investment? </h5>
+                        <p className="card-text">We prioritize security and transparency. We conduct due diligence and provide comprehensive details about each opportunity.</p>
+                      </div>
+                      </div>
+                    <div className="card">
+                      
+                      <div className="card-body">
+                        <h5 className="card-title">Can I track the performance of my investments?</h5>
+                        <p className="card-text">Track your investments and receive regular updates on our platform's dashboard.</p>
+                      </div>
+                      
+                    </div>
+                    <div className="card">
+                          <div className="card-body">
+                        <h5 className="card-title">What fees or charges are associated with using the platform?</h5>
+                        <p className="card-text">Fees vary by investment but are transparent. We charge a percentage-based or management fee.</p>
+                      </div>
+                    </div>
+                    </div>
+
+                  </div>
+
+
                   </div>
               </div>
             </div>
@@ -158,3 +256,4 @@ function faq() {
   }
   
   export default faq;
+  
