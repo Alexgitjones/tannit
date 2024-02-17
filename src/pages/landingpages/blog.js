@@ -92,7 +92,7 @@ function blog() {
               </div>
             </div> */}
           </div>
-          <div className="d-flex post-section spacer">
+          {/* <div className="d-flex post-section spacer">
             <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/images/post four.png" alt="img" />
               <div className="post-detail p-4">
@@ -114,7 +114,7 @@ function blog() {
                 <p>Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment.</p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="d-flex justify-content-center mt-5">
             <button type="button" className="btn btn-primary post-btn">Load more </button>
           </div>
