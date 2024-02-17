@@ -1,9 +1,28 @@
+import React , { useState , useEffect } from 'react';
 import Header from "../../component/header";
 import Footer from "../../component/footer";
+import Newsgrid from "../../component/newsgrid";
 import Data from '../../data/news.json';
 
-function blog() {
-  // console.log(Data)
+function Blog() {
+
+  const [news,setnews] = useState([]);
+  const [pagination,setpagination] = useState(6);
+
+
+  useEffect(() => {
+    const makedata = Data.filter((index,key) => { return key < 6 } )
+    setnews(makedata)
+  },[]);
+
+
+  function handleloadmore(num){
+    num += 3;
+    const makedata = Data.filter((index,key) => { return key < num } )
+    setpagination(num)
+    setnews(makedata)
+  }
+  
     return (
       <div className="App">
          <Header />
@@ -58,17 +77,11 @@ function blog() {
          
           <div className="d-flex flex-wrap post-section justify-content-between">
             {
-              Data.map((index,key) => {
-                return(
-                  <div key={key} className="col-lg-3 col-sm-12 rounded-4 shadow-lg">
-                    <img className='rounded-top-4' src={index.img} alt="img" />
-                    <div className="post-detail p-4">
-                      <h3>{index.title}</h3>
-                      <p>{index.desc}</p>
-                    </div>
-                  </div>
-                )
-              })
+              news.map((index,key) =>(
+                <>
+                  <Newsgrid key={key} index={index} />
+                </>
+              ))
             }
             {/* <div className="col-lg-3 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/icons-2/post one.png" alt="img" />
@@ -92,7 +105,7 @@ function blog() {
               </div>
             </div> */}
           </div>
-          <div className="d-flex post-section spacer">
+          {/* <div className="d-flex post-section spacer">
             <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/images/post four.png" alt="img" />
               <div className="post-detail p-4">
@@ -114,10 +127,13 @@ function blog() {
                 <p>Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment.</p>
               </div>
             </div>
-          </div>
+          </div> */}
+          {
+            Data.length !== pagination ?
           <div className="d-flex justify-content-center mt-5">
-            <button type="button" className="btn btn-primary post-btn">Load more </button>
+            <button onClick={() => handleloadmore(pagination)} type="button" className="btn btn-primary post-btn">Load more </button>
           </div>
+          : '' }
         </div>
         </div>
 
@@ -271,5 +287,4 @@ function blog() {
     );
   }
   
-  export default blog;
-  
+  export default Blog;
