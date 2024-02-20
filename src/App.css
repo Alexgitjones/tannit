@@ -4079,3 +4079,6 @@ input#range-km {
 .col-lg-3.col-sm-12.rounded-4.shadow-lg {
   width: 31%;
 }
+.ndb1.show{
+  border: 1px solid !important;
+}

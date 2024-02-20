@@ -93,7 +93,8 @@
         </div>
         <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
             {
-        property.map((index,key) => ( 
+        property.map((index,key) => { 
+            return(
             <div key={key} className="col">
                 <div className="card">
                     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -182,8 +183,9 @@
                     </div>
                 </div>
             </div>
-            ))
-        }
+        )
+    })
+  }
             {/* <div className="col">
                 <div className="card2">
                     <div id="carouselExampleIndicators2" className="carousel slide" data-bs-ride="carousel">

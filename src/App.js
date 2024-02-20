@@ -57,6 +57,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/properties" element={<Properties />} />
+          <Route path="/my-investment" element={<Myinvestment />} />
+          <Route path="/marketplace" element={<Marketplace />} />
           {/* <Route path="/blog" element={<Blog />} />
           <Route path="/author" element={<Author />} />
           <Route path="/claim" element={<Claim />} />
@@ -71,12 +73,10 @@ function App() {
           <Route path="/properties" element={<Properties />} />
           <Route path="/selling-shares" element={<Sellingshare />} />
           <Route path="/email-page" element={<Emailpage />} />
-          <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/marketplace-two" element={<Marketplacetwo />} />
           <Route path="/wallet" element={<Wallet />} />
           <Route path="/wallet-two" element={<Wallettwo />} />
           <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
-          <Route path="/my-investment" element={<Myinvestment />} />
           <Route path="/complete-profile" element={<Completeprofile />} />
           <Route path="/price-range" element={<Pricerange />} />
           <Route path="/filters" element={<Filters />} />

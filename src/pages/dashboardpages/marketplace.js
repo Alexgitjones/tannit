@@ -1,5 +1,23 @@
+import React , { useState , useEffect } from 'react';
 import Header from "../../component/dashheader";
-function marketplace() {
+import Data from"../../data/market.json";
+function Marketplace() {
+    const [market,setmarket] = useState([]);
+    const [pagination,setpagination] = useState(6);
+
+
+    useEffect(() => {
+    const makedata = Data.filter((index,key) => { return key < 6 } )
+    setmarket(makedata)
+    },[]);
+
+
+    function handleloadmore(num){
+    num += 3;
+    const makedata = Data.filter((index,key) => { return key < num } )
+    setpagination(num)
+    setmarket(makedata)
+    }
     return (
       <div className="App">
          <Header /> 
@@ -69,7 +87,9 @@ function marketplace() {
         </div>
     </div>
     <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
-        <div className="col">
+    {
+        market.map((index,key) => ( 
+            <div key={key} className="col">
             <div className="card">
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
@@ -154,7 +174,9 @@ function marketplace() {
                 </div>
             </div>
         </div>
-        <div className="col">
+        ))
+    }
+        {/* <div className="col">
             <div className="card2">
                 <div id="carouselExampleIndicators2" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
@@ -573,11 +595,11 @@ function marketplace() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
     </div>
     <div className="row justify-content-center mb-5">
-        <button className="bw-learn btn btn-show" type="search">Show more </button>
+        <button onClick={() => handleloadmore(pagination)}  className="bw-learn btn btn-show" type="search">Show more </button>
     </div>
 </div>
 
@@ -591,4 +613,4 @@ function marketplace() {
     );
   }
   
-  export default marketplace;
+  export default Marketplace;
