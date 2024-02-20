@@ -2,8 +2,24 @@ import Header from "../../component/header";
 import Footer from "../../component/footer";
 import Data from '../../data/news.json';
 
-function blog() {
-  // console.log(Data)
+function Blog() {
+
+  // const [news,setnews] = useState([]);
+  // const [pagination,setpagination] = useState(6);
+
+
+  // useEffect(() => {
+  //   const makedata = Data.filter((index,key) => { return key < 6 } )
+  //   setnews(makedata)
+  // },[]);
+
+
+  // function handleloadmore(num){
+  //   num += 3;
+  //   const makedata = Data.filter((index,key) => { return key < num } )
+  //   setpagination(num)
+  //   setnews(makedata)
+  // }
     return (
       <div className="App">
          <Header />
@@ -271,5 +287,5 @@ function blog() {
     );
   }
   
-  export default blog;
+  export default Blog;
   
