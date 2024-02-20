@@ -26,7 +26,7 @@ export default function Investmentcard() {
                     </div>
                     <div className="carousel-inner">
                     <Slider {...settings}>
-                        <div className="carousel-item active">
+                        <div className="carousel-item ">
                             <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
                             <button className="image-btn"><img src="assets/icons/leaf.svg" alt="" />Eco
                                 Friendly</button>

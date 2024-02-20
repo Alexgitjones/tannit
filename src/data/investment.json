@@ -1,28 +1,7 @@
 [
     {
         "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
-    },
-    {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
-    },
-    {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
-    },
-    {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
+        "title": "Standpoint Tower A Downtown",
         "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
         "progress":75,
         "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
@@ -62,4 +41,5 @@
         "progress":75,
         "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
     }
+    
   ]
