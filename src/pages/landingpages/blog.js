@@ -1,25 +1,26 @@
+import React , { useState , useEffect } from 'react';
 import Header from "../../component/header";
 import Footer from "../../component/footer";
 import Data from '../../data/news.json';
 
 function Blog() {
 
-  // const [news,setnews] = useState([]);
-  // const [pagination,setpagination] = useState(6);
+  const [news,setnews] = useState([]);
+  const [pagination,setpagination] = useState(6);
 
 
-  // useEffect(() => {
-  //   const makedata = Data.filter((index,key) => { return key < 6 } )
-  //   setnews(makedata)
-  // },[]);
+  useEffect(() => {
+    const makedata = Data.filter((index,key) => { return key < 6 } )
+    setnews(makedata)
+  },[]);
 
 
-  // function handleloadmore(num){
-  //   num += 3;
-  //   const makedata = Data.filter((index,key) => { return key < num } )
-  //   setpagination(num)
-  //   setnews(makedata)
-  // }
+  function handleloadmore(num){
+    num += 3;
+    const makedata = Data.filter((index,key) => { return key < num } )
+    setpagination(num)
+    setnews(makedata)
+  }
     return (
       <div className="App">
          <Header />
@@ -74,7 +75,7 @@ function Blog() {
          
           <div className="d-flex flex-wrap post-section justify-content-between">
             {
-              Data.map((index,key) => {
+              news.map((index,key) => {
                 return(
                   <div key={key} className="col-lg-3 col-sm-12 rounded-4 shadow-lg">
                     <img className='rounded-top-4' src={index.img} alt="img" />
@@ -132,7 +133,7 @@ function Blog() {
             </div>
           </div> */}
           <div className="d-flex justify-content-center mt-5">
-            <button type="button" className="btn btn-primary post-btn">Load more </button>
+            <button onClick={() => handleloadmore(pagination)}  className="btn btn-primary post-btn">Load more </button>
           </div>
         </div>
         </div>
