@@ -1,8 +1,8 @@
 import React , { useState , useEffect } from 'react';
 import Header from "../../component/dashheader";
-import Card from "../../component/investment-card";
-import Card2 from "../../component/investment-card2";
+// import Card2 from "../../component/investment-card2";
 import Data from "../../data/investment.json";
+import Investmentcard from '../../component/investment-card';
 function Myinvestment() {
 
     const [investment,setinvestment] = useState([]);
@@ -40,12 +40,15 @@ function Myinvestment() {
         </div>
     </div>
     <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
-    {
-        investment.map((index,key) => { 
-            return(
-            <div key={key} className="col">
-                <div className="card">
-                    < Card ></Card>
+    
+       
+                    {
+              investment.map((index,key) =>(
+                <>
+                  <Investmentcard key={key} index={index} />
+                </>
+              ))
+            }
                 {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -124,11 +127,7 @@ function Myinvestment() {
                         </div>
                     </div>
                 </div> */}
-            </div>
-        </div>
-        )
-    })
-  }
+          
         {/* <div className="col">
             <div className="card2">
                 <div id="carouselExampleIndicators2" className="carousel slide" data-bs-ride="carousel">

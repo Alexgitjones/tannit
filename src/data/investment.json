@@ -2,44 +2,26 @@
     {
         "img": ["assets/images/Image1.png"],
         "title": "Standpoint Tower A Downtown",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "invest": "40 Tannit",
+        "income": "1.45£ "
     },
     {
         "img": ["assets/images/Image1.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "title": "Standpoint Tower A Downtown",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "invest": "40 Tannit",
+        "income": "1.45£"
     },
     {
         "img": ["assets/images/Image1.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
-    },
-    {
-        "img": ["assets/images/Image1.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
-    },
-    {
-        "img": ["assets/images/Image1.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
-    },
-    {
-        "img": ["assets/images/Image1.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "title": "Standpoint Tower A Downtown",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "invest": "40 Tannit",
+        "income": "-"
     }
-    
+     
   ]

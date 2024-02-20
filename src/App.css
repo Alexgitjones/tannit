@@ -1874,6 +1874,7 @@ p.v-formtext {
   align-items: center !important;
   border: 1px solid #C0C3CD !important;
   border-radius: 16px !important;
+  text-align: center;
 }
 
 .m-vf .d-flex.mb-3 {

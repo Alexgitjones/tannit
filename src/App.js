@@ -60,6 +60,7 @@ function App() {
           <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/my-investment" element={<Myinvestment />} />
+          <Route path="/verify" element={<Verify />} />
           {/* <Route path="/blog" element={<Blog />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/author" element={<Author />} />
@@ -67,7 +68,6 @@ function App() {
           <Route path="/claimed" element={<Claimed />} />
           <Route path="/signup" element={<Singup />} />
           <Route path="/success" element={<Success />} />
-          <Route path="/verify" element={<Verify />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/property-detail" element={<Propertydetail />} />
           <Route path="/property-compare" element={<Propertycompare />} />

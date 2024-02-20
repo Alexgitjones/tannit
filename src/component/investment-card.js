@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Investmentcard() {
+export default function Investmentcard({index}) {
     var settings = {
         dots: true,
         infinite: true,
@@ -12,6 +12,7 @@ export default function Investmentcard() {
         slidesToScroll: 1,
       };
       return (
+     <div className="col">   
     <div className="col invest-card-comp">
     <div className="card">
     
@@ -27,7 +28,7 @@ export default function Investmentcard() {
                     <div className="carousel-inner">
                     <Slider {...settings}>
                         <div className="carousel-item ">
-                            <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
+                            <img src={index.img} className="d-block w-100" alt="..." />
                             <button className="image-btn"><img src="assets/icons/leaf.svg" alt="" />Eco
                                 Friendly</button>
                                
@@ -36,14 +37,14 @@ export default function Investmentcard() {
 
                         </div>
                         <div className="carousel-item">
-                            <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
+                            <img src={index.img} className="d-block w-100" alt="..." />
                             <button className="image-btn-2"><img src="assets/icons/clock.svg"
                                     alt="" />Greenification</button>
                             <button className="image-btn-4"><img src="assets/icons/hleaf.svg" alt="" />125 <img
                             src="assets/icons/up.svg " alt="" />0.2% </button>        
                         </div>
                         <div className="carousel-item">
-                            <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
+                            <img src={index.img} className="d-block w-100" alt="..." />
                             <button className="image-btn-3"><img src="assets/icons/stars.svg"
                             alt="" />Featured</button>
                             <button className="image-btn-4"><img src="assets/icons/hleaf.svg" alt="" />125 <img
@@ -61,14 +62,14 @@ export default function Investmentcard() {
                     <p className="global-ct">Without credit</p>
                     <p className="global-ct2"> <img src="assets/icons/tick.svg" alt="" />Contributed</p>
                 </div>
-                    <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
+                    <h5 className="p-card-title">{index.title}</h5>
                     <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="" /></span>
-                        Orange street, United Kingdom 5012
+                    {index.address}
                     </p>
                     
                     <div>
                         <div className="card-inner">
-                            <div className="amount">143K £</div>
+                            <div className="amount">{index.price}</div>
                             <div className="remain"> <img src="assets/icons/Tannit coin.svg" alt="" />40 remaining
                             </div>
 
@@ -84,10 +85,10 @@ export default function Investmentcard() {
                         </div>
                         <div className="card-inner3 invi my-4 ">
                             <div className="profit d-flex pf2">Invested 
-                                <p>40 Tannit</p>
+                                <p>{index.invest}</p>
                             </div>
                             <div className="returned d-flex rf2 ">Income received 
-                                <p className="g-text">1.45£</p>
+                                <p className="g-text">{index.income}</p>
                             </div>
 
 
@@ -95,6 +96,7 @@ export default function Investmentcard() {
                     </div>
                 </div>
                
+            </div>
             </div>
             </div>
     );

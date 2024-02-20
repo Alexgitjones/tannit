@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Marketplacecard() {
+export default function Marketplacecard({index}) {
     var settings = {
         dots: true,
         autoplay: false,
@@ -13,6 +13,7 @@ export default function Marketplacecard() {
         slidesToScroll: 1,
       };
       return (
+    <div className="col">
     <div className="col invest-card-comp">
     <div className="card">
     
@@ -28,7 +29,7 @@ export default function Marketplacecard() {
                     <div className="carousel-inner">
                     <Slider {...settings}>
                         <div className="carousel-item ">
-                            <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
+                            <img src={index.img} className="d-block w-100" alt="..." />
                             <button className="image-btn"><img src="assets/icons/leaf.svg" alt="" />Eco
                                 Friendly</button>
                                
@@ -37,14 +38,14 @@ export default function Marketplacecard() {
 
                         </div>
                         <div className="carousel-item">
-                            <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
+                            <img src={index.img} className="d-block w-100" alt="..." />
                             <button className="image-btn-2"><img src="assets/icons/clock.svg"
                                     alt="" />Greenification</button>
                             <button className="image-btn-4"><img src="assets/icons/hleaf.svg" alt="" />125 <img
                             src="assets/icons/up.svg " alt="" />0.2% </button>        
                         </div>
                         <div className="carousel-item">
-                            <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
+                            <img src={index.img} className="d-block w-100" alt="..." />
                             <button className="image-btn-3"><img src="assets/icons/stars.svg"
                             alt="" />Featured</button>
                             <button className="image-btn-4"><img src="assets/icons/hleaf.svg" alt="" />125 <img
@@ -62,25 +63,25 @@ export default function Marketplacecard() {
                     <p className="global-ct">Without credit</p>
                     <p className="global-ct2"> <img src="assets/icons/tick.svg" alt="" />Contributed</p>
                 </div>
-                    <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
+                    <h5 className="p-card-title">{index.title}</h5>
                     <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="" /></span>
-                        Orange street, United Kingdom 5012
+                    {index.address}
                     </p>
                     <p className="card-text w-img"><img src="assets/images/Ellipse 235.png" alt="" />
-                        <span> Guy Hawkins</span> selling his shares
+                        <span>{index.individual}</span> selling his shares
                     </p>
                     
                     
                     <div>
                         <div className="card-inner">
-                            <div className="amount">143K £</div>
-                            <div className="remain"> <img src="assets/icons/Tannit coin.svg" alt="" />40 remaining
+                            <div className="amount">{index.price}</div>
+                            <div className="remain"> <img src="assets/icons/Tannit coin.svg" alt="" />{index.remaining}
                             </div>
 
                         </div>
                         <div className="card-inner2">
-                            <div className="amount-text">Converted to: 1500 Tannits</div>
-                            <div className="investor"> <img src="assets/icons/Icon2.svg" alt="" />72 Investors</div>
+                            <div className="amount-text">{index.conversion}</div>
+                            <div className="investor"> <img src="assets/icons/Icon2.svg" alt="" />{index.investors}</div>
 
                         </div>
                         <div className="progress">
@@ -90,18 +91,18 @@ export default function Marketplacecard() {
                         <div className="card-inner3 my-4 d-flex flex-direction-column">
                             <div className="profit d-flex flex-direction-column">Profitability <img
                                     src="assets/icons/Instance tooltip.png" alt="" />
-                                <p>18,35%</p>
+                                <p>{index.profit}</p>
                             </div>
                             <div className="returned d-flex flex-direction-column">Returned <img
                                     src="assets/icons/Instance tooltip.png" alt="" />
-                                <p>4,6%</p>
+                                <p>{index.return}</p>
                             </div>
 
 
                         </div>
                     </div>
                 </div>
-               
+                </div> 
             </div>
             </div>
     );

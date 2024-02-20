@@ -1,65 +1,99 @@
 [
     {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "individual": "Guy Hawkins ",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "remaining": "40 remaining",
+        "conversion": "Converted to: 1500 Tannits",
+        "investors": "72 Investors",
+        "profit": "18,35%",
+        "return": "4,6% "
     },
     {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "individual": "Guy Hawkins ",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "remaining": "40 remaining",
+        "conversion": "Converted to: 1500 Tannits",
+        "investors": "72 Investors",
+        "profit": "18,35%",
+        "return": "4,6% "
     },
     {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "individual": "Guy Hawkins ",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "remaining": "40 remaining",
+        "conversion": "Converted to: 1500 Tannits",
+        "investors": "72 Investors",
+        "profit": "18,35%",
+        "return": "4,6% "
     },
     {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "individual": "Guy Hawkins ",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "remaining": "40 remaining",
+        "conversion": "Converted to: 1500 Tannits",
+        "investors": "72 Investors",
+        "profit": "18,35%",
+        "return": "4,6% "
     },
     {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "individual": "Guy Hawkins ",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "remaining": "40 remaining",
+        "conversion": "Converted to: 1500 Tannits",
+        "investors": "72 Investors",
+        "profit": "18,35%",
+        "return": "4,6% "
     },
     {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "individual": "Guy Hawkins ",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "remaining": "40 remaining",
+        "conversion": "Converted to: 1500 Tannits",
+        "investors": "72 Investors",
+        "profit": "18,35%",
+        "return": "4,6% "
     },
     {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "individual": "Guy Hawkins ",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "remaining": "40 remaining",
+        "conversion": "Converted to: 1500 Tannits",
+        "investors": "72 Investors",
+        "profit": "18,35%",
+        "return": "4,6% "
     },
     {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
-    },
-    {
-        "img": ["assets/icons-2/post%20one.png","assets/icons-2/post%20one.png","assets/icons-2/post%20one.png"],
-        "title": "It’s live now",
-        "button":[["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"],["Eco friendly","red","assets/icons/leaf.svg"]],
-        "progress":75,
-        "desc": "Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment."
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "individual": "Guy Hawkins ",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "remaining": "40 remaining",
+        "conversion": "Converted to: 1500 Tannits",
+        "investors": "72 Investors",
+        "profit": "18,35%",
+        "return": "4,6% "
     }
+    
   ]

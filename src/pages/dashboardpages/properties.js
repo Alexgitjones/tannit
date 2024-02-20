@@ -1,6 +1,6 @@
     import React , { useState , useEffect } from 'react';
     import Header from "../../component/dashheader";
-    import Card from "../../component/property-card";
+    import Propertycard from "../../component/property-card";
     import Data from "../../data/properties.json";
     function Properties() {
         const [property,setproperty] = useState([]);
@@ -93,12 +93,16 @@
             </div>
         </div>
         <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
-            {
-        property.map((index,key) => { 
-            return(
-            <div key={key} className="col">
-                <div className="card">
-                    < Card ></Card>
+            
+
+                    {
+              property.map((index,key) =>(
+                <>
+                  <Propertycard key={key} index={index} />
+                </>
+              ))
+            }
+
                     {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -183,11 +187,7 @@
                             </div>
                         </div>
                     </div> */}
-                </div>
-            </div>
-        )
-    })
-  }
+               
             {/* <div className="col">
                 <div className="card2">
                     <div id="carouselExampleIndicators2" className="carousel slide" data-bs-ride="carousel">
