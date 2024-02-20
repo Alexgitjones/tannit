@@ -1,5 +1,6 @@
     import React , { useState , useEffect } from 'react';
     import Header from "../../component/dashheader";
+    import Card from "../../component/property-card";
     import Data from "../../data/properties.json";
     function Properties() {
         const [property,setproperty] = useState([]);
@@ -97,7 +98,8 @@
             return(
             <div key={key} className="col">
                 <div className="card">
-                    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+                    < Card ></Card>
+                    {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                 className="active" aria-current="true" aria-label="Slide 1"> <img src="assets/icons/slider-active.svg" alt="" /></button>
@@ -180,7 +182,7 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         )

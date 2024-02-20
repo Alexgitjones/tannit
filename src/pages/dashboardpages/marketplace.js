@@ -1,5 +1,6 @@
 import React , { useState , useEffect } from 'react';
 import Header from "../../component/dashheader";
+import Card from "../../component/marketplace-card";
 import Data from"../../data/market.json";
 function Marketplace() {
     const [market,setmarket] = useState([]);
@@ -91,7 +92,8 @@ function Marketplace() {
         market.map((index,key) => ( 
             <div key={key} className="col">
             <div className="card">
-                <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+                <Card></Card>
+                {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                             className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -171,7 +173,7 @@ function Marketplace() {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         ))

@@ -6,7 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Propertycard() {
     var settings = {
         dots: true,
-        infinite: true,
+        autoplay:false,
+        infinite: false,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -26,7 +27,7 @@ export default function Propertycard() {
                     </div>
                     <div className="carousel-inner">
                     <Slider {...settings}>
-                        <div className="carousel-item active">
+                        <div className="carousel-item ">
                             <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
                             <button className="image-btn"><img src="assets/icons/leaf.svg" alt="" />Eco
                                 Friendly</button>
