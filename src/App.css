@@ -1625,8 +1625,8 @@ li.list-group-item {
 
 }
 
-li.list-group-item span {
-  font-weight: 700;
+.list-group-item span {
+  font-weight: 700 !important;
 }
 
 .user-box.d-flex.m-0 img {
