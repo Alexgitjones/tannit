@@ -4094,3 +4094,18 @@ input#range-km {
 .payment-prange #search-bar .range-wrap {
   width: 910px !important;
 }
+
+
+
+.thumbnail-slider-wrap {
+  margin-top: 15px;
+  height: 85px;
+}
+.thumbnail-slider-wrap .slick-track .slick-slide {
+  text-align: center;
+}
+.thumbnail-slider-wrap .slick-track .slick-slide img {
+  width: 70%;
+}
+
+

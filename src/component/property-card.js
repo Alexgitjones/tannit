@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Propertycard({index}) {
     var settings = {
         dots: true,
-        autoplay:false,
-        infinite: false,
+        autoplay:true,
+        infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,

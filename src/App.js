@@ -38,6 +38,7 @@ import Pricerange from './component/price-range';
 import Range from './component/range';
 import Donecard from './component/donecard';
 import Filters from './component/filters';
+import Gallery from './component/gallery';
 import {
   BrowserRouter as Router,
   Routes,
@@ -56,6 +57,7 @@ function App() {
           {/* <Route path="/" element={<Home />} /> */}
           {/* <Route path="/services" element={<Services />} /> */}
           <Route path="/" element={<Home />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/marketplace" element={<Marketplace />} />
