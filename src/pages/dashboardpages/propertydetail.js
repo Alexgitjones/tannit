@@ -1,11 +1,12 @@
 import Header from "../../component/dashheader";
+import Range from "../../component/range";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
     const propertydetail = () => {
         const settings = {
-          slidesToShow: 7,
+          slidesToShow: 6,
           slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 2000,
@@ -353,37 +354,7 @@ import "slick-carousel/slick/slick-theme.css";
                                             </div>
                                             </div>
                                             <div className="row2">
-                                            <div className="col-lg-12 amont-line">
-                                                
-                                                <label for="customRange3" className="form-label">Select your investment amount</label>
-                                                <div id="search-bar">
-                                            <form
-                                             id="product-search-bar"
-                                                action=""
-                                                method="POST"
-                                                >
-                                            <div className="input-group">
-                                                     
-                                            <div className="input-group-append">
-                                            <div className="range-wrap">
-                                            <div className="range-value" id="rangeV"></div>
-                                            <input
-                                                    id="range-km"
-                                                    name="range-km"
-                                                    type="range"
-                                                    min="0"
-                                                    max="500"
-                                                    value="0"
-                                                    step="5"
-                                              />
-                                                        </div>
-                                                        
-                                                      </div>
-                                                    </div>
-                                                  </form>
-                                                </div>
-                                                
-                                            </div>
+                                            <Range></Range>
                                         </div>
                                             
                                         

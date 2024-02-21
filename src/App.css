@@ -1622,7 +1622,10 @@ li.list-group-item {
 
 li.list-group-item {
   display: contents;
-
+}
+.list-group-item {
+  justify-content: center;
+  display: flex !important;
 }
 
 .list-group-item span {
@@ -2313,7 +2316,7 @@ span.input-group-text.right {
 label.form-label.note {
   margin: 0px;
   padding: 16px;
-  border: 1px solid #E3E8EF;
+  border: 1px solid #1B2235;
   width: -webkit-fill-available;
   border-radius: 8px;
   font-size: 14px;
@@ -2321,6 +2324,7 @@ label.form-label.note {
   font-family: 'Hanken Grotesk';
   color: #1B2235;
   margin-bottom: 32px;
+  background: #E0F2FE;
 }
 button.btn.grn-btn5 {
   width: 100%;
@@ -4086,4 +4090,7 @@ input#range-km {
 }
 .row.row-cols-1.row-cols-md-3.g-4.mb-5.amj-ppage {
   padding-top: 16px !important;
+}
+.payment-prange #search-bar .range-wrap {
+  width: 910px !important;
 }

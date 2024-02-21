@@ -35,6 +35,7 @@ import Autanticationheader from './component/authanticationheader';
 import DashHeader from './component/dashheader';
 import Completeprofile from './component/complete-profile';
 import Pricerange from './component/price-range';
+import Range from './component/range';
 import Donecard from './component/donecard';
 import Filters from './component/filters';
 import {
@@ -60,6 +61,7 @@ function App() {
           <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/property-detail" element={<Propertydetail />} />
+          <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
           <Route path="/my-investment" element={<Myinvestment />} />
           {/* <Route path="/blog" element={<Blog />} />
           <Route path="/verify" element={<Verify />} />
@@ -76,7 +78,6 @@ function App() {
           <Route path="/marketplace-two" element={<Marketplacetwo />} />
           <Route path="/wallet" element={<Wallet />} />
           <Route path="/wallet-two" element={<Wallettwo />} />
-          <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
           <Route path="/complete-profile" element={<Completeprofile />} />
           <Route path="/price-range" element={<Pricerange />} />
           <Route path="/filters" element={<Filters />} />
