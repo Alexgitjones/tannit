@@ -4310,5 +4310,5 @@ input#range-km {
 }
 
 .lg-inline .lg-backdrop, .lg-inline .lg-outer {
-  position: fixed;
+  position: fixed !important;
 }

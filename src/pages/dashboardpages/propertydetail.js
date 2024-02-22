@@ -81,10 +81,10 @@ import Mgallery from "../../component/main-gallery";
                                 All 12 photos
                             </button>
                             {showMgallery && <Mgallery />}
-                            <button className="img-btn">
+                            <button onClick={() => setShowMgallery(!showMgallery)}  className="img-btn">
                                 <img src="assets/icons/360.svg" alt="/" />Virtual tour
                             </button>
-
+                            {showMgallery && <Mgallery />}
                         </div>
                     </div>
                 </div>
