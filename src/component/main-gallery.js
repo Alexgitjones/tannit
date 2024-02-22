@@ -27,11 +27,12 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
   }, []);
 
   return (
-    <div className="App">
+    <div className="App gallery-cont-wrapper">
      
-      <div
+      <div className='sec-wrapper-gallery'
         style={{
-          height: '100vh',
+          height: 'auto',
+          position: 'static',
         }}
         ref={containerRef}
       ></div>
@@ -40,7 +41,7 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
           container={containerRef.current}
           onInit={onInit}
           plugins={[lgZoom, lgThumbnail, lgAutoplay, lgVideo]}
-          closable={false}
+          closable={true}
           showMaximizeIcon={true}
           slideDelay={200}
           thumbWidth={133}

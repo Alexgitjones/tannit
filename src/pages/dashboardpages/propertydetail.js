@@ -1,10 +1,13 @@
+import React , { useState } from 'react';
 import Header from "../../component/dashheader";
 import Range from "../../component/range";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Mgallery from "../../component/main-gallery";
 
-    const propertydetail = () => {
+    const Propertydetail = () => {
+        const [showMgallery, setShowMgallery] = useState(false);
         const settings = {
           slidesToShow: 6,
           slidesToScroll: 1,
@@ -73,10 +76,11 @@ import "slick-carousel/slick/slick-theme.css";
                         <div className="col-lg-6 img-width img-col d-flex justify-content-center "><img
                                 src="assets/images/Imag3.png" alt="/" /></div>
                         <div className="col img-col bt-box">
-                            <button className="img-btn">
+                            <button onClick={() => setShowMgallery(!showMgallery)} className="img-btn">
                                 <img src="assets/icons/gallery.svg" alt="/" />
                                 All 12 photos
                             </button>
+                            {showMgallery && <Mgallery />}
                             <button className="img-btn">
                                 <img src="assets/icons/360.svg" alt="/" />Virtual tour
                             </button>
@@ -540,4 +544,4 @@ import "slick-carousel/slick/slick-theme.css";
 };
   
   
-  export default propertydetail;
+  export default Propertydetail;

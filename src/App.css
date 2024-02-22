@@ -4300,3 +4300,15 @@ input#range-km {
   z-index: 9;
   top: 170px;
 }
+.sec-wrapper-gallery {
+  position: static !important;
+
+}
+.App.gallery-cont-wrapper {
+  z-index: 8888;
+  position: unset;
+}
+
+.lg-inline .lg-backdrop, .lg-inline .lg-outer {
+  position: fixed;
+}
