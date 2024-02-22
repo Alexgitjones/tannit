@@ -43,9 +43,9 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
           closable={false}
           showMaximizeIcon={true}
           slideDelay={200}
-          thumbWidth={130}
-          thumbHeight={'100px'}
-          thumbMargin={16}
+          thumbWidth={133}
+          thumbHeight={'110px'}
+          thumbMargin={24}
           dynamic={true}
           dynamicEl={[
             {
@@ -90,13 +90,7 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
               thumb:
                 'assets/images/g6.png',
             },
-            {
-              src: 'assets/images/g6.png',
-              responsive:
-                'assets/images/g6.png',
-              thumb:
-                'assets/images/g6.png',
-            },
+            
             // Add more dynamic elements as needed
           ]}
           hash={false}

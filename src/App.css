@@ -4097,15 +4097,15 @@ input#range-km {
 
 
 
-.thumbnail-slider-wrap {
-  margin-top: 15px;
-  height: 85px;
+.lg-thumb-item.active {
+  border-radius: 16px;
 }
-.thumbnail-slider-wrap .slick-track .slick-slide {
-  text-align: center;
+
+.lg-thumb-item {
+  border-radius: 16px !important;
 }
-.thumbnail-slider-wrap .slick-track .slick-slide img {
-  width: 70%;
+.lg-thumb-outer.lg-thumb-align-middle.lg-grab {
+  background: black !important;
 }
 
 
