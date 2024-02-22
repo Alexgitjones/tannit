@@ -9,22 +9,22 @@ export default function Filters() {
         
         <div class="radio-prce-list">    
         <div class="form-check main-lr">
-        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault25"/>
+        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault25" id="flexRadioDefault25"/>
         <label class="form-check-label rpl" for="flexRadioDefault25"> No risk <span>4</span> </label>
         </div>
 
         <div class="form-check main-lr">
-        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault26"/>
+        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault26" id="flexRadioDefault26"/>
         <label class="form-check-label rpl " for="flexRadioDefault26">Individual risk <span>12</span></label>
         </div>
 
         <div class="form-check main-lr">
-        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault27"/>
+        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault27" id="flexRadioDefault27"/>
         <label class="form-check-label rpl" for="flexRadioDefault27">Environmental risk <span>5</span></label>
         </div>
 
         <div class="form-check main-lr">
-        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault28"/>
+        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault28" id="flexRadioDefault28"/>
         <label class="form-check-label rpl" for="flexRadioDefault28">Geopolitical risk<span>32</span></label>
         </div>
         </div>
@@ -33,12 +33,12 @@ export default function Filters() {
 
         <div class="radio-prce-list">    
         <div class="form-check main-lr">
-        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault29"/>
+        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault29" id="flexRadioDefault29"/>
         <label class="form-check-label rpl" for="flexRadioDefault29"> The most recent <span>4</span> </label>
         </div>
 
         <div class="form-check main-lr">
-        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault30"/>
+        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault30" id="flexRadioDefault30"/>
         <label class="form-check-label rpl" for="flexRadioDefault30">The least recent <span>4</span></label>
         </div>
         </div>
@@ -47,12 +47,12 @@ export default function Filters() {
 
         <div class="radio-prce-list">    
         <div class="form-check main-lr">
-        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault31"/>
+        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault31" id="flexRadioDefault31"/>
         <label class="form-check-label rpl" for="flexRadioDefault31"> Maximum<span>4</span> </label>
         </div>
 
         <div class="form-check main-lr">
-        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault32"/>
+        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault32" id="flexRadioDefault32"/>
         <label class="form-check-label rpl" for="flexRadioDefault32">Minimum <span>4</span></label>
         </div>
         </div>
@@ -60,12 +60,12 @@ export default function Filters() {
 
         <div class="radio-prce-list">    
         <div class="form-check main-lr">
-        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault33"/>
+        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault33" id="flexRadioDefault33"/>
         <label class="form-check-label rpl" for="flexRadioDefault33"> Maximum m2<span>4</span> </label>
         </div>
 
         <div class="form-check main-lr">
-        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault" id="flexRadioDefault34"/>
+        <input class="form-check-input square-input-check" type="radio" name="flexRadioDefault34" id="flexRadioDefault34"/>
         <label class="form-check-label rpl" for="flexRadioDefault34">Minimum m2<span>4</span></label>
         </div>
         </div>

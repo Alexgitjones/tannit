@@ -39,6 +39,7 @@ import Range from './component/range';
 import Donecard from './component/donecard';
 import Filters from './component/filters';
 import Mgallery from './component/main-gallery';
+import Smallcard from './component/small-card';
 import {
   BrowserRouter as Router,
   Routes,
@@ -57,7 +58,8 @@ function App() {
           {/* <Route path="/" element={<Home />} /> */}
           {/* <Route path="/services" element={<Services />} /> */}
           <Route path="/" element={<Home />} />
-          <Route path="/mgallery" element={<Mgallery />} />
+          <Route path="/gallery" element={<Mgallery />} />
+          <Route path="/small-card" element={<Smallcard />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/marketplace" element={<Marketplace />} />
@@ -65,6 +67,7 @@ function App() {
           <Route path="/property-detail" element={<Propertydetail />} />
           <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
           <Route path="/my-investment" element={<Myinvestment />} />
+          <Route path="/filters" element={<Filters />} />
           {/* <Route path="/blog" element={<Blog />} />
           <Route path="/verify" element={<Verify />} />
           <Route path="/properties" element={<Properties />} />
@@ -82,7 +85,6 @@ function App() {
           <Route path="/wallet-two" element={<Wallettwo />} />
           <Route path="/complete-profile" element={<Completeprofile />} />
           <Route path="/price-range" element={<Pricerange />} />
-          <Route path="/filters" element={<Filters />} />
           <Route path="/investment-card" element={<Investmentcard />} />
           <Route path="/investment-card2" element={<Investmentcard2 />} />
           <Route path="/Property-card" element={<Propertycard />} />

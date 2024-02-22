@@ -1,5 +1,6 @@
 import Header from "../../component/dashheader";
 import Range from "../../component/range";
+
 function purchaseconfirm() {
     return (
       <div className="App">

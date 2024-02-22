@@ -2,10 +2,14 @@
     import Header from "../../component/dashheader";
     import Propertycard from "../../component/property-card";
     import Data from "../../data/properties.json";
+    import Filters from '../../component/filters'
+    import Pricerange from '../../component/price-range'
     function Properties() {
         const [property,setproperty] = useState([]);
         const [pagination,setpagination] = useState(6);
-    
+        const [showFilters, setShowFilters] = useState(false); 
+        const [showPricerange, setShowPricerange] = useState(false); 
+        
     
         useEffect(() => {
         const makedata = Data.filter((index,key) => { return key < 6 } )
@@ -34,8 +38,9 @@
             </div>
             <div className="tf-sec d-flex flex-direction-column">
                 <div className="tab d-flex flex-direction-column ">
-                    <button className="tablinks tab">Price range<span><img src="assets/icons/1.svg"
+                    <button onClick={() => setShowPricerange(!showPricerange)} className="tablinks tab">Price range<span><img src="assets/icons/1.svg"
                                 alt="" /></span></button>
+                                {showPricerange && <Pricerange />}
                                     <div className="btn-group new-dropdown-btn">
                             <button className="btn btn-secondary ndb1 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                                 Type
@@ -66,9 +71,10 @@
                                 <li><a className="dropdown-item" href="/">Menu item</a></li>
                             </ul>
                             </div>
-                    <button className="tablinks tab">Advanced filter<span><img src="assets/icons/5.svg"
+                    <button onClick={() => setShowFilters(!showFilters)} className="tablinks tab ad-filter">Advanced filter<span><img src="assets/icons/5.svg"
                                 alt="" /></span></button>
-                </div>
+                                {showFilters && <Filters />}
+                </div> 
                 <div className="icon-input d-flex justify-content-center">
                     <input className="icon-input__text-field" type="text" placeholder="Search for property" />
                     <i className="fa fa-search"></i>
