@@ -66,12 +66,12 @@ function home() {
       <div className="fourth-row mt-5 mb-lg-5 mb-sm-1 custom-section-ind">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-7 col-sm-12">
               <img width="100%" src="assets/images/3rd banner.png" alt="img" />
             </div>
-            <div className="col-lg-6 col-sm-12 third-left">
+            <div className="col-lg-5 col-sm-12 third-left">
               <h5 className="small-hd">Our engagement</h5>
-              <h2 className="custom-main-hd mb-lg-5 mb-sm-1">Build sustainable passive income.</h2>
+              <h2 className="custom-main-hd mb-lg-3 mb-sm-1">Build sustainable passive income.</h2>
               <p className="small-main-p">Investing in eco-friendly properties is one of the strategies that can provide profitable returns on investment. Ecological or green properties are designed and built with sustainable features that minimize their environmental impact.
               </p>
               <p className="small-main-p">Investing in environmentally friendly properties not only offers the potential for a profitable return on investment but also contributes to a more sustainable future by reducing carbon footprint and promoting environmentally friendly practices.</p>

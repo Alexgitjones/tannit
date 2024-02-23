@@ -69,7 +69,7 @@ function Blog() {
           
     
       </div>
-      <div className="sixth-row mt-lg-5 mt-sm-1 mb-5 custom-section-ind">
+      <div className="sixth-row mt-lg-5 mt-sm-1 mb-5 custom-section-ind p-s-2 ">
       <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         

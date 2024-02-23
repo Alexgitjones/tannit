@@ -12,13 +12,13 @@ function Services() {
           <h1 className="banner-hd">Our Services</h1>
         </div>
         <div className="inner-container">
-          <div className="row text-center mt-5 mb-5">
+          <div className="row text-center mt-5 mb-5 f-r-1">
             <h2 className="custom-main-hd">Give ideas the power to come true</h2>
             <h5 className="custom-top-para">TANNIT  give you the tools and visibility you need to achieve your fundraising goals.</h5>
           </div>
           
           <div className="container custom-section-ind">
-            <div className="row">
+            <div className="row f-r-1">
               <div className="col-lg-6 col-sm-12">
                 <div className="row p-3 properties-list rounded-3 mb-3">
                   <div className="col-lg-2 col-sm-12 ">
@@ -65,7 +65,7 @@ function Services() {
            
           <div className="second-row mt-5 mb-5 custom-section-ind">
             <div className="container">
-              <div className="row">
+              <div className="row f-r-2">
                 <div className="test-name row p-0">
                   <h3 className="test-hd">Davis Wokman</h3>
                   <h6 className="test-p">CEO Of Tannit</h6>
@@ -80,7 +80,7 @@ function Services() {
            
           <div className="third-row mt-5 mb-5 custom-section-ind">
             <div className="container">
-              <div className="row">
+              <div className="row f-r-3">
                 <div className="col-lg-6 col-sm-12">
                   <img width="100%" src="assets/icons-2/third left banner.png" alt="img" />
                 </div>
@@ -107,7 +107,7 @@ function Services() {
           
           <div className="fourth-row mt-5 mb-lg-5 mb-sm-1 custom-section-ind">
             <div className="container">
-              <div className="row">
+              <div className="row f-r-4">
                 <div className="col-lg-6 col-sm-12">
                   <img width="100%" src="assets/icons-2/fourth rigth banner.png" alt="img" />
                 </div>
@@ -124,7 +124,7 @@ function Services() {
 
           <div className="fiveth-row mt-5 mb-5 custom-section-ind">
             <div className="container">
-              <div className="row">
+              <div className="row f-r-5">
                 <div className="col-lg-6 col-sm-12 third-left">
                   <h5 className="small-hd">Our experts</h5>
                   <h2 className="custom-main-hd mb-4">We are all set for one goal</h2>
@@ -139,7 +139,7 @@ function Services() {
           </div>
 
 
-          <div className="sixth-row mt-lg-5 mt-sm-1 mb-5 custom-section-ind">
+          <div className="sixth-row mt-lg-5 mt-sm-1 mb-5 custom-section-ind n-fr-6">
             <div className="container">
               <div className="row text-center mb-5">
                 <h5 className="small-hd">To read</h5>

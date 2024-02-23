@@ -92,7 +92,7 @@
             <div>
                 <div className="result-text d-flex spb-btn">
                     <p>Showing<strong>115 property</strong> that match your search criteria</p>
-                    <button className="mp-btn">Sort by (Date)<span><img src="assets/icons/updown.svg" alt="" /></span></button>
+                    <button className="mp-btn">Sort by (Recently added)<span><img src="assets/icons/updown.svg" alt="" /></span></button>
 
                 </div>
             </div>

@@ -10,7 +10,7 @@ function faq() {
         <h1 className="banner-hd">Quick answers to questions you may have.</h1>
         </div>
         <div className="container">
-          <div className="row  mt-5 mb-5">
+          <div className="row  mt-5 mb-5 faq-fs1">
             <h2 className="custom-main-hd-2">Tell us what you need</h2>
             <h5 className="custom-top-para-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less.</h5>
             <div className="s-f1 d-flex align-items-center">
@@ -21,7 +21,7 @@ function faq() {
           </div>
           
           <div className="container custom-section-ind">
-            <div className="row">
+            <div className="row faq-fs2">
               <div className="col-lg-6 col-sm-12">
                 <div className="row p-3 properties-list-2 rounded-3 mb-3">
                   <div className="col-lg-2 col-sm-12 ">
@@ -86,7 +86,7 @@ function faq() {
           
           <div className="faq-second-row mt-5 mb-5 custom-section-ind">
             <div className="container">
-              <div className="row">
+              <div className="row faq-fs3">
                 <h1 className="banner-hd-2">Top articles</h1>
                 <div className="mid-tabs d-flex flex-direction-column">
                   

@@ -50,6 +50,10 @@ p {
 .menu-main {
   margin: auto !important;
 }
+.menu-main li a {
+  display: flex;
+  gap: 8px;
+}
 
 #navbarcontainer {
   border-bottom: 1px solid #D5D7DE;
@@ -920,6 +924,8 @@ h2.custom-main-hd-2 {
 
 .s-f2 input[type="text"] {
   border: none;
+  width: -webkit-fill-available;
+  outline: none;
 }
 
 .spacer {
@@ -1991,7 +1997,10 @@ button.btn.grn-btn {
 
   display: flex;
   margin: auto;
-  padding-top: 53px;
+  padding-top: 0px;
+}
+.user-box.d-flex.m-0 img {
+  cursor: pointer;
 }
 
 .middle-sec2 h2 {
@@ -3162,6 +3171,7 @@ button.done-card-btn2 {
   flex-direction: column;
   gap: 16px;
   width: 47%;
+  background: white;
 }
 
 .col-6.ibox-1 img {
@@ -3222,6 +3232,7 @@ button.done-card-btn2 {
   padding: 0px;
   margin: 0px;
   text-align: center;
+  padding-top: 30px;
 }
 .row.property-row {
   gap: 32px;
@@ -3242,7 +3253,7 @@ ul.list-group2{
 
 .six-col.mt-5.mb-lg-5.mb-sm-1.custom-card-sec {
   text-align: center;
-  padding: 0px !important;
+  padding: 50px 0px 50px 0px !important;
 }
 
 .row.six-img-box-row {
@@ -3282,8 +3293,10 @@ ul.list-group2{
 .container-fluid.home-prop-cards {
   padding: 0px;
   margin: 60px auto;
+  padding-bottom: 20px;
 }
-.inv-btn {padding: 12px 16px;
+
+.inv-btn {padding: 12px 26px;
   border-radius: 8px;
   color: white;
   background: #1B2235;
@@ -3343,7 +3356,7 @@ ul.list-group2{
   font-size: 16px;
   margin-bottom: 40px;
 }
-.inv-btn2 {padding: 12px 26px;
+.inv-btn2 {padding: 12px 30px;
   border-radius: 8px;
   color: #1B2235;
   background: transparent;
@@ -3736,6 +3749,14 @@ button.inline-svg-icons-btn1 {
 section.main-grid2.d-flex.comp-profile {
   max-width: 550px !important;
   padding: 40px;
+  position: absolute;
+  right: -2px;
+  top: 88px;
+  background: white;
+  z-index: 4;
+}
+.middle-sec2.p-c-s img {
+  border: none !important;
 }
 
 
@@ -3784,8 +3805,8 @@ border-radius: 40px;
   font-size: 6px;
   line-height: 16px;
   position: absolute;
-  top: 0px !important;
-  left: 0px !important;
+  top: -2px !important;
+  left: -2px !important;
   width: 20px;
   height: 20px;
   content: '•';
@@ -4311,4 +4332,46 @@ input#range-km {
 
 .lg-inline .lg-backdrop, .lg-inline .lg-outer {
   position: fixed !important;
+}
+.custom-menu li.list-group-item {
+  gap: 8px !important;
+}
+p.card-text.w-img img {
+  padding: 0px 8px 0px 0px;
+}
+
+p.card-text {
+  display: flex;
+  gap: 6px;
+}
+
+p.card-text.w-img {
+  align-items: center;
+}
+
+.row.mt-5.mb-5.faq-fs1 {
+  padding-top: 0px;
+}
+
+.row.faq-fs3 {
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+.row.f-r-1 {
+  padding-top: 0px;
+}
+.row.f-r-2 {
+  padding-top: 30px;
+}
+.row.f-r-3 {
+  padding-top: 0px;
+}
+.row.f-r-4 {
+  padding-top: 50px;
+}
+.row.f-r-5 {
+  padding-top: 75px;
+}
+.n-fr-6 {
+ margin-bottom: 3rem !important;
 }

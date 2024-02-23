@@ -35,7 +35,7 @@ export default function footer() {
         </ul>
       </div>
     </div>
-    <div className="custom-divider mt-3 mb-3">
+    <div className="custom-divider mt-2 mb-3">
     </div>
     <div className="row footer-lt text-center">
       <h3 className="copy-hd">@ 2023 All rights reserved</h3>
