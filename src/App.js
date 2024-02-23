@@ -53,10 +53,24 @@ function App() {
         <Routes>
           <Route path="/faq" element={<Faq />} />
           {/* <Route path="/" element={<Home />} /> */}
-          {/* <Route path="/services" element={<Services />} /> */}
+          <Route path="/services" element={<Services />} />
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/properties" element={<Properties />} />
+          <Route path="/author" element={<Author />} />
+          <Route path="/signup" element={<Singup />} />
+          
+          <Route path="/claim" element={<Claim />} />
+          <Route path="/success" element={<Success />} />
+          <Route path="/verify" element={<Verify />} />
+
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile /> } />
+
+          <Route path="/wallet" element={<Wallet />} />
+          <Route path="/email-page" element={<Emailpage />} />
+
+          {/* <Route path="/email-page" element={<Emailpage />} /> */}
           {/* <Route path="/blog" element={<Blog />} />
           <Route path="/author" element={<Author />} />
           <Route path="/claim" element={<Claim />} />

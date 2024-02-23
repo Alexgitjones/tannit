@@ -6,22 +6,22 @@ import Data from '../../data/news.json';
 
 function Blog() {
 
-  // const [news,setnews] = useState([]);
-  // const [pagination,setpagination] = useState(6);
+  const [news,setnews] = useState([]);
+  const [pagination,setpagination] = useState(6);
 
 
-  // useEffect(() => {
-  //   const makedata = Data.filter((index,key) => { return key < 6 } )
-  //   setnews(makedata)
-  // },[]);
+  useEffect(() => {
+    const makedata = Data.filter((index,key) => { return key < 6 } )
+    setnews(makedata)
+  },[]);
 
 
-  // function handleloadmore(num){
-  //   num += 3;
-  //   const makedata = Data.filter((index,key) => { return key < num } )
-  //   setpagination(num)
-  //   setnews(makedata)
-  // }
+  function handleloadmore(num){
+    num += 3;
+    const makedata = Data.filter((index,key) => { return key < num } )
+    setpagination(num)
+    setnews(makedata)
+  }
   
     return (
       <div className="App">
