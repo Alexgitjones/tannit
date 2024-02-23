@@ -1679,6 +1679,9 @@ li.list-group-item {
 
 .col-lg-7.form-sec {
   padding: 28px 80px 0px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 
 }
 .v-a-p-wrapper {
