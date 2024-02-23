@@ -129,7 +129,11 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    padding-top: 0px;
   }
+  .content-1stbanner p {
+    width: 93%;
+}
   .custom-divider{
     background-color: #3C4B73 !important;
     width: 100%;
@@ -140,7 +144,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px; 
+    padding-top: 16px;
   }
   footer li.list-group-item {
     background-color: transparent;
@@ -151,6 +156,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    display: flex !important;
+    justify-content: flex-start !important;
   }
   footer h3{
     font-family: Hanken Grotesk;
@@ -209,7 +216,12 @@
   .third-left{
     display: grid;
     align-content: center;
+    padding: 0px !important;
+    
   }
+  .col-lg-7.col-sm-12 img {
+    max-width: 600px;
+}
   .custom-section-hd{
     color: rgba(0, 0, 0, 0.80);
     font-family: Inter;
@@ -282,6 +294,9 @@
     width: 208px;
     height: 48px;
     }
+    .sixth-row.mt-lg-5.mt-sm-1.mb-5.custom-section-ind.p-s-2 {
+      margin: 48px 0px 127px 0px !important;
+  }
   
   
   
@@ -362,3 +377,4 @@
   .footer-wrap{
     background: linear-gradient(103deg, #000 -1.43%, #2D3858 91.94%);
   }
+  

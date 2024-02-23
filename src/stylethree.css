@@ -62,7 +62,7 @@
     font-weight: 700; 
 }  */
 .tabs-section{
-    padding: 62px 0px 0px 32px;
+    padding: 27px 0px 0px 32px;
 }
 .tabs-section.d-flex.justify-content-start {
     margin: auto;
@@ -685,4 +685,13 @@ button.inline-svg-icons-btn1 {
 }
 .row.footer-lt.text-center {
     padding: 0px !important;
+}
+form.first-form-profile label {
+    font-weight: 700;
+    color: #1B2235;
+    font-size: 16px;
+    font-family: 'Hanken Grotesk';
+}
+.profile-main-tabs {
+    margin-bottom: 70px;
 }

@@ -1,5 +1,28 @@
+import React , { useState , useEffect } from 'react';
 import Header from "../../component/dashheader";
-function marketplace() {
+import Card from "../../component/marketplace-card";
+import Data from"../../data/market.json";
+import Filters from '../../component/filters'
+import Pricerange from '../../component/price-range'
+function Marketplace() {
+    const [market,setmarket] = useState([]);
+    const [pagination,setpagination] = useState(6);
+    const [showFilters, setShowFilters] = useState(false); 
+    const [showPricerange, setShowPricerange] = useState(false); 
+
+
+    useEffect(() => {
+    const makedata = Data.filter((index,key) => { return key < 6 } )
+    setmarket(makedata)
+    },[]);
+
+
+    function handleloadmore(num){
+    num += 3;
+    const makedata = Data.filter((index,key) => { return key < num } )
+    setpagination(num)
+    setmarket(makedata)
+    }
     return (
       <div className="App">
          <Header /> 
@@ -14,7 +37,9 @@ function marketplace() {
         </div>
         <div className="tf-sec d-flex flex-direction-column">
             <div className="tab d-flex flex-direction-column ">
-                <button className="tablinks tab">Price range<span><img src="assets/icons/1.svg" alt="" /></span></button>
+            <button onClick={() => setShowPricerange(!showPricerange)} className="tablinks tab">Price range<span><img src="assets/icons/1.svg"
+                                alt="" /></span></button>
+                                {showPricerange && <Pricerange />}
                 <div className="btn-group new-dropdown-btn">
                           <button className="btn btn-secondary ndb1 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                             Type
@@ -45,7 +70,9 @@ function marketplace() {
                             <li><a className="dropdown-item" href="/">Menu item</a></li>
                           </ul>
                         </div>
-                <button className="tablinks tab">Advanced filter<span><img src="assets/icons/5.svg" alt="" /></span></button>
+                        <button onClick={() => setShowFilters(!showFilters)} className="tablinks tab ad-filter">Advanced filter<span><img src="assets/icons/5.svg"
+                                alt="" /></span></button>
+                                {showFilters && <Filters />}
             </div>
             <div className="icon-input d-flex justify-content-center">
                 <input className="icon-input__text-field" type="text" placeholder="Search for property" />
@@ -69,9 +96,18 @@ function marketplace() {
         </div>
     </div>
     <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
-        <div className="col">
-            <div className="card">
-                <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+    
+        
+
+                {
+              market.map((index,key) =>(
+                <>
+                  <Card key={key} index={index} />
+                </>
+              ))
+            }
+
+                {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                             className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -151,10 +187,9 @@ function marketplace() {
 
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div className="col">
+                </div> */}
+            
+        {/* <div className="col">
             <div className="card2">
                 <div id="carouselExampleIndicators2" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
@@ -573,11 +608,11 @@ function marketplace() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
     </div>
     <div className="row justify-content-center mb-5">
-        <button className="bw-learn btn btn-show" type="search">Show more </button>
+        <button onClick={() => handleloadmore(pagination)}  className="bw-learn btn btn-show" type="search">Show more </button>
     </div>
 </div>
 
@@ -591,4 +626,4 @@ function marketplace() {
     );
   }
   
-  export default marketplace;
+  export default Marketplace;

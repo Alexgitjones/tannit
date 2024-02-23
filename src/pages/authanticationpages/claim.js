@@ -17,8 +17,8 @@ function claim() {
         </div>
     </nav>
     <section className="main-grid2 d-flex">
-        <div className="container">
-            <div className="row">
+        <div className="container m-wrapper-c-a-p">
+            <div className="row c-a-p">
                 <div className="middle-sec">
                     <img src="assets/images/flowers.png" alt="" />
                     <h2>Profile created!</h2>
@@ -28,7 +28,7 @@ function claim() {
                     <div className="claim-last-sec">
                     <img src="assets/images/coin-Group.png" alt="" />
                     <h2>40 TANNIT</h2>
-                    <button className="btn grn-btn">Claim now</button>
+                    <button className="btn grn-btn nd-sp-btn">Claim now</button>
                 </div>
             </div>
             </div>

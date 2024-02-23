@@ -1,5 +1,26 @@
+import React , { useState , useEffect } from 'react';
 import Header from "../../component/dashheader";
+import Card from "../../component/property-card";
+import Data from "../../data/properties.json";
 function Profile() {
+  const [property,setproperty] = useState([]);
+  const [pagination,setpagination] = useState(6);
+
+
+  useEffect(() => {
+  const makedata = Data.filter((index,key) => { return key < 6 } )
+  setproperty(makedata)
+  },[]);
+
+
+  function handleloadmore(num){
+  num += 3;
+  const makedata = Data.filter((index,key) => { return key < num } )
+  setpagination(num)
+  setproperty(makedata)
+  }
+
+
     return (
     <div className="App">
        <Header /> 
@@ -41,7 +62,7 @@ function Profile() {
         </li>
       </ul>
     </div>
-    <div className="tab-content" id="myTabContent">
+    <div className="tab-content profile-main-tabs" id="myTabContent">
       <div className="tab-pane fade show active" id="my-detail" role="tabpanel" aria-labelledby="my-detail-tab">
         <div className="container-fluid">
           <div className="row w-100">
@@ -49,11 +70,11 @@ function Profile() {
               <h2>Personal information</h2>
               <p>Update your photo and personal details.</p>
             </div>
-            <div className="col-8 my-detail">
-              <form>
+            <div className="col-8 my-detail ">
+              <form className='first-form-profile'>
                 <div className="mb-3">
                   <label for="exampleInputEmail1" className="form-label">Full name</label>
-                  <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Demo@moon.in" />
+                  <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Demo@moon.in" />
                 </div>
                 <div className="mb-3">
                   <label for="disabledSelect" className="form-label">Who are</label>
@@ -63,7 +84,7 @@ function Profile() {
                 </div>
                 <div className="mb-3">
                   <label for="exampleInputEmail1" className="form-label">Phone number</label>
-                  <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Demo@moon.in" />
+                  <input type="number" className="form-control" id="exampleInputEmail1" placeholder="Phone number" />
                 </div>
                 <div className='input-group date mb-3' id='picker'>
                   <input type='date' className="form-control" />
@@ -73,15 +94,15 @@ function Profile() {
                 </div>
                 <div className="mb-3">
                   <label for="exampleInputEmail1" className="form-label">Place of birth</label>
-                  <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Earth" />
+                  <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Earth" />
                 </div>
                 <div className="mb-3">
                   <label for="exampleInputEmail1" className="form-label">Department of birth</label>
-                  <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Somewhre else" />
+                  <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Somewhre else" />
                 </div>
                 <div className="mb-3">
                   <label for="exampleInputEmail1" className="form-label">Native country</label>
-                  <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Another place" />
+                  <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Another place" />
                 </div>
 
                 <hr className="divider" />
@@ -100,7 +121,7 @@ function Profile() {
               <p>Update your photo and personal details.</p>
             </div>
             <div className="col-8 my-detail">
-              <form>
+              <form className='first-form-profile'>
                 <div className="mb-3">
                   <label for="exampleInputEmail1" className="form-label">Country *</label>
                   <input type="email" className="form-control" id="exampleInputEmail1" placeholder="United Kingdom" />
@@ -142,7 +163,7 @@ function Profile() {
           <div className="row w-100">
             <div className="col-4">
               <h2>The path to wealth</h2>
-              <p>True wealth is being able to fully enjoy the present moment without being hindered by regrets from the
+              <p className='custom-bg-para'>True wealth is being able to fully enjoy the present moment without being hindered by regrets from the
                 past or worries about the future.<br /> <br />___ HSteven
               </p>
               <img className="quote" src="assets/icons-2/quotes 1.png" alt="" / >
@@ -616,10 +637,18 @@ function Profile() {
 
                 </div>
             </div>
-              <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
-                <div className="col">
-                    <div className="card">
-                        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+              <div className="row row-cols-1 row-cols-md-3 g-4 mb-5 amj-ppage">
+             
+
+                    {
+              property.map((index,key) =>(
+                <>
+                  <Card key={key} index={index} />
+                </>
+              ))
+            }
+
+                        {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                     className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -702,10 +731,9 @@ function Profile() {
   
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
+                        </div> */}
+                
+                {/* <div className="col">
                     <div className="card2">
                         <div id="carouselExampleIndicators2" className="carousel slide" data-bs-ride="carousel">
                             <div className="carousel-indicators">
@@ -1140,13 +1168,13 @@ function Profile() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
   
             </div>
             </div>
-          <div className="row justify-content-center mb-5 referral-lbtn">
-              <button className="bw-learn btn btn-show" type="search">Show more </button>
-          </div>
+            {/* <div className="row justify-content-center mb-5">
+            <button onClick={() => handleloadmore(pagination)} className="bw-learn btn btn-show" type="search">Show more </button>
+        </div> */}
 
 
 

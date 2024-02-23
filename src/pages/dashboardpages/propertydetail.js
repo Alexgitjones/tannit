@@ -1,16 +1,36 @@
+import React , { useState } from 'react';
 import Header from "../../component/dashheader";
+import Range from "../../component/range";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-function propertydetail() {
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        centerMode: true,
-        variableWidth: true
-      };
+import Mgallery from "../../component/main-gallery";
+
+    const Propertydetail = () => {
+        const [showMgallery, setShowMgallery] = useState(false);
+        const settings = {
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ],
+        };
+
+      
+
     return (
       <div className="App">
         <Header /> 
@@ -27,22 +47,20 @@ function propertydetail() {
         </div>
     </section>
     <section>
-        <div className="container fullw-li">
-            <ul className="list-group list-group-horizontal-xl">
-           
-                <li className="list-group-item"><span>£921</span>  Rental income</li>
-                <li className="list-group-item"><span>6.5%</span>  Gross yield</li>
-                <li className="list-group-item"><span>£42.500</span>   Minimun deposit</li>
-                <li className="list-group-item"><span>8.5%</span>   Rental growth</li>
-                <li className="list-group-item"><span>3.0%</span>   Cap growth</li>
-                <li className="list-group-item"><span>£921</span>  Rental income</li>
-                <li className="list-group-item"><span>6.5%</span>  Gross yield</li>
-                <li className="list-group-item"><span>£42.500</span>   Minimun deposit</li>
-                <li className="list-group-item"><span>8.5%</span>   Rental growth</li>
-                <li className="list-group-item"><span>3.0%</span>   Cap growth</li>
-
-            </ul>
-        </div>
+      <div className="container fullw-li">
+        <Slider {...settings}>
+          <div className="list-group-item"><span>£921</span> Rental income</div>
+          <div className="list-group-item"><span>6.5%</span> Gross yield</div>
+          <div className="list-group-item"><span>£42.500</span> Minimum deposit</div>
+          <div className="list-group-item"><span>8.5%</span> Rental growth</div>
+          <div className="list-group-item"><span>3.0%</span> Cap growth</div>
+          <div className="list-group-item"><span>£921</span> Rental income</div>
+          <div className="list-group-item"><span>6.5%</span> Gross yield</div>
+          <div className="list-group-item"><span>£42.500</span> Minimum deposit</div>
+          <div className="list-group-item"><span>8.5%</span> Rental growth</div>
+          <div className="list-group-item"><span>3.0%</span> Cap growth</div>
+        </Slider>
+      </div>
     </section>
     <div className="container-fluid artical-cont " style={{'maxWidth': '1440px'}}>
 
@@ -58,14 +76,15 @@ function propertydetail() {
                         <div className="col-lg-6 img-width img-col d-flex justify-content-center "><img
                                 src="assets/images/Imag3.png" alt="/" /></div>
                         <div className="col img-col bt-box">
-                            <button className="img-btn">
+                            <button onClick={() => setShowMgallery(!showMgallery)} className="img-btn">
                                 <img src="assets/icons/gallery.svg" alt="/" />
                                 All 12 photos
                             </button>
-                            <button className="img-btn">
+                            {showMgallery && <Mgallery />}
+                            <button onClick={() => setShowMgallery(!showMgallery)}  className="img-btn">
                                 <img src="assets/icons/360.svg" alt="/" />Virtual tour
                             </button>
-
+                            {showMgallery && <Mgallery />}
                         </div>
                     </div>
                 </div>
@@ -218,8 +237,8 @@ function propertydetail() {
                                 </div>
                                 <div className="col performance-detail ">
                                     <h3 className="ec-head">Estimation of energy consumption and greenhouse gas emissions:</h3>
-                                    <p className="trick"> <img src="assets/icons/spark.svg" />Energy consumption <span>50kWh/m² per year</span> </p>
-                                    <p className="trick2"> <img src="assets/icons/spark2.svg" />Greenhouse gas emissions <span>6 kg CO2/m² per year</span> </p>
+                                    <p className="trick"> <img src="assets/icons/spark.svg" alt="/" />Energy consumption <span>50kWh/m² per year</span> </p>
+                                    <p className="trick2"> <img src="assets/icons/spark2.svg" alt="/" />Greenhouse gas emissions <span>6 kg CO2/m² per year</span> </p>
 
                                 </div>
                                 <div className="col-lg-12 accordian-cont ">
@@ -300,7 +319,7 @@ function propertydetail() {
                                     <p className="card-text"><span><img src="assets/icons/loc.svg" alt="/" / ></span>
                                         Orange street, United Kingdom 5012
                                     </p>
-                                    <img src="assets/images/Map.png"/>
+                                    <img src="assets/images/Map.png"alt="/" />
                                     <div className="tab-inner2">
                                         <h5>Surrounded by</h5>
                                         <div className="row">
@@ -339,37 +358,7 @@ function propertydetail() {
                                             </div>
                                             </div>
                                             <div className="row2">
-                                            <div className="col-lg-12 amont-line">
-                                                
-                                                <label for="customRange3" className="form-label">Select your investment amount</label>
-                                                <div id="search-bar">
-                                            <form
-                                             id="product-search-bar"
-                                                action=""
-                                                method="POST"
-                                                >
-                                            <div className="input-group">
-                                                     
-                                            <div className="input-group-append">
-                                            <div className="range-wrap">
-                                            <div className="range-value" id="rangeV"></div>
-                                            <input
-                                                    id="range-km"
-                                                    name="range-km"
-                                                    type="range"
-                                                    min="0"
-                                                    max="500"
-                                                    value="0"
-                                                    step="5"
-                                              />
-                                                        </div>
-                                                        
-                                                      </div>
-                                                    </div>
-                                                  </form>
-                                                </div>
-                                                
-                                            </div>
+                                            <Range></Range>
                                         </div>
                                             
                                         
@@ -551,6 +540,8 @@ function propertydetail() {
 
  </div>
     );
-  }
+
+};
   
-  export default propertydetail;
+  
+  export default Propertydetail;

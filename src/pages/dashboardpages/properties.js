@@ -1,10 +1,15 @@
     import React , { useState , useEffect } from 'react';
     import Header from "../../component/dashheader";
+    import Propertycard from "../../component/property-card";
     import Data from "../../data/properties.json";
+    import Filters from '../../component/filters'
+    import Pricerange from '../../component/price-range'
     function Properties() {
         const [property,setproperty] = useState([]);
         const [pagination,setpagination] = useState(6);
-    
+        const [showFilters, setShowFilters] = useState(false); 
+        const [showPricerange, setShowPricerange] = useState(false); 
+        
     
         useEffect(() => {
         const makedata = Data.filter((index,key) => { return key < 6 } )
@@ -33,8 +38,9 @@
             </div>
             <div className="tf-sec d-flex flex-direction-column">
                 <div className="tab d-flex flex-direction-column ">
-                    <button className="tablinks tab">Price range<span><img src="assets/icons/1.svg"
+                    <button onClick={() => setShowPricerange(!showPricerange)} className="tablinks tab">Price range<span><img src="assets/icons/1.svg"
                                 alt="" /></span></button>
+                                {showPricerange && <Pricerange />}
                                     <div className="btn-group new-dropdown-btn">
                             <button className="btn btn-secondary ndb1 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                                 Type
@@ -65,9 +71,10 @@
                                 <li><a className="dropdown-item" href="/">Menu item</a></li>
                             </ul>
                             </div>
-                    <button className="tablinks tab">Advanced filter<span><img src="assets/icons/5.svg"
+                    <button onClick={() => setShowFilters(!showFilters)} className="tablinks tab ad-filter">Advanced filter<span><img src="assets/icons/5.svg"
                                 alt="" /></span></button>
-                </div>
+                                {showFilters && <Filters />}
+                </div> 
                 <div className="icon-input d-flex justify-content-center">
                     <input className="icon-input__text-field" type="text" placeholder="Search for property" />
                     <i className="fa fa-search"></i>
@@ -85,18 +92,24 @@
             <div>
                 <div className="result-text d-flex spb-btn">
                     <p>Showing<strong>115 property</strong> that match your search criteria</p>
-                    <button className="mp-btn">Sort by (Date)<span><img src="assets/icons/updown.svg" alt="" /></span></button>
+                    <button className="mp-btn">Sort by (Recently added)<span><img src="assets/icons/updown.svg" alt="" /></span></button>
 
                 </div>
             </div>
             </div>
         </div>
         <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
-            {
-        property.map((index,key) => ( 
-            <div key={key} className="col">
-                <div className="card">
-                    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+            
+
+                    {
+              property.map((index,key) =>(
+                <>
+                  <Propertycard key={key} index={index} />
+                </>
+              ))
+            }
+
+                    {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                 className="active" aria-current="true" aria-label="Slide 1"> <img src="assets/icons/slider-active.svg" alt="" /></button>
@@ -179,11 +192,8 @@
 
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            ))
-        }
+                    </div> */}
+               
             {/* <div className="col">
                 <div className="card2">
                     <div id="carouselExampleIndicators2" className="carousel slide" data-bs-ride="carousel">

@@ -35,8 +35,11 @@ import Autanticationheader from './component/authanticationheader';
 import DashHeader from './component/dashheader';
 import Completeprofile from './component/complete-profile';
 import Pricerange from './component/price-range';
+import Range from './component/range';
 import Donecard from './component/donecard';
 import Filters from './component/filters';
+import Mgallery from './component/main-gallery';
+import Smallcard from './component/small-card';
 import {
   BrowserRouter as Router,
   Routes,
@@ -55,6 +58,9 @@ function App() {
           {/* <Route path="/" element={<Home />} /> */}
           <Route path="/services" element={<Services />} />
           <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/gallery" element={<Mgallery />} />
+          <Route path="/small-card" element={<Smallcard />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/author" element={<Author />} />
@@ -70,30 +76,42 @@ function App() {
           <Route path="/wallet" element={<Wallet />} />
           <Route path="/email-page" element={<Emailpage />} />
 
-          {/* <Route path="/email-page" element={<Emailpage />} /> */}
-          {/* <Route path="/blog" element={<Blog />} />
-          <Route path="/author" element={<Author />} />
-          <Route path="/claim" element={<Claim />} />
           <Route path="/claimed" element={<Claimed />} />
-          <Route path="/signup" element={<Singup />} />
-          <Route path="/success" element={<Success />} />
-          <Route path="/verify" element={<Verify />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/property-compare" element={<Propertycompare />} />
+
+          {/* <Route path="/marketplace" element={<Marketplace />} />
+          <Route path="/price-range" element={<Pricerange />} />
+          <Route path="/complete-profile" element={<Completeprofile />} />
+          
+          <Route path="/selling-shares" element={<Sellingshare />} />
+          <Route path="/purchase-confirm" element={<Purchaseconfirm />} /> */}
+          {/* 
+
+          
+          
+          <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/property-detail" element={<Propertydetail />} />
-          <Route path="/property-compare" element={<Propertycompare />} />
+          <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
+          <Route path="/my-investment" element={<Myinvestment />} />
+          <Route path="/author" element={<Author />} />
+          <Route path="/signup" element={<Singup />} />
+          <Route path="/verify" element={<Verify />} />
+          <Route path="/claim" element={<Claim />} />
+          <Route path="/claimed" element={<Claimed />} />
+          <Route path="/success" element={<Success />} />
+          <Route path="/filters" element={<Filters />} />
+          {/* <Route path="/blog" element={<Blog />} />
           <Route path="/properties" element={<Properties />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/property-compare" element={<Propertycompare />} />
           <Route path="/selling-shares" element={<Sellingshare />} />
           <Route path="/email-page" element={<Emailpage />} />
-          <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/marketplace-two" element={<Marketplacetwo />} />
           <Route path="/wallet" element={<Wallet />} />
           <Route path="/wallet-two" element={<Wallettwo />} />
-          <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
-          <Route path="/my-investment" element={<Myinvestment />} />
           <Route path="/complete-profile" element={<Completeprofile />} />
           <Route path="/price-range" element={<Pricerange />} />
-          <Route path="/filters" element={<Filters />} />
           <Route path="/investment-card" element={<Investmentcard />} />
           <Route path="/investment-card2" element={<Investmentcard2 />} />
           <Route path="/Property-card" element={<Propertycard />} />

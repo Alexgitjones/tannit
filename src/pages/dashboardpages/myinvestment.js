@@ -1,5 +1,26 @@
+import React , { useState , useEffect } from 'react';
 import Header from "../../component/dashheader";
-function myinvestment() {
+// import Card2 from "../../component/investment-card2";
+import Data from "../../data/investment.json";
+import Investmentcard from '../../component/investment-card';
+function Myinvestment() {
+
+    const [investment,setinvestment] = useState([]);
+        const [pagination,setpagination] = useState(3);
+    
+    
+        useEffect(() => {
+        const makedata = Data.filter((index,key) => { return key < 3 } )
+        setinvestment(makedata)
+        },[]);
+    
+    
+        function handleloadmore(num){
+        num += 3;
+        const makedata = Data.filter((index,key) => { return key < num } )
+        setpagination(num)
+        setinvestment   (makedata)
+        }
     return (
       <div className="App">
          <section>
@@ -19,9 +40,16 @@ function myinvestment() {
         </div>
     </div>
     <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
-        <div className="col">
-            <div className="card">
-                <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+    
+       
+                    {
+              investment.map((index,key) =>(
+                <>
+                  <Investmentcard key={key} index={index} />
+                </>
+              ))
+            }
+                {/* <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                             className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -35,10 +63,8 @@ function myinvestment() {
                             <img src="assets/images/Image1.png" className="d-block w-100" alt="..." />
                             <button className="image-btn"><img src="assets/icons/leaf.svg" alt="" />Eco
                                 Friendly</button>
-                                <button className="image-btn-2"><img src="assets/icons/clock.svg"
-                                    alt="" />Greenification</button>
-                                    <button className="image-btn-3"><img src="assets/icons/stars.svg"
-                            alt="" />Featured</button>
+                             
+                            
                             <button className="image-btn-4"><img src="assets/icons/hleaf.svg" alt="" />125 <img
                                     src="assets/icons/up.svg " alt="" />0.2% </button>
 
@@ -100,10 +126,9 @@ function myinvestment() {
 
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div className="col">
+                </div> */}
+          
+        {/* <div className="col">
             <div className="card2">
                 <div id="carouselExampleIndicators2" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
@@ -262,8 +287,12 @@ function myinvestment() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
+
     </div>
+    <div className="row justify-content-center mb-5">
+            <button onClick={() => handleloadmore(pagination)} className="bw-learn btn btn-show" type="search">Show more </button>
+        </div>
     </div>
         
 
@@ -272,4 +301,4 @@ function myinvestment() {
     );
   }
   
-  export default myinvestment;
+  export default Myinvestment;

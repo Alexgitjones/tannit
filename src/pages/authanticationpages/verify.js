@@ -5,8 +5,9 @@ function verify() {
         <Header /> 
       <section className="main-grid">
         <div className="container">
-            <div className="row">
+            <div className="row v-a-p">
                 <div className="col-lg-7 form-sec">
+                  <div className="v-a-p-wrapper">
                     <h4><span><img src="assets/icons/left.svg" alt="" /></span> Go back</h4>
                     <h2>Verify your email address</h2>
                     <p className="v-formtext">We emailed you a four-digit code to demo@moon.tn,
@@ -28,10 +29,11 @@ function verify() {
                                     <h3>Didn't receive code?<span className="red1">Resend</span></h3>
                                 </div>
                               <button type="submit" className="w-100 btn vf-btn">Finish</button>
+                              
                         
                     </form>   
                      
-
+                    </div>
                 </div>
                 <div className="col-lg-5 img-sec p-0 m-0">
                     <img src="assets/images/rightbanner2.png" alt="" />

@@ -1,6 +1,8 @@
-import React from 'react'
+import React , { useState } from 'react';
+import Completeprofile from '../component/complete-profile'
 
 export default function DashHeader() {
+    const [showCompleteprofile, setShowCompleteprofile] = useState(false); 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light dash-head" id="navbarcontainer">
         <div className="container-fluid ">
@@ -44,7 +46,8 @@ export default function DashHeader() {
                     <button className="btn-6 " type="notification">
                         <img src="assets/icons/Font awesome bell.svg" alt="img" /></button>
                     <div className="user-box d-flex m-0">
-                        <img src="assets/images/Avatar.png" alt="img" />
+                        <img onClick={() => setShowCompleteprofile(!showCompleteprofile)} src="assets/images/Avatar.png" alt="img" />
+                        {showCompleteprofile && <Completeprofile />}
                         <div className="btn-group new-dropdown-btn">
                           <button className="btn btn-secondary ndb2 dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
                           <span> <img src="assets/icons/dashheader.svg" alt="/" />   </span>

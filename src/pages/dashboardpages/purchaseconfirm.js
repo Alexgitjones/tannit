@@ -1,4 +1,6 @@
 import Header from "../../component/dashheader";
+import Range from "../../component/range";
+
 function purchaseconfirm() {
     return (
       <div className="App">
@@ -78,12 +80,9 @@ function purchaseconfirm() {
                 </div>
             </div>
             <div className="row2">
-                <div className="col-lg-12 amont-line">
-
-                    <label for="customRange3" className="form-label">Select your investment amount</label>
-                    <input type="range" className="form-range" min="0" max="5" step="0.5" id="customRange3" />
-
-                </div>
+                <div className="payment-prange">
+               <Range></Range>
+               </div>
             </div>
 
 
