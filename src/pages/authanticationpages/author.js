@@ -6,7 +6,7 @@ function Author() {
            <Header />
       <section className="main-grid">
         <div className="container">
-            <div className="row">
+            <div className="row a-main-r">
                 <div className="col-lg-7 form-sec">
                     <h4>Register</h4>
                     <h2>Create your account</h2>
@@ -22,7 +22,7 @@ function Author() {
                         <label htmlFor="fname">Email/ Mobile Number</label><br />
                         <div className="img-form">
                                 <span><img src="assets/icons/before Icon.svg" alt="" /></span>
-                            <input type="text" id="fname" name="fname" defaultValue= "Enter your email address or mobile number..." /><br />
+                            <input type="text" id="fname" name="fname" placeholder="Enter your email address or mobile number..." defaultValue= "" /><br />
                         </div>
                             <input type="submit" defaultValue="Proceed" />
                     </form>   

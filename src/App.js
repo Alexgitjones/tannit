@@ -67,15 +67,15 @@ function App() {
           <Route path="/property-detail" element={<Propertydetail />} />
           <Route path="/purchase-confirm" element={<Purchaseconfirm />} />
           <Route path="/my-investment" element={<Myinvestment />} />
-          <Route path="/filters" element={<Filters />} />
-          {/* <Route path="/blog" element={<Blog />} />
-          <Route path="/verify" element={<Verify />} />
-          <Route path="/properties" element={<Properties />} />
           <Route path="/author" element={<Author />} />
+          <Route path="/signup" element={<Singup />} />
+          <Route path="/verify" element={<Verify />} />
           <Route path="/claim" element={<Claim />} />
           <Route path="/claimed" element={<Claimed />} />
-          <Route path="/signup" element={<Singup />} />
           <Route path="/success" element={<Success />} />
+          <Route path="/filters" element={<Filters />} />
+          {/* <Route path="/blog" element={<Blog />} />
+          <Route path="/properties" element={<Properties />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/property-compare" element={<Propertycompare />} />
           <Route path="/selling-shares" element={<Sellingshare />} />

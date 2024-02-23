@@ -1679,6 +1679,10 @@ li.list-group-item {
 
 .col-lg-7.form-sec {
   padding: 28px 80px 0px 150px;
+
+}
+.v-a-p-wrapper {
+  
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1833,8 +1837,8 @@ p.form-bottom2 span {
 
 .m-f span img {
   position: absolute;
-  top: 18px;
-  left: 6px;
+  top: 19px;
+  left: 16px;
 }
 
 
@@ -1845,7 +1849,7 @@ p.form-bottom2 span {
 
 .m-f input#email {
   width: 100%;
-  padding: 8px 30px;
+  padding: 8px 46px;
   border: 1px solid #E3E8EF;
   border-radius: 8px;
   color: #000;
@@ -1857,7 +1861,7 @@ p.form-bottom2 span {
 
 .m-f input#password {
   width: 100%;
-  padding: 8px 30px;
+  padding: 8px 46px;
   border: 1px solid #E3E8EF;
   border-radius: 8px;
   color: #000;
@@ -1884,6 +1888,7 @@ p.v-formtext {
   border: 1px solid #C0C3CD !important;
   border-radius: 16px !important;
   text-align: center;
+  font-size: 22px;
 }
 
 .m-vf .d-flex.mb-3 {
@@ -1897,6 +1902,7 @@ p.v-formtext {
   display: inline-flex;
   color: #4B5565;
   font-weight: 400;
+  gap: 5px;
 }
 
 .v-form-last-count-sec h3 span {
@@ -1971,7 +1977,7 @@ section.main-grid2.d-flex {
 }
 
 .claim-last-sec img {
-  padding: 10px 0px !important;
+  padding: 30px 0px 0px 0px !important;
 }
 
 .claim-last-sec h2 {
@@ -2004,9 +2010,9 @@ button.btn.grn-btn {
 }
 
 .middle-sec2 h2 {
-  font-size: 24px;
+  font-size: 24px !important;
   color: #1B2235;
-  font-weight: 700;
+  font-weight: 800;
   font-family: 'Hanken Grotesk';
   line-height: 34px;
   padding: 16px 0px;
@@ -2017,7 +2023,11 @@ button.btn.grn-btn {
   font-size: 14px;
   font-weight: 500;
   color: #1B2235;
-  padding: 0px;
+  padding:  0px;
+  margin: 0px;
+}
+.middle-sec2 p.mt-1 {
+  padding-bottom: 20px !important;
 }
 
 .middle-sec2 {
@@ -4374,4 +4384,35 @@ p.card-text.w-img {
 }
 .n-fr-6 {
  margin-bottom: 3rem !important;
+}
+.row.a-main-r {
+  padding-top: 0px;
+}
+.row.s-u-a {
+  padding-top: 0px;
+}
+.row.v-a-p {
+  padding: 0px;
+}
+.c-a-p{
+  padding-top: 0px;
+}
+.row.cd-a-p {
+  padding-top: 40px;
+}
+section.main-grid2.d-flex.s-p-am {
+  max-width: 477px;
+}
+
+.row.s-p-ar {
+  padding-top: 40px;
+}
+.nd-sp-btn {
+  width: 477px !important;
+}
+.container.iner-wrap-cd-a-p {
+  max-width: 477px;
+}
+.container.m-wrapper-c-a-p {
+  max-width: 477px;
 }

@@ -5,7 +5,7 @@ function signup() {
             <Header />          
       <section className="main-grid">
         <div className="container">
-            <div className="row">
+            <div className="row s-u-a">
                 <div className="col-lg-7 form-sec">
                     <h4><span><img src="assets/icons/left.svg" alt="img" /></span> Go back</h4>
                     <h2>Sign up with your e-mail</h2>
@@ -18,12 +18,12 @@ function signup() {
                         <label for="email">Email</label><br />
                         <div className="img-form">
                         <span><img src="assets/icons/mail.svg" alt="" /></span>
-                        <input type="email" id="email" name="email" value= "demo@moon.tn" /><br />
+                        <input type="email" id="email" name="email" placeholder="demo@moon.tn" defaultValue= "" /><br />
                         </div>
                         <label for="password">Choose password</label><br />
                         <div className="img-form2">
                                <span><img src="assets/icons/lock.svg" alt="" /></span>
-                            <input type="text" id="password" name="password" value= "Minimum 8 characters..." /><br />
+                            <input type="text" id="password" name="password" placeholder="Minimum 8 characters..." defaultValue= ""  /><br />
                         </div>
                             <input type="submit" value="Send verification code" />
                     </form>   

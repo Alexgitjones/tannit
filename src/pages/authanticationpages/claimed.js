@@ -6,8 +6,8 @@ function claimed() {
       <div>
     
     <section className="main-grid2 d-flex">
-        <div className="container">
-            <div className="row">
+        <div className="container iner-wrap-cd-a-p">
+            <div className="row cd-a-p">
                 <div className="middle-sec2">
                     <img src="assets/images/flowers.png" alt="" />
                     <h2>Profile created!</h2>
@@ -17,7 +17,7 @@ function claimed() {
                     <div className="claim-last-sec">
                     <img src="assets/images/Icon container 1.png" alt="" />
                     <h2>40 Tannit are now yours</h2>
-                    <button className="btn grn-btn2">Move on</button>
+                    <button className="btn grn-btn2 nd-sp-btn">Move on</button>
                 </div>
             </div>
             </div>
