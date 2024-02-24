@@ -49,7 +49,7 @@ export default function Smallcard() {
             <h3>143K €</h3>
           </div>
           <div className="detail-sec">
-            <h4>Standpoint Tower A Downtown</h4>
+            <h4 className='bold-heading-scard'>Standpoint Tower A Downtown</h4>
           </div>
           <div className="small-sec">
             <h6>Profitability <span>18,35%</span></h6>

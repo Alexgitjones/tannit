@@ -51,7 +51,7 @@ function addmoney() {
                                   <label for="basic-note" className="form-label note">Note: 1 TANNIT = 10£</label>
                             </div>
                             <div className="col-12 new-radio-2">
-                              <h3>Add Money to Your Pot: Boost Your Savings with Contributions</h3>
+                              <h3>Payement method</h3>
                               <div className="mr-1 row d-flex">
                                 <div className="form-radio-check2 col-4">
                                     <input className="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" />

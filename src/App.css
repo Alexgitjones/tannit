@@ -2770,6 +2770,7 @@ section.main-cont-comp {
 
 .mr-1.row.d-flex {
   gap: 8px;
+  padding-top: 0px;
 }
 
 .form-radio-check.col-4 input {
@@ -2825,10 +2826,11 @@ p.amount {
   font-weight: 600;
 }
 .col-12.not-sec h5 {
-  font-size: 32px;
+  font-size: 28px;
   color: #1B2235;
   font-weight: 800;
   font-family: 'Hanken Grotesk';
+  padding-top: 8px;
 }
 
 .col-12.not-sec {
@@ -2848,12 +2850,14 @@ p.amount {
   margin: 0px;
   color: #1B2235;
   font-weight: 800;
+  padding: 16px 0px;
 }
 .form-radio-check2.col-4 h4 {
   color: #1B2235;
   font-size: 16px;
   font-weight: 400;
   text-align: justify;
+  padding: 0px !important;
 }
 .form-radio-check2.col-4 input {
   position: absolute;
@@ -2872,18 +2876,20 @@ p.amount {
   font-family: 'Hanken Grotesk';
 }
 .form-radio-check2.col {
-  padding: 16px 20px;
+  padding: 0px 16px;
   text-align: center;
   border: 2px solid #EAEBEE;
   border-radius: 8px;
   background: white;
+  height: 72px;
 }
 .form-radio-check2.col-4 {
-  padding: 16px 20px;
+  padding: 0px 16px;
   text-align: center;
   border: 2px solid #EAEBEE;
   border-radius: 8px;
   background: white;
+  height: 72px;
 }
 .form-radio-check2.col input {
   position: absolute;
@@ -2935,7 +2941,7 @@ button.btn.radio-btn-2.btn-primary {
 }
 
 section.main-sel-comp {
-  margin: 40px auto;
+  margin: auto;
   padding:  40px 40px 0px 40px;
   background: #fff;
   border-radius: 16px;
@@ -3102,6 +3108,7 @@ button.done-card-btn1 {
   font-size: 14px;
   border-radius: 8px;
   border: none !important;
+  margin-top: 24px;
 }
 button.done-card-btn2 {
   width: 100%;
@@ -4363,7 +4370,10 @@ input#range-km {
     border: none;
     padding: 0px;
 }
-
+h4.bold-heading-scard {
+  color: #1B2235;
+  font-weight: 600;
+}
 
 
 .ar-inline-btn1.d-flex.col button {
@@ -4545,4 +4555,18 @@ h5.pd-tr-hd {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+.col-12.not-sec2 p {
+  font-weight: 700;
+  color: #1B2235;
+  font-size: 16px;
+}
+
+.org-text {
+  padding-bottom: 16px;
+}
+.col-12.not-sec p {
+  margin-bottom: 8px !important;
+  font-weight: bold;
+  color: #1B2235;
 }

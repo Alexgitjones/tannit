@@ -3,7 +3,7 @@ import React from 'react'
 export default function Donecard() {
   return (
     <body>
-    <div className="container" style={{'max-width': '477px'}} >
+    <div className="container" style={{'max-width': '557px'}} >
     <div className="row main-card-row ">
        <div className="col-12 done-col d-flex align-item-center m-0">
            <img src="assets/images/flowers2.png" alt=""/>
