@@ -56,12 +56,39 @@ function App() {
         <Routes>
           <Route path="/faq" element={<Faq />} />
           {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/services" element={<Services />} />
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Mgallery />} />
           <Route path="/small-card" element={<Smallcard />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/properties" element={<Properties />} />
+          <Route path="/author" element={<Author />} />
+          <Route path="/signup" element={<Singup />} />
+          
+          <Route path="/claim" element={<Claim />} />
+          <Route path="/success" element={<Success />} />
+          <Route path="/verify" element={<Verify />} />
+
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile /> } />
+
+          <Route path="/wallet" element={<Wallet />} />
+          <Route path="/email-page" element={<Emailpage />} />
+
+          <Route path="/claimed" element={<Claimed />} />
+          <Route path="/property-compare" element={<Propertycompare />} />
+
+          {/* <Route path="/marketplace" element={<Marketplace />} />
+          <Route path="/price-range" element={<Pricerange />} />
+          <Route path="/complete-profile" element={<Completeprofile />} />
+          
+          <Route path="/selling-shares" element={<Sellingshare />} />
+          <Route path="/purchase-confirm" element={<Purchaseconfirm />} /> */}
+          {/* 
+
+          
+          
           <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/property-detail" element={<Propertydetail />} />
