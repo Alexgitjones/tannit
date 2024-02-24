@@ -203,7 +203,7 @@ function Profile() {
                 </div>
               </div>
               <div className="head-main2 row d-flex">
-                <h2>Where does the amount you want to invest come from?</h2>
+                <h2 className='rj-custom-font'>Where does the amount you want to invest come from?</h2>
                 <div className="form-check1 col-6">
                   <h4>Saving</h4>
                   <input className="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" />
@@ -236,7 +236,7 @@ function Profile() {
                 </div>
               </div>
               <div className="head-main3 row d-flex">
-                <h2>Will you diversify your investment portfolio across various assets or concentrate investments in a
+                <h2 className='rj-custom-font'>Will you diversify your investment portfolio across various assets or concentrate investments in a
                   specific area? </h2>
                 <div className="row 2">
                   <div className="col-6">
@@ -294,8 +294,10 @@ function Profile() {
           <div className="row w-100">
             <div className="col-4">
               <h2>Income</h2>
-              <p>True wealth is being able to fully enjoy the present moment without being hindered by regrets from thepast or worries about the future.<br /> <br />___ HSteven
+              <p className='custom-bg-para'>True wealth is being able to fully enjoy the present moment without being hindered by regrets from the
+                past or worries about the future.<br /> <br />___ HSteven
               </p>
+              <img className="quote" src="assets/icons-2/quotes 1.png" alt="" / >
             </div>
             <div className="col-8 gros">
               <h3>Your annual gross income is estimated at ?</h3>
@@ -303,8 +305,8 @@ function Profile() {
                 <input type="text" className="form-control" placeholder="placeholder" aria-label="Last name" />
               </div>
               <div className="head-main3 row d-flex">
-                <h2>What is your income distribution?</h2>
-                <div className="row 2">
+                <h2 className='rj-custom-font'>What is your income distribution?</h2>
+                <div className="row 2 rj-row1">
                   <div className="col-6">
                     <label for="Wages">Wages</label>
                     <input type="text" className="form-control" placeholder="%" aria-label="First name" />
@@ -338,13 +340,13 @@ function Profile() {
                     <img src="assets/icons-2/chart.png" />
                   </div>
                   <div className="col-12 Saving">
-                    <h2>What is your annual savings capacity </h2>
+                    <h2 className='rj-custom-font'>What is your annual savings capacity </h2>
                     <div className="col">
                       <input type="text" className="form-control" placeholder="placeholder" aria-label="Last name" />
                     </div>
                   </div>
                   <div className="col-12 objective">
-                    <h2>Your main investment objectives are</h2>
+                    <h2 className='rj-custom-font'>Your main investment objectives are</h2>
                     <div className="col">
                       <div className="form-check-radio col">
                         <h4>Diversify my wealth</h4>
@@ -394,7 +396,7 @@ function Profile() {
                   <input type="text" className="form-control" placeholder="placeholder" aria-label="Last name" />
                 </div>
                 <div className="head-main3 row d-flex">
-                  <h2>What is the distribution of these charges ?</h2>
+                  <h2 className='rj-custom-font'>What is the distribution of these charges ?</h2>
                   <div className="row 2">
                     <div className="col-6">
                       <label for="Main Residence Credit">Main Residence Credit</label>
@@ -443,10 +445,10 @@ function Profile() {
             <div className="row w-100">
             <div className="col-4 ">
               <h2>Investment</h2> 
-              <p>It's important to know all of your options.By definition, real estate investing is a high-stakes game. Never make an investment that you are unsure of. It is critical to understand what you are doing in order to succeed.<br /> <br />Tips to Be Successful in Real Estate Investing
+              <p className="custom-bg-para">It's important to know all of your options.By definition, real estate investing is a high-stakes game. Never make an investment that you are unsure of. It is critical to understand what you are doing in order to succeed.<br /> <br />Tips to Be Successful in Real Estate Investing
               </p>
             </div>
-            <img className="quote2" src="assets/icons-2/quotes 2.png" alt="" />
+            <img className="quote" src="assets/icons-2/quotes 2.png" alt="" />
             <div className="col-8 option ">
               <h2 className="option-c-h2">Have you ever invested in real estate?</h2>
               <div className="options">
@@ -462,7 +464,7 @@ function Profile() {
               
               <div className="col options">
                 <h4>What type of investment</h4>
-                <div className="mb-3">
+                <div >
                   <select id="disabledSelect" className="form-select">
                     <option>Mutual funds</option>
                     <option>Mutual funds</option>
@@ -487,10 +489,10 @@ function Profile() {
 
 
             
-              <div className="options">
+              <div className="options rj-col-invest">
                 <div className="col investment">
                   <h4>What type of real estates ?</h4>
-                  <div className="mb-3">
+                  <div >
                     <select id="disabledSelect" className="form-select">
                       <option>Commercial Real Estate</option>
                       <option>Commercial Real Estate</option>
@@ -530,18 +532,19 @@ function Profile() {
                 <img src="assets/icons-2/Button.png" alt="..." />
                 <h4><span>Click to upload </span>or Drag and Drop <br /> PDF, PNG, ou JPG</h4>
                </div>
-               </div>
                <hr className="divider" />
               <div className="button-section">
                 <button type="submit" className="btn btn-primary amj">Save Changes</button>
               </div>
+               </div>
+               
             </div>
            </div>
           </div>
         
 
           <div className="tab-pane fade" id="Refferals" role="tabpanel" aria-labelledby="Refferals-tab">
-            <div className="container-fluid">
+            <div className="container-fluid rj-ref-cont">
               <div className="row w-100 refferals-sec">
                 <div className="col refferal">
                   <h2>Bonus</h2>
@@ -555,7 +558,7 @@ function Profile() {
               </div>
             </div>
              
-            <div className="container-fluid">
+            <div className="container-fluid rj-ref-cont">
             <div className="row w-100 refferals-sec">
               <div className="col refferal">
                 <h3>You were brought on this platform by: <span className="men-sec"><img src="assets/icons-2/men img.png" />Guy Hawkins</span></h3>  

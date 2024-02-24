@@ -78,6 +78,7 @@
     font-weight: 700;
     line-height: 24px;
     border: none;
+    border-bottom: 2px solid;
 }
 .nav-link {
     color: #6C748A;
@@ -111,9 +112,12 @@
 .row{
     padding-top: 24px;  
 }
+.rj-row1{
+    padding-top: 0px !important;
+}
 .head-main.row.d-flex {
     padding: 0 24px;
-    margin-bottom: 56px;   
+    margin-bottom: 46px;   
 }
 .col-8.my-detail{
     border-radius: 12px 12px 12px 12px ;
@@ -136,7 +140,7 @@
     margin: 0;
 }
 .button-section{
-    padding: 20px;
+    padding: 16px;
 }
 .form-check{
     border: 1px solid #EAEBEE;
@@ -307,7 +311,7 @@ button.btn.btn-primary {
 .col.texas h2{
     color:#1B2235;
     font-size: 24px;
-    font-family: Poppins;
+    font-family: "poppins";
     font-weight: 700; 
     line-height: 24px;
     padding-top: 15px;
@@ -323,10 +327,9 @@ button.btn.btn-primary {
 }
 .option label.form-check-label{
     padding-right: 16px;
+    padding-left: 8px;
 }
-/* .options {
-    padding-bottom: 24px;
-} */
+
 .col.investment h4{
     color: #1B2235;
     font-size: 16px;
@@ -351,7 +354,7 @@ button.btn.btn-primary {
     font-weight: 700;
     line-height: 24px;
     font-family: "Hanken Grotesk";
-    padding-top: 20px;
+    padding-top: 24px;
 }
 .col-8.options.select#disabledSelect{
     font-size: 16px;
@@ -376,7 +379,7 @@ button.btn.btn-primary {
     padding: 0 24px;
     color:#1B2235;
     font-size: 24px;
-    font-family: Poppins;
+    font-family: "Hanken Grotesk";
     font-weight: 700; 
     line-height: 24px;
     padding-top: 15px;
@@ -385,22 +388,31 @@ button.btn.btn-primary {
     padding: 24px 0 0 24px;
     color:#1B2235;
     font-size: 24px;
-    font-family: Poppins;
+    font-family: "Hanken Grotesk";
     font-weight: 700; 
     line-height: 24px;
-    padding-top: 15px;
+    padding-top: 0;
 }
 .col-8.gros h3{
     padding: 24px 0 0 24px;
     color:#1B2235;
     font-size: 24px;
-    font-family: Poppins;
+    font-family: "Hanken Grotesk";
     font-weight: 700; 
     line-height: 24px;
     padding-top: 15px;
 }
+.rj-custom-font{
+    
+    color:#1B2235 !important;
+    font-size: 24px !important;
+    font-family: "Hanken Grotesk";
+    font-weight: 700 !important; 
+    line-height: 34px !important;
+
+}
 .col-12.estimated{
-    padding: 0 24px;
+    padding: 10px 24px 30px 24px;
 }
 .options{
     padding: 0 24px;
@@ -411,7 +423,8 @@ button.btn.btn-primary {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px
+    line-height: 24px;
+    padding-top: 24px;
 }
 .col-8 h2{
     /* padding: 0 24px; */
@@ -437,6 +450,7 @@ button.btn.btn-primary {
     border-radius: 12px;    
     margin: 20px 20px;
     height: 200px;
+    background: #F2F8FF;
 }
 .input_form img{
     padding: 50px 0 20px 0;
@@ -472,6 +486,7 @@ button.btn.btn-primary {
     font-weight: 600;
     line-height: 24px;
     padding-bottom: 16px;
+    margin: 0px;
 }
 .refferals-sec{
     padding: 0px;
@@ -555,7 +570,7 @@ button.btn.btn-primary {
 }
 .claim{
     gap: 16px;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 .min-sec{
     text-decoration: underline;
@@ -585,6 +600,7 @@ span.men-sec{
     font-weight: 400;
     line-height: 24px;
     padding-top: 16px;
+    margin: 0px;
 }
 .table-sec-pro{
     
@@ -604,6 +620,7 @@ tr {
 }
 .table-con{
     margin-top: 24px;
+    padding: 0px;
 }
 .tsp-body tbody, td, tfoot, th, thead, tr{
     padding: 10px 24px !important;
@@ -654,14 +671,21 @@ hr.divider {
     float: right;
     background: #1B2235 !important;
     border-radius: 8px;
+    width: 180px;
    
 }
 img.quote {
     position: absolute;
-    top: 42px !important;
-    left: -50px;
+    top: 70px !important;
+    left: -20px;
     height: 56px !important;
     width: 56px !important;
+    padding: 0px;
+}
+p.custom-bg-para {
+    padding-top: 40px;
+    z-index: 3 !important;
+    position: relative;
 }
 .container-fluid{
     position: relative;
@@ -694,4 +718,11 @@ form.first-form-profile label {
 }
 .profile-main-tabs {
     margin-bottom: 70px;
+}
+.rj-col-invest{
+    padding-bottom: 16px;
+}
+
+.container-fluid.rj-ref-cont{
+    padding: 0px;
 }
