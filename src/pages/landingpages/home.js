@@ -188,7 +188,7 @@ function home() {
 
 
 
-                  <div className="card-body">
+                  <div className="card-body new-aligment">
                   
                       <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                       <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="img" /></span>
@@ -214,7 +214,7 @@ function home() {
 
                           </div>
                           
-                          <div className="card-inner3 my-4 d-flex flex-direction-column">
+                          <div className="card-inner3 my-4 d-flex flex-direction-column ">
                               <div className="profit d-flex flex-direction-column">Profitability <img
                                       src="assets/icons/Instance tooltip.png" alt="img" />
                                   <p>18,35%</p>
@@ -270,7 +270,7 @@ function home() {
 
 
 
-                  <div className="card-body">
+                  <div className="card-body new-aligment">
                       
                       <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                       <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="img" /></span>
@@ -352,7 +352,7 @@ function home() {
 
 
 
-                  <div className="card-body">
+                  <div className="card-body new-aligment">
                       <h5 className="p-card-title">Standpoint Tower A Downtown</h5>
                       <p className="card-text"><span><img src="assets/icons/gb 1.svg" alt="img" /></span>
                           Orange street, United Kingdom 5012

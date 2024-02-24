@@ -402,6 +402,7 @@ input.icon-input__text-field {
   width: 325px;
   padding: 10px 0px;
   border: 0px;
+  outline: none;
 }
 
 .icon-input.d-flex.justify-content-center {
@@ -4569,4 +4570,15 @@ h5.pd-tr-hd {
   margin-bottom: 8px !important;
   font-weight: bold;
   color: #1B2235;
+}
+.card-body.new-aligment {
+  padding-bottom: 24px !important;
+}
+input[type="text"] {
+  width: -webkit-fill-available;
+  outline: none;
+}
+.img-form {
+  display: flex;
+  gap: 8px;
 }
