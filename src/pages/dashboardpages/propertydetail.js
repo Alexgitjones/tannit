@@ -64,7 +64,7 @@ import Mgallery from "../../component/main-gallery";
     </section>
     <div className="container-fluid artical-cont " style={{'maxWidth': '1440px'}}>
 
-    <div className="row">
+    <div className="row sec-rpd">
             <div className="col-sm-8 p-4">
                 <div className="container">
                     <div className="row">
@@ -128,7 +128,7 @@ import Mgallery from "../../component/main-gallery";
                         </div>
                         <div className="tab-inner2">
                             <h5>Property details</h5>
-                            <div className="row">
+                            <div className="row pd-tr">
                                 <div className="col p-detail">
                                     <p>Lot area <span>200 sqft</span></p>
                                     <p>Number (lot) <span>16</span></p>
@@ -138,7 +138,7 @@ import Mgallery from "../../component/main-gallery";
                                     <p>Returned income<span>5.44%</span></p>
                                     <p>Property valuation<span>1 264 188£</span></p>
                                 </div>
-                                <h5>Energy</h5>
+                                <h5 className='pd-tr-hd'>Energy</h5>
                             </div>
                         </div>
                         <div className="tab-inner3">
@@ -322,17 +322,20 @@ import Mgallery from "../../component/main-gallery";
                                     </p>
                                     <img src="assets/images/Map.png"alt="/" />
                                     <div className="tab-inner2">
-                                        <h5>Surrounded by</h5>
-                                        <div className="row">
+                                        <h5 className='maps-btm-head'>Surrounded by</h5>
+                                        <div className="row map-sb-row">
                                             <div className="col p-detail2">
-                                                <p> <img src="assets/icons/r1.svg" alt="/"  /> Restaurant name <span>2 Km away</span></p>
-                                                <p> <img src="assets/icons/r2.svg" alt="/"  /> Train station <span>2 Km away</span></p>
-                                                <p> <img src="assets/icons/r3.svg" alt="/"  /> High school name <span>2 Km away</span></p>
+                                    <div className='d-flex temp-il-div'><p> <img src="assets/icons/r1.svg" alt="/"  /> Restaurant name</p> <span>2 Km away</span></div>
+                                    <div className='d-flex temp-il-div'><p> <img src="assets/icons/r2.svg" alt="/"  /> Train station </p> <span>2 Km away</span></div>
+                                    <div className='d-flex temp-il-div'><p> <img src="assets/icons/r3.svg" alt="/"  /> High school name </p> <span>2 Km away</span></div>
                                             </div>
                                             <div className="col p-detail2 ">
-                                                <p> <img src="assets/icons/r4.svg" alt="/"  /> Hotel name here <span>2 Km away</span></p>
-                                                <p> <img src="assets/icons/r5.svg" alt="/"  /> Coffee shop name <span>2 Km away</span></p>
-                                                <p> <img src="assets/icons/r6.svg" alt="/"  /> Bank name goes here <span>2 Km away</span></p>
+                                    <div className='d-flex temp-il-div'><p><img src="assets/icons/r4.svg" alt="/"  /> Hotel name here </p> <span>2 Km away</span></div>
+                                    <div className='d-flex temp-il-div'><p> <img src="assets/icons/r5.svg" alt="/"  /> Coffee shop name</p> <span>2 Km away</span></div>
+                                    <div className='d-flex temp-il-div'><p>  <img src="assets/icons/r6.svg" alt="/"  /> Bank name goes here </p> <span>2 Km away</span></div>
+                                                
+                                                
+                                                
                                             </div>
                                             
                                         </div>
@@ -343,7 +346,7 @@ import Mgallery from "../../component/main-gallery";
                                     <div className="financ-tab-wrapper">
                                     <h1 className="f-tab-head">Finance</h1>
                                     <div className="tab-inner-calculator">
-                                        <h5>Calculator</h5>
+                                        <h5 className='.pd-tr-hd'>Calculator</h5>
                                         <div className="row">
                                             <div className="col-lg-4 calc-tab text-center">
                                                 <h6 className="heading-box">Revenue/month</h6>
@@ -458,7 +461,7 @@ import Mgallery from "../../component/main-gallery";
                                 </div>
                                 <div className="container-lg-12 g-cont d-flex">
                                     <div className=" graph-sec d-flex">
-                                        <h3>Evolution of the value of TANNIT</h3>
+                                        <h2 className="h-pt2">Evolution of the value of TANNIT</h2>
                                         <h1>10,20 £</h1>
                                         <p>Current value</p>
                                         <img src="assets/images/chart2.png" alt="/" />
@@ -466,7 +469,7 @@ import Mgallery from "../../component/main-gallery";
                                 </div>
                                 <div className="container-lg-12 g-cont d-flex">
                                     <div className=" graph-sec d-flex">
-                                        <h3>Monthly income per TANNIT</h3>
+                                        <h2 className="h-pt2">Monthly income per TANNIT</h2>
                                         <h1>0.05 £</h1>
                                         <p>Cible (Soit 5.53% annuel)</p>
                                         <img src="assets/images/chart3.png" alt="/" />

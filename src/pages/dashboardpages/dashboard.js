@@ -27,7 +27,7 @@ function dashboard() {
         </div>
         <div className="col-4 1st-tab">
           <div className="multi-data-head ">
-              <div className="col sec-left-main">
+              <div className="col sec-left-main rj-lc-alg">
                   <h3 className="slm-head">Ecological credit</h3>
                   <h3 className="slm-head2">10,20 £</h3>
                   <p>Total profit</p>
@@ -41,7 +41,7 @@ function dashboard() {
     </section>
     <section className="wallet-tabs2">
         <div className="container wal-cont2">
-            <div className="row">
+            <div className="row dash-rj">
                 <div className="col sec-left-main">
               <h3 className="slm-head">Profits made on the TANNIT</h3>
               <h3 className="slm-head2">10,20 £</h3>
@@ -76,13 +76,13 @@ function dashboard() {
                 <div className="form-group col-md-4">
                     
                     <div className="icon-input d-flex justify-content-center">
-                        <input className="icon-input__text-field sec" type="text" placeholder="Search for property" />
+                        <input className="icon-input__text-field sec" type="text" placeholder="Search for activity" />
                         <i className="fa fa-search mag"></i>
                     </div>
                 </div>
               </div>
               <div className="col-12 wv2-table">
-                <table className="table">
+                <table className="table main-rj-dt">
                     <thead>
                       <tr>
                         <th scope="col">DATE <span><img src="assets/icons/Font awesomedate.svg" alt=""/></span></th>

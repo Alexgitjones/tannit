@@ -5,7 +5,7 @@ function wallettwo() {
                 <Header /> 
         <section className="wallet tabs">
         <div className="container wal-cont">
-            <div className="row">
+            <div className="row wt-p-rj">
                 <div className="col-3 left-main">
               <h3 className="bal-head"><span><img src="assets/icons/walllet.svg" alt="" /></span>Current balance</h3>
               <h3 className="bal-head2"><span><img src="assets/images/Tannit coin.png" alt="" /></span>23,458</h3>
@@ -28,7 +28,7 @@ function wallettwo() {
     </section>
     <section className="wallet-tabs2">
         <div className="container wal-cont2">
-            <div className="row">
+            <div className="row wt-p-rj">
                 <div className="col sec-left-main">
               <h3 className="slm-head">Profits made on the TANNIT</h3>
               <h3 className="slm-head2">10,20 £</h3>
@@ -47,7 +47,7 @@ function wallettwo() {
 
     </section>
     <section className="wallet-tabs3">
-        <div className="container wal-table-form">
+        <div className="container wal-table-form w2p-rj">
             <h3 className="slm-head">My income</h3>
             <div className="form-row d-flex flex-direction-coloum mg6">
                 <div className="form-group col-md-3">
@@ -186,7 +186,7 @@ function wallettwo() {
               </div>
               <div className="col-4 1st-tab">
                 <div className="multi-data-head ">
-                    <div className="col sec-left-main">
+                    <div className="col sec-left-main rj-lc-alg">
                         <h3 className="slm-head">Ecological credit</h3>
                         <h3 className="slm-head2">10,20 £</h3>
                         <p>Total profit</p>

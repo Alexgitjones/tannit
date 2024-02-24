@@ -68,7 +68,7 @@ export default function Investmentcard({index}) {
                     </p>
                     
                     <div>
-                        <div className="card-inner">
+                        <div className="card-inner invi-vd">
                             <div className="amount">{index.price}</div>
                             <div className="remain"> <img src="assets/icons/Tannit coin.svg" alt="" />40 remaining
                             </div>

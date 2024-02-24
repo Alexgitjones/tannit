@@ -3,7 +3,7 @@ function Propertycompare() {
     return (
       <div className="App">
         <Header /> 
-    <section>
+    <section className="prop-comp-wrap">
 
 
 <div className="container-fluid artical-cont "  style={{'maxWidth': '1440px'}}>
@@ -48,6 +48,8 @@ function Propertycompare() {
             </div>
           </div>
     </div>
+    </div>
+    </section>
     <div className="container-fluid">
         <table className="table mb-5 borderless">
             <thead className="f-sec">
@@ -111,10 +113,10 @@ function Propertycompare() {
           </table>
     </div>
     
-</div>
 
 
-</section>
+
+
 
     </div>
 

@@ -35,7 +35,7 @@ function purchaseconfirm() {
                             <div className="investor"> <img src="assets/icons/Icon2.svg" alt="" />72 Investors</div>
 
                         </div>
-                        <div className="progress main2">
+                        <div className="progress main2 rj-pc-page">
                             <div className="progress-bar" role="progressbar" style={{'width': '75%'}} aria-valuenow="75"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>

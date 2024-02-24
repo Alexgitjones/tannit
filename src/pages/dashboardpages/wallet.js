@@ -5,12 +5,12 @@ function wallet() {
         <Header /> 
         <section className="wallet tabs">
         <div className="container wal-cont8">
-            <div className="row">
+            <div className="row rj-wp-row">
                 <div className="col left-main m-wal d-flex">
                <div className="mwal-d1">     
               <h3 className="bal-head"><span><img src="assets/icons/walllet.svg" alt="" /></span>Current balance</h3>
               <h3 className="bal-head2"><span><img src="assets/images/Tannit coin.png" alt="" /></span>23,458</h3>
-              <p>= 2,345.8£</p>
+              <p className=" rj-w-mwal-p">Converted to: 2,345.8£</p>
             </div>
             <div className="mwal-d12">
               <button className="d1-btn">Get TANNIT</button>
@@ -63,8 +63,10 @@ function wallet() {
                 </div>
                 <div className="form-group col-md-3">
                
-                  <select id="inputState" className="form-control">
-                    <option selected>Type</option>
+                  <select id="inputState" className="form-control icon-drop-rj">
+                    <option selected>Type <img src="assets/images/faicon.svg"/></option>
+                    <option>...</option>
+                    <option>...</option>
                     <option>...</option>
                   </select>
                 </div>
@@ -184,7 +186,7 @@ function wallet() {
               <div className="col 2nd-tab">
                 <div className="multi-data-head ">
                     <div className="col sec-left-main">
-                        <h3 className="slm-head">Profits made on the TANNIT</h3>
+                        <h3 className="slm-head">My income</h3>
                         <h3 className="slm-head2">10,20 £</h3>
                         <p>Total profit</p>
                         <img src="assets/images/2ndcharrt.png" alt="" />
@@ -193,8 +195,8 @@ function wallet() {
               </div>
               <div className="col-4 1st-tab">
                 <div className="multi-data-head ">
-                    <div className="col sec-left-main">
-                        <h3 className="slm-head">Profits made on the TANNIT</h3>
+                    <div className="col sec-left-main rj-lc-alg">
+                        <h3 className="slm-head">Ecological credit</h3>
                         <h3 className="slm-head2">10,20 £</h3>
                         <p>Total profit</p>
                         <img src="assets/images/3rd chart.png" alt="" />
