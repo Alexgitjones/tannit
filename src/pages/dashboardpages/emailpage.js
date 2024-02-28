@@ -6,7 +6,7 @@ function emailpage() {
         <img src="assets/images/email-Logo.png" alt="" />
         <div className="row mail-row1">
             
-            <div className="col-6 email-sec1l" >
+            <div className="col-6 col-sm-12 email-sec1l" >
                 <h2>Summary</h2>
             <div className="head-w-text">
                 <h4>Charge Amount</h4>
@@ -25,7 +25,7 @@ function emailpage() {
                 <p className="gray-text">Sunday,july 31,2022 2:27:25 PM CET</p>
             </div>
             </div>
-            <div className="col email-sec12" >
+            <div className="col col-sm-12 email-sec12" >
                 <h2>Merchant Information</h2>
             <div className="head-w-text">
                 <h4>Xsolla</h4>
@@ -43,22 +43,22 @@ function emailpage() {
         </div>
         </div>
         <div className="row2 d-flex">
-            <div className="col-6 cont-area">
+            <div className="col-6 col-sm-12 cont-area">
                 <h2>Customize this<br /> email title!</h2>
                 <p>Boost your emails with Blush! Create dope emails easy and fast!</p>
                 <button>Discover </button>
                 
             </div>
-            <div className="col-6 image-div-mail">
+            <div className="col-6 col-sm-12 image-div-mail">
                 <img src="assets/images/Città Coffee Shop.png" alt="" />
             </div>
         </div>
         <div className="row2 d-flex">
             
-            <div className="col-6 image-div-mail">
+            <div className="col-6 col-sm-12 image-div-mail">
                 <img src="assets/images/Città Party Time.png" alt="" />
             </div>
-            <div className="col-6 cont-area">
+            <div className="col-6 col-sm-12 cont-area">
                 <h2>Customize this<br /> email title!</h2>
                 <p>Boost your emails with Blush! Create dope emails easy and fast!</p>
                 <button>Discover </button>
