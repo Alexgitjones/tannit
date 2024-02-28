@@ -31,7 +31,7 @@ function Blog() {
         <div className="top-banner d-flex justify-content-center flex-wrap align-content-center">
           <h1 className="banner-hd">Welcome to our blog</h1>
         </div>
-        <div className="container">
+        <div className="container main-bp-card-wrap">
           <div className="row  mt-3 mb-2">
             <div className="top-tabs d-flex flex-direction-column">
             <ul class="nav nav-pills mb-0 nfaq-tab" id="pills-tab2" role="tablist">
@@ -75,7 +75,7 @@ function Blog() {
         
         <div className="container">
          
-          <div className="d-flex flex-wrap post-section justify-content-between">
+          <div className="d-flex  flex-wrap post-section justify-content-between">
             {
               news.map((index,key) =>(
                 <>
@@ -139,7 +139,7 @@ function Blog() {
 
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
         <div className="container">
-        <div className="d-flex post-section">
+        <div className="row d-flex post-section">
             <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/icons-2/post one.png" alt="img" />
               <div className="post-detail p-4">
@@ -167,7 +167,7 @@ function Blog() {
 
         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
         <div className="container">
-        <div className="d-flex post-section">
+        <div className="row d-flex post-section">
             <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/icons-2/post one.png" alt="img" />
               <div className="post-detail p-4">
@@ -195,7 +195,7 @@ function Blog() {
 
         <div class="tab-pane fade" id="pills-Non-profits" role="tabpanel" aria-labelledby="pills-Non-profits-tab">
         <div className="container">
-        <div className="d-flex post-section">
+        <div className="row d-flex post-section">
             <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/icons-2/post one.png" alt="img" />
               <div className="post-detail p-4">
@@ -223,7 +223,7 @@ function Blog() {
 
         <div class="tab-pane fade" id="pills-Real-estate" role="tabpanel" aria-labelledby="pills-Real-estate-tab">
         <div className="container">
-        <div className="d-flex post-section">
+        <div className="row d-flex post-section">
             <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/icons-2/post one.png" alt="img" />
               <div className="post-detail p-4">
@@ -251,7 +251,7 @@ function Blog() {
 
         <div class="tab-pane fade" id="pills-Technology" role="tabpanel" aria-labelledby="pills-Technology-tab">
         <div className="container">
-        <div className="d-flex post-section">
+        <div className="row d-flex post-section">
             <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
               <img className='rounded-top-4' src="assets/icons-2/post one.png" alt="img" />
               <div className="post-detail p-4">

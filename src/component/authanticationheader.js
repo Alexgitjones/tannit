@@ -7,13 +7,9 @@ export default function Autanticationheader() {
         <div className="container-fluid auth-header ">
             <a className="navbar-brand nav2" href="#"><img src="assets/images/image_2023_12_15T09_13_37_552Z.png"
                     alt="" /></a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"> </span>
-            </button>
             
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            
                 
                 <div className="d-flex">
                     <div className="profile d-flex">
@@ -25,7 +21,7 @@ export default function Autanticationheader() {
                             <p className="value">0</p>
                         </div>
                     </div>
-            </div>
+            
         </div>
         </div>
     </nav>

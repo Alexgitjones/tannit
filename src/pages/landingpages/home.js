@@ -24,7 +24,7 @@ function home() {
       </div>
       <div className="bg-new">
       <div className="container-fluid main-home-sec2 d-flex ">
-        <div className="col-lg-6 left-1 " >
+        <div className="col-lg-6 left-1 col-md-12 col-sm-12" >
           
           <div className="content-2ndbanner">
             <h5>Our values</h5>
@@ -34,9 +34,9 @@ function home() {
           </div>
 
         </div>
-        <div className="col right-2" >
+        <div className="col right-2 col-sm-12" >
           
-          <div className="container">
+          <div className="container r2-wrap">
             <div className="row main-row-ib">
               <div className="col-6  ibox-1">
                 <img src="assets/icons/building.svg" alt="img" />
@@ -65,7 +65,7 @@ function home() {
       </div>
       <div className="fourth-row mt-5 mb-lg-5 mb-sm-1 custom-section-ind">
         <div className="container">
-          <div className="row">
+          <div className="row fr-csi">
             <div className="col-lg-7 col-sm-12">
               <img width="100%" src="assets/images/3rd banner.png" alt="img" />
             </div>
@@ -85,7 +85,7 @@ function home() {
           <h5 className="small-hd">How it works</h5>
           <h2 className="custom-main-hd mb-lg-5 mb-sm-1">The processes to acquire a property on Tannit</h2>
           <div className="row property-row">
-            <div className="col property-card d-flex">
+            <div className="col property-card d-flex col-sm-12">
               <img src="assets/icons/scrh.svg" alt="img" />
               <h3>Consult and select a property</h3>
               <p>Consequat curae neque amet auctor, sed fames sem tristique, nullam nisi maecenas.</p>
@@ -93,7 +93,7 @@ function home() {
                 <img src="assets/images/home-card1.png" alt="img" />
               </div>
             </div>
-            <div className="col property-card d-flex">
+            <div className="col property-card d-flex col-sm-12">
               <img src="assets/icons/$.svg" alt="img" />
               <h3>Put Tannit to buy a good</h3>
               <p>Consequat curae neque amet auctor, sed fames sem tristique, nullam nisi maecenas.</p>
@@ -102,7 +102,7 @@ function home() {
               </div>
               <p className="note-p">Note: You will have 30 days before your investment is approved by our team.</p>
             </div>
-            <div className="col property-card d-flex">
+            <div className="col property-card d-flex col-sm-12">
               <img src="assets/icons/3rd.svg" alt="img" />
               <h3>Track investment rates on your<br /> dashboard</h3>
               <p>Consequat curae neque amet auctor, sed fames sem tristique, nullam nisi maecenas.</p>
@@ -145,10 +145,10 @@ function home() {
       <div className="container-fluid home-prop-cards">
         <div className="text-center">
         <h5 className="small-hd">Properties</h5>
-        <h2 className="custom-main-hd mb-lg-5 mb-sm-1">Discover our featured listings</h2>
+        <h2 className="custom-main-hd mb-lg-5 mb-sm-1 ct-head-home">Discover our featured listings</h2>
       </div>
         <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
-          <div className="col">
+          <div className="col md-card-hp">
               <div className="card">
                   <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                       <div className="carousel-indicators">
@@ -230,7 +230,7 @@ function home() {
                   </div>
               </div>
           </div>
-          <div className="col">
+          <div className="col md-card-hp">
               <div className="card2">
                   <div id="carouselExampleIndicators2" className="carousel slide" data-bs-ride="carousel">
                       <div className="carousel-indicators">
@@ -312,7 +312,7 @@ function home() {
                   </div>
               </div>
           </div>
-          <div className="col">
+          <div className="col md-card-hp">
               <div className="card3">
                   <div id="carouselExampleIndicators3" className="carousel slide" data-bs-ride="carousel">
                       <div className="carousel-indicators">

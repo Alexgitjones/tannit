@@ -84,7 +84,7 @@ function Services() {
                 <div className="col-lg-6 col-sm-12">
                   <img width="100%" src="assets/icons-2/third left banner.png" alt="img" />
                 </div>
-                <div className="col-lg-6 col-sm-12 third-left">
+                <div className="col-lg-6 col-sm-12 third-left one-ss">
                   <h5 className="small-hd">Invest</h5>
                   <h2 className="custom-main-hd mb-5">We believe that investing is the key to financial growth and stability</h2>
                   <div className="d-flex mb-3">
@@ -111,7 +111,7 @@ function Services() {
                 <div className="col-lg-6 col-sm-12">
                   <img width="100%" src="assets/icons-2/fourth rigth banner.png" alt="img" />
                 </div>
-                <div className="col-lg-6 col-sm-12 third-left">
+                <div className="col-lg-6 col-sm-12 third-left two-ss">
                   <h5 className="small-hd">Collaborate</h5>
                   <h2 className="custom-main-hd mb-lg-5 mb-sm-1">A vibrant community</h2>
                   <p className="small-main-p">Collaboration fosters a sense of community and common goals, encouraging a cooperative and supportive environment among investors.</p>
@@ -125,7 +125,7 @@ function Services() {
           <div className="fiveth-row mt-5 mb-5 custom-section-ind">
             <div className="container">
               <div className="row f-r-5">
-                <div className="col-lg-6 col-sm-12 third-left">
+                <div className="col-lg-6 col-sm-12 third-left three-ss">
                   <h5 className="small-hd">Our experts</h5>
                   <h2 className="custom-main-hd mb-4">We are all set for one goal</h2>
                   <p className="small-main-p">Our platform is committed to providing the best possible experience in the field of participatory real estate. To achieve this goal, we have partnered with renowned experts from the real estate industry. These experts bring their extensive experience, in-depth knowledge, and unparalleled insights to advise and guide our users throughout their investment journey.</p>
@@ -145,7 +145,7 @@ function Services() {
                 <h5 className="small-hd">To read</h5>
                 <h2 className="custom-main-hd">You can learn more from here</h2>
               </div>
-              <div className="d-flex post-section">
+              <div className="row d-flex post-section">
                 <div className="col-lg-4 col-sm-12 rounded-4 shadow-lg">
                   <img className='rounded-top-4' src="assets/icons-2/post one.png" alt="img" />
                   <div className="post-detail p-4">

@@ -113,44 +113,44 @@ function faq() {
                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                   <div className="card-group">
                     <div className="card">
-                          <div className="card-body">
+                          <div className="card-body faqpg">
                         <h5 className="card-title">How can I invest in real estate through this platform?</h5>
                         <p className="card-text">Our platform simplifies real estate investing. You can browse properties, review details, and invest securely with a few clicks.</p>
                       </div>
                       </div>
                     <div className="card">
                       
-                      <div className="card-body">
+                      <div className="card-body faqpg">
                         <h5 className="card-title">What types of real estate investments are available?</h5>
                         <p className="card-text">We offer diverse real estate investments: residential, commercial, and development projects.</p>
                       </div>
                       
                     </div>
                     <div className="card">
-                          <div className="card-body">
+                          <div className="card-body faqpg">
                         <h5 className="card-title">Is there a minimum investment amount required to get started?</h5>
                         <p className="card-text">Minimum investment amounts vary by property. We have options for different budgets</p>
                       </div>
                     </div>
                     
                   </div>
-                  <div className="card-group">
+                  <div className="card-group cg2m">
                     <div className="card">
-                          <div className="card-body">
+                          <div className="card-body faqpg">
                         <h5 className="card-title">How to ensure security and transparency of investment? </h5>
                         <p className="card-text">We prioritize security and transparency. We conduct due diligence and provide comprehensive details about each opportunity.</p>
                       </div>
                       </div>
                     <div className="card">
                       
-                      <div className="card-body">
+                      <div className="card-body faqpg">
                         <h5 className="card-title">Can I track the performance of my investments?</h5>
                         <p className="card-text">Track your investments and receive regular updates on our platform's dashboard.</p>
                       </div>
                       
                     </div>
                     <div className="card">
-                          <div className="card-body">
+                          <div className="card-body faqpg">
                         <h5 className="card-title">What fees or charges are associated with using the platform?</h5>
                         <p className="card-text">Fees vary by investment but are transparent. We charge a percentage-based or management fee.</p>
                       </div>
@@ -162,21 +162,21 @@ function faq() {
 
                   <div className="card-group">
                     <div className="card">
-                          <div className="card-body">
+                          <div className="card-body faqpg">
                         <h5 className="card-title">How to ensure security and transparency of investment? </h5>
                         <p className="card-text">We prioritize security and transparency. We conduct due diligence and provide comprehensive details about each opportunity.</p>
                       </div>
                       </div>
                     <div className="card">
                       
-                      <div className="card-body">
+                      <div className="card-body faqpg">
                         <h5 className="card-title">Can I track the performance of my investments?</h5>
                         <p className="card-text">Track your investments and receive regular updates on our platform's dashboard.</p>
                       </div>
                       
                     </div>
                     <div className="card">
-                          <div className="card-body">
+                          <div className="card-body faqpg">
                         <h5 className="card-title">What fees or charges are associated with using the platform?</h5>
                         <p className="card-text">Fees vary by investment but are transparent. We charge a percentage-based or management fee.</p>
                       </div>
@@ -187,21 +187,21 @@ function faq() {
 
                   <div className="card-group">
                     <div className="card">
-                          <div className="card-body">
+                          <div className="card-body faqpg">
                         <h5 className="card-title">How to ensure security and transparency of investment? </h5>
                         <p className="card-text">We prioritize security and transparency. We conduct due diligence and provide comprehensive details about each opportunity.</p>
                       </div>
                       </div>
                     <div className="card">
                       
-                      <div className="card-body">
+                      <div className="card-body faqpg">
                         <h5 className="card-title">Can I track the performance of my investments?</h5>
                         <p className="card-text">Track your investments and receive regular updates on our platform's dashboard.</p>
                       </div>
                       
                     </div>
                     <div className="card">
-                          <div className="card-body">
+                          <div className="card-body faqpg">
                         <h5 className="card-title">What fees or charges are associated with using the platform?</h5>
                         <p className="card-text">Fees vary by investment but are transparent. We charge a percentage-based or management fee.</p>
                       </div>
@@ -213,21 +213,21 @@ function faq() {
 
                   <div className="card-group">
                     <div className="card">
-                          <div className="card-body">
+                          <div className="card-body faqpg">
                         <h5 className="card-title">How to ensure security and transparency of investment? </h5>
                         <p className="card-text">We prioritize security and transparency. We conduct due diligence and provide comprehensive details about each opportunity.</p>
                       </div>
                       </div>
                     <div className="card">
                       
-                      <div className="card-body">
+                      <div className="card-body faqpg">
                         <h5 className="card-title">Can I track the performance of my investments?</h5>
                         <p className="card-text">Track your investments and receive regular updates on our platform's dashboard.</p>
                       </div>
                       
                     </div>
                     <div className="card">
-                          <div className="card-body">
+                          <div className="card-body faqpg">
                         <h5 className="card-title">What fees or charges are associated with using the platform?</h5>
                         <p className="card-text">Fees vary by investment but are transparent. We charge a percentage-based or management fee.</p>
                       </div>
