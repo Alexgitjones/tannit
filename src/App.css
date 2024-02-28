@@ -5124,11 +5124,78 @@ img.side-red-icon {
   padding: 20px;
 }
 /* author page end */
+/* claim page */
+.row.c-a-p {
+  padding: 0px 20px !important;
+}
+
+.row.c-a-p .middle-sec {
+  padding: 0px !important;
+}
+
+.claim-last-sec {width: 100%;}
+
+.claim-last-sec button.btn.grn-btn.nd-sp-btn {
+  width: -webkit-fill-available !important;
+}
+/* claim page end */
+/* clamied */
+button.btn.grn-btn2.nd-sp-btn {width: -webkit-fill-available !important;}
+/* clamied end */
+/* signup page */
+.row.s-u-a .col-lg-7.form-sec {
+  padding: 40px 20px 20px 20px !important;
+}
+
+.col-lg-7.form-sec .img-form {
+  gap: 0px !important;
+}
+/* signup page end */
+  /* verify page */
+  .row.v-a-p .col-lg-7.form-sec {
+    padding: 40px 20px 20px 20px;
+}
+.v-form-last-count-sec {
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+  /* verify page end */
+  /* success page */
+  .row.s-p-ar {
+    padding: 40px 20px !important;
+}
+
+button.btn.grn-btn3.nd-sp-btn {
+    width: -webkit-fill-available !important;
+}
+
+button.btn.grn-btn4.nd-sp-btn {
+    width: -webkit-fill-available !important;
+}
+  /* success page end */
 }
 
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  /* verify page */
+  .row.v-a-p .col-lg-7.form-sec {
+    padding: 40px 20px 20px 20px;
+}
+  /* verify page end */
+  /* success page */
+  .row.s-p-ar {
+    padding: 40px 20px !important;
+}
 
+button.btn.grn-btn3.nd-sp-btn {
+    width: -webkit-fill-available !important;
+}
+
+button.btn.grn-btn4.nd-sp-btn {
+    width: -webkit-fill-available !important;
+}
+  /* success page end */
   /* author page */
   .row.a-main-r .col-lg-7.form-sec {
     padding: 30px 20px  !important;
@@ -5773,7 +5840,33 @@ h2.custom-main-hd.mb-5 {
 .col-lg-6.col-sm-12.third-left.one-ss {
   padding: 20px !important;
 }
+/* claim page */
+.row.c-a-p {
+  padding: 0px 20px !important;
+}
 
+.row.c-a-p .middle-sec {
+  padding: 0px !important;
+}
+
+.claim-last-sec {width: 100%;}
+
+.claim-last-sec button.btn.grn-btn.nd-sp-btn {
+  width: -webkit-fill-available !important;
+}
+/* claim page end */
+/* clamied */
+button.btn.grn-btn2.nd-sp-btn {width: -webkit-fill-available !important;}
+/* clamied end */
+/* signup page */
+.row.s-u-a .col-lg-7.form-sec {
+  padding: 40px 20px 20px 20px !important;
+}
+
+.col-lg-7.form-sec .img-form {
+  gap: 0px !important;
+}
+/* signup page end */
 }
 
 

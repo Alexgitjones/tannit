@@ -4,18 +4,7 @@ function claim() {
       <div className="App">
                  <Header />
       <div>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbarcontainer">
-        <div className="container-fluid ">
-            <a className="navbar-brand nav2" href="google.com"><img src="assets/images/image_2023_12_15T09_13_37_552Z.png"
-                    alt="" /></a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            
-        </div>
-    </nav>
+    
     <section className="main-grid2 d-flex">
         <div className="container m-wrapper-c-a-p">
             <div className="row c-a-p">
