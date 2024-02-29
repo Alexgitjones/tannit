@@ -53,7 +53,7 @@ function emailpage() {
                 <img src="assets/images/Città Coffee Shop.png" alt="" />
             </div>
         </div>
-        <div className="row2 d-flex">
+        <div className="row2 d-flex sec-r2df">
             
             <div className="col-6 col-sm-12 image-div-mail">
                 <img src="assets/images/Città Party Time.png" alt="" />

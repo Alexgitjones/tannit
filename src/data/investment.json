@@ -22,6 +22,30 @@
         "price": "143K £",
         "invest": "40 Tannit",
         "income": "-"
+    },
+    {
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "invest": "40 Tannit",
+        "income": "1.45£ "
+    },
+    {
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "invest": "40 Tannit",
+        "income": "1.45£"
+    },
+    {
+        "img": ["assets/images/Image1.png"],
+        "title": "Standpoint Tower A Downtown",
+        "address": "Orange street, United Kingdom 5012",
+        "price": "143K £",
+        "invest": "40 Tannit",
+        "income": "-"
     }
      
   ]

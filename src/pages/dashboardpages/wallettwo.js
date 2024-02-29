@@ -184,7 +184,7 @@ function wallettwo() {
                     </div>
                 </div>
               </div>
-              <div className="col-4 1st-tab">
+              <div className="col-4 1st-tab">                  
                 <div className="multi-data-head ">
                     <div className="col sec-left-main rj-lc-alg">
                         <h3 className="slm-head">Ecological credit</h3>

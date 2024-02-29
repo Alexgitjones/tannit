@@ -24,7 +24,7 @@
 }
 .men img{
     margin-left: 48px;
-    z-index: 7;
+    z-index: 2;
     margin-top: -80px;
 }
 .men h2{
@@ -192,15 +192,15 @@ input#flexRadioDefault3 {
 }
 .form-check.col-6 {
     position: relative;
-    width: 47% !important;
+    width: 47% ;
     margin: 10px 10px;
-    height: 128px !important;
+    height: 128px ;
 } 
 .form-check1.col-6 {
     position: relative;
-    width: 47% !important;
+    width: 47% ;
     margin: 10px 10px;
-    height: 72px !important;
+    height: 72px ;
 }
 .form-check1{
     border: 1px solid #EAEBEE;
@@ -623,7 +623,7 @@ tr {
     padding: 0px;
 }
 .tsp-body tbody, td, tfoot, th, thead, tr{
-    padding: 10px 24px !important;
+    padding: 10px 24px ;
 }
 hr.divider {
     margin-top: 8px !important;

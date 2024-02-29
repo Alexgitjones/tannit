@@ -36,7 +36,7 @@ function Marketplace() {
             <button className="btn-5 p-tab2 p-2">My sellings (3)</button>
         </div>
         <div className="tf-sec d-flex flex-direction-column">
-            <div className="tab d-flex flex-direction-column ">
+            <div className="tab d-flex flex-direction-column row ">
             <button onClick={() => setShowPricerange(!showPricerange)} className="tablinks tab">Price range<span><img src="assets/icons/1.svg"
                                 alt="" /></span></button>
                                 {showPricerange && <Pricerange />}
@@ -74,9 +74,11 @@ function Marketplace() {
                                 alt="" /></span></button>
                                 {showFilters && <Filters />}
             </div>
+            <div className='mp-page-form-wrap' >
             <div className="icon-input d-flex justify-content-center">
                 <input className="icon-input__text-field" type="text" placeholder="Search for property" />
                 <i className="fa fa-search"></i>
+                </div>
             </div>
         </div>
         <div className="tf2-sec d-flex flex-direction-column">

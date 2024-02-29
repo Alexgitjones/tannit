@@ -5,7 +5,7 @@ export default function DashHeader() {
     const [showCompleteprofile, setShowCompleteprofile] = useState(false); 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light dash-head" id="navbarcontainer">
-        <div className="container-fluid ">
+        <div className="container-fluid dash-dead-main-cont row ">
             <a className="navbar-brand nav2" href="/"><img src="assets/images/image_2023_12_15T09_13_37_552Z.png"
                     alt="img" /></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -32,7 +32,9 @@ export default function DashHeader() {
                         <a className="nav-link " href="/"><span><img src="assets/icons/Icon4.svg" alt="img" /></span>Forum</a>
                     </li>
                 </ul>
-                <div className="d-flex">
+                
+            </div>
+            <div className="d-flex dd-comp-sec">
                     <div className="profile d-flex">
                         <div className="profile-pic d-flex align-items-center">
                             <img src="assets/images/Tannit coin.png" alt="img" />
@@ -60,7 +62,6 @@ export default function DashHeader() {
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </nav>
     );

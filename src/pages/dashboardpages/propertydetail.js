@@ -15,7 +15,7 @@ import Mgallery from "../../component/main-gallery";
           autoplaySpeed: 2000,
           responsive: [
             {
-              breakpoint: 768,
+              breakpoint: 820,
               settings: {
                 slidesToShow: 3,
               },
@@ -320,7 +320,7 @@ import Mgallery from "../../component/main-gallery";
                                     <p className="card-text"><span><img src="assets/icons/loc.svg" alt="/" / ></span>
                                         Orange street, United Kingdom 5012
                                     </p>
-                                    <img src="assets/images/Map.png"alt="/" />
+                                    <img className='map-pdpage' src="assets/images/Map.png"alt="/" />
                                     <div className="tab-inner2">
                                         <h5 className='maps-btm-head'>Surrounded by</h5>
                                         <div className="row map-sb-row">

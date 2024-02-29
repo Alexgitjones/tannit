@@ -4,8 +4,8 @@ function dashboard() {
       <div className="App">
          <Header /> 
       <section className="fsec-dash">
-        <div className="container total-multi-tab-sec d-flex">
-        <div className="col-4 1st-tab">
+        <div className="container total-multi-tab-sec d-flex row">
+        <div className="col-4 1st-tab ">
           <div className="multi-data-head ">
               <div className="col sec-left-main">
                   <h3 className="slm-head">Profits made on the TANNIT</h3>
@@ -25,7 +25,7 @@ function dashboard() {
               </div>
           </div>
         </div>
-        <div className="col-4 1st-tab">
+        <div className="col-4 1st-tab last-tab-frow">
           <div className="multi-data-head ">
               <div className="col sec-left-main rj-lc-alg">
                   <h3 className="slm-head">Ecological credit</h3>

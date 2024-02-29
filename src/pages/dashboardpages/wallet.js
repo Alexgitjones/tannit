@@ -191,7 +191,7 @@ function wallet() {
                         <p>Total profit</p>
                         <img src="assets/images/2ndcharrt.png" alt="" />
                     </div>
-                </div>
+                </div>                  
               </div>
               <div className="col-4 1st-tab">
                 <div className="multi-data-head ">

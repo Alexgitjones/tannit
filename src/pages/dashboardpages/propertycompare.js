@@ -12,7 +12,7 @@ function Propertycompare() {
             <h6><i className="fa-solid fa-arrow-left"></i>Properties</h6> 
         </div>
       <div>
-            <h1 className="head-comp">
+            <h1 className="head-comp">    
                 Property comparables
             </h1>
         </div>

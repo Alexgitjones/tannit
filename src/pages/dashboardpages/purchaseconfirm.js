@@ -12,7 +12,7 @@ function purchaseconfirm() {
                     <div className="top-head"><img src="assets/icons/Iconleft.svg" alt="" /> Confrim your purchase</div>
 
                 </div>
-            </div>
+            </div>      
         </div>
     </section>
     <div className="container payment-first-sec">

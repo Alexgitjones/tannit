@@ -24,7 +24,7 @@ function Profile() {
     return (
     <div className="App">
        <Header /> 
-    <section>
+    <section className='responsive-wrapper'>
     <div className="container d-flex justify-content-center profile-head" style={{'maxWidth': '1220px'}}>
       <div className="gradiant">
         <img src="assets/icons-2/baner.png" style={{'maxWidth': '1220px'}} />
@@ -271,7 +271,7 @@ function Profile() {
                     <label for="Others">Others</label>
                     <input type="text" className="form-control" placeholder="%" aria-label="Last name" />
                   </div>
-                  <div className="col-12">
+                  <div className="col-12 responsive-img-pp">
                     <h4>Preview</h4>
                     <img src="assets/icons-2/chart.png" alt="..."/>
                     <div>
@@ -335,7 +335,7 @@ function Profile() {
                     <label for="Others">Others</label>
                     <input type="text" className="form-control" placeholder="%" aria-label="First name" />
                   </div>
-                  <div className="col-12">
+                  <div className="col-12 responsive-img-pp">
                     <h4>Preview</h4>
                     <img src="assets/icons-2/chart.png" />
                   </div>
