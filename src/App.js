@@ -82,9 +82,9 @@ function App() {
           <Route path="/purchase-confirm" element={<Purchaseconfirm />} /> 
           <Route path="/property-detail" element={<Propertydetail />} />
           <Route path="/complete-profile" element={<Completeprofile />} />
+          <Route path="/filters" element={<Filters />} />
           {/* 
           <Route path="/price-range" element={<Pricerange />} />
-          <Route path="/filters" element={<Filters />} />
           <Route path="/price-range" element={<Pricerange />} />
           <Route path="/investment-card" element={<Investmentcard />} />
           <Route path="/investment-card2" element={<Investmentcard2 />} />
