@@ -5911,10 +5911,194 @@ form#product-search-bar {
   overflow-x: hidden !important;
 }
   /* property-detailpage end */
+  /* add-money page */
+  .col-lg-12.main-comp-sec h3 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.form-radio-check.col-4 {
+    padding: 10px 10px;
+}
+
+.form-radio-check.col-4 h4 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.form-radio-check.col-4 p {
+    font-size: 18px;
+    margin: 0px auto !important;
+}
+
+.form-radio-check.col p {
+    font-size: 18px !important;
+    margin: 0px auto;
+}
+
+.form-radio-check.col h4 {
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 25px !important;
+}
+
+.col-12.not-sec h5 {
+    font-size: 25px !important;
+}
+
+.input-group-append {
+    margin-top: 16px;
+}
+
+.form-radio-check2.col h4 {margin-top: -14px;}
+
+.form-radio-check.col-4 {
+    width: 100%;
+}
+
+.form-radio-check2.col-4 {
+    width: 100%;
+}
+  /* add-money page end */
+  /* small-card-page */ 
+  .row.card-section.scard-responsive-wrapper {
+    padding: 20px !important;
+    width: -webkit-fill-available !important;
+}
+
+.col-5.amj-column {
+    width: 100% !important;
+    padding: 20px 0px 20px 20px  !important;
+    margin: 0px !important;
+}
+
+img.d-block.amj-sec {
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.col-7.\32 amj-column {
+    width: -webkit-fill-available !important;
+    padding: 10px 20px !important;
+}
+
+.small-sec {
+    width: -webkit-fill-available !important;
+}
+
+.round-progress.d-flex.col-12 {
+    justify-content: space-between !important;
+}
+
+.ar-inline-btn1.d-flex.col {
+    justify-content: end;
+}
+
+.ar-inline.d-flex.col-8 {
+    padding-left: 25px;
+}
+
+
+
+.carousel-item.active {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.carousel-inner.s-card-inner {
+  width: 106%;
+}
+
+.carousel-item.active img.d-block.amj-sec {
+    padding: 0px !important;
+}
+
+
+  /* small-card-page end */
   }
 
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  /* small-card-page */
+  .row.card-section.scard-responsive-wrapper {
+    padding: 20px !important;
+    width: -webkit-fill-available !important;
+}
+
+.col-5.amj-column {
+    width: 100% !important;
+    padding: 20px !important;
+    margin: 0px !important;
+}
+
+img.d-block.amj-sec {
+    width: 100%;
+    padding: 0px;
+}
+
+.col-7.\32 amj-column {
+    width: -webkit-fill-available !important;
+    padding: 10px 20px !important;
+}
+
+.small-sec {
+    width: -webkit-fill-available !important;
+}
+
+.round-progress.d-flex.col-12 {
+    justify-content: space-between !important;
+}
+
+.ar-inline-btn1.d-flex.col {
+    justify-content: end;
+}
+  /* small-card-page END */
+  /* add-moneys-page */
+  .col-lg-12.main-comp-sec h3 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.form-radio-check.col-4 {
+    padding: 10px 10px;
+}
+
+.form-radio-check.col-4 h4 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.form-radio-check.col-4 p {
+    font-size: 18px;
+    margin: 0px auto !important;
+}
+
+.form-radio-check.col p {
+    font-size: 18px !important;
+    margin: 0px auto;
+}
+
+.form-radio-check.col h4 {
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 25px !important;
+}
+
+.col-12.not-sec h5 {
+    font-size: 25px !important;
+}
+
+.input-group-append {
+    margin-top: 16px;
+}
+
+.form-radio-check2.col h4 {margin-top: -14px;}
+  /* add-moneys-page end */
   /* properties detail-page */
   ul#pills-tab {
     width: auto;

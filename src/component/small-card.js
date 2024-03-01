@@ -5,7 +5,7 @@ export default function Smallcard() {
 
 
 <body>
-    <div className="row card-section">
+    <div className="row card-section scard-responsive-wrapper">
         <div className="col-5 amj-column">
 
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -17,7 +17,7 @@ export default function Smallcard() {
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 3"></button>
                 </div>
-                <div className="carousel-inner">
+                <div className="carousel-inner s-card-inner ">
                   <div className="carousel-item active">
                     <img src="assets/images/card1.png" className="d-block amj-sec" alt="..."/>
                   </div>
