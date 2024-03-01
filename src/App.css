@@ -3835,7 +3835,9 @@ section.main-grid2.d-flex.comp-profile {
 .middle-sec2.p-c-s img {
   border: none !important;
 }
-
+section.main-grid {
+  overflow: hidden;
+}
 
 .row.comp-profile-main-row {
   margin: 0px;
@@ -5199,7 +5201,9 @@ button.btn.grn-btn2.nd-sp-btn {width: -webkit-fill-available !important;}
   .row.s-p-ar {
     padding: 40px 20px !important;
 }
-
+.custom-checkbox label.container {
+  padding: 24px 16px 24px 35px !important;
+}
 button.btn.grn-btn3.nd-sp-btn {
     width: -webkit-fill-available !important;
 }
@@ -5328,7 +5332,7 @@ button.btn.grn-btn4.nd-sp-btn {
 }
 
 .row.dash-rj {
-  padding: 0px 20px !important;
+  padding: 0px 0px !important;
 }
 
 .col-7.sec-right-main {
@@ -5406,10 +5410,13 @@ section.main-grid2.d-flex.comp-profile {
 
     /* wallet page  */
     .row.rj-wp-row {
-      padding: 0px 20px;
+      padding: 0px 0px;
      
       gap: 22px;
   }
+  p.rj-w-mwal-p {
+    padding: 0px;
+}
   
   .col.left-main.m-wal.d-flex {
       margin: 0px;
@@ -5871,7 +5878,7 @@ li.nav-item.item1 button {
 }
 
 div#myTabContent {
-    padding: 0px 20px;
+    padding: 0px 0px;
 }
 
 
@@ -6261,7 +6268,7 @@ table.table.mb-5.borderless th.rows {
     
     .gradiant img {
         height: auto !important;
-        width: -webkit-fill-available;
+        width: -webkit-fill-available !important;
     }
     
     .men.d-flex img {
@@ -6324,11 +6331,11 @@ table.table.mb-5.borderless th.rows {
     }
     
     table.table.mv2-tab-main th {
-        padding: 10px 0px !important;
+        padding: 10px 10px !important;
     }
     
     table.table.mv2-tab-main td {
-        padding: 0px !important;
+        padding: 0px 10px !important;
         font-size: 14px;
     }
       /* marketplace-tw0 page end */
@@ -6423,7 +6430,7 @@ table.table.mb-5.borderless th.rows {
 
     /* wallet-two-page */
     .row.wt-p-rj .col-3.left-main {
-      width: 50%;
+      width: 45%;
   }
   
   .row.wt-p-rj {
@@ -6755,6 +6762,7 @@ div#collapsibleNavbar {
   padding: 60px 20px;
   display: flex !important;
   flex-direction: row;
+  overflow: hidden;
 }
 
 .container-fluid.main-home-sec.d-flex.m-0 {flex-direction: column;}
@@ -6781,10 +6789,10 @@ div#collapsibleNavbar {
   gap: 15px !important;
   row-gap: 7px !important;
   margin: 0px !important;
-  width: auto;
+  width: -webkit-fill-available;
 }
 
-.col.right-2.col-sm-12 {padding: 0px !important;margin: 0px !important;width: 100%;}
+.col.right-2.col-sm-12 {padding: 0px !important;margin: 0px !important;width: -webkit-fill-available;}
 
 
 
@@ -6884,6 +6892,7 @@ footer.pt-3.pb-3 {
 .row.property-row {
   margin: auto;
   padding: 20px 0px;
+  justify-content: center;
 }
 .row.row-cols-1.row-cols-md-3.g-4.mb-5 {
   padding: 26px !important;
@@ -6987,7 +6996,7 @@ display: none;
 }
 
 .card-group.cg2m {
-  padding-top: 0px !important;
+  padding-top: 16px !important;
 }
 /* blog-page */
 

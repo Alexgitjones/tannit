@@ -36,7 +36,7 @@ function Marketplace() {
             <button className="btn-5 p-tab2 p-2">My sellings (3)</button>
         </div>
         <div className="tf-sec d-flex flex-direction-column">
-            <div className="tab d-flex flex-direction-column row ">
+            <div className="tab d-flex flex-direction-column  ">
             <button onClick={() => setShowPricerange(!showPricerange)} className="tablinks tab">Price range<span><img src="assets/icons/1.svg"
                                 alt="" /></span></button>
                                 {showPricerange && <Pricerange />}
